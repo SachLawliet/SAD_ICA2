@@ -3,13 +3,11 @@ from flask_login import login_user, current_user, logout_user, login_required
 from flask_mail import Message
 import requests
 from carlease import app, db, bcrypt, bootstrap, mail, SITE_KEY, SECRET_KEY, VERIFY_URL
-from carlease.forms import RegistrationForm, LoginForm, VerifyForm, NotificationForm, RequestResetForm, ResetPasswordForm
-from carlease.models import User, Car, User_Verified
+from carlease.forms import RegistrationForm, LoginForm, VerifyForm, NotificationForm, RequestResetForm, ResetPasswordForm, AppointmentForm
+from carlease.models import User, Car, User_Verified, Appointment
 from carlease.decorators import admin_required
 from carlease.dao import UserDAO, CarDAO, User_VerifiedDAO
 import os
-
-
 
 @app.route("/")
 @app.route("/home")
@@ -203,3 +201,28 @@ def admin():
 def products():
     cars = Car.query.order_by(Car.id.desc())
     return render_template('product.html', cars = cars)
+
+# <!----------------------------------------------!---------------------------------------------->
+# Setting up appointment booking
+@app.route('/book_appointment', methods=['GET', 'POST'])
+def book_appointment():
+    form = AppointmentForm()
+    if form.validate_on_submit():
+        appointment = Appointment(
+            name=form.name.data,
+            email=form.email.data,
+            date=form.date.data
+        )
+        db.session.add(appointment)
+        db.session.commit()
+
+        send_confirmation_email(appointment)
+
+        flash('Appointment booked successfully. Check your email for confirmation.')
+        return redirect(url_for('index'))
+    return render_template('book_appointment.html', form=form)
+
+def send_confirmation_email(appointment):
+    msg = Message('Appointment Confirmation', sender='carlease4@gmail.com', recipients=[appointment.email])
+    msg.body = f"Hi {appointment.name},\n\nYour appointment on {appointment.date.strftime('%Y-%m-%d')} has been successfully booked.\n\nThank you!"
+    mail.send(msg)

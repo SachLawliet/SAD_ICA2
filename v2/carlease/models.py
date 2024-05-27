@@ -2,6 +2,9 @@ from carlease import db, login_manager, app
 from datetime import datetime
 from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
 from flask_login import UserMixin, current_user
+from wtforms import StringField, DateField
+from wtforms.validators import DataRequired, Email
+from flask_wtf import FlaskForm
 
 
 @login_manager.user_loader
@@ -77,4 +80,11 @@ class User_Verified(db.Model, UserMixin):
 
     def __repr__(self):
         return f"User('{self.phone}', '{self.user_id}', {self.address}')"
+    
+class Appointment(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100), nullable=False)
+    email = db.Column(db.String(120), nullable=False)
+    date = db.Column(db.Date, nullable=False)
+
 
