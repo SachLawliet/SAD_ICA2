@@ -84,7 +84,7 @@ input {
 }
 
 .btn:hover {
-    background-color: #14253c;
+    background-color: rgb(220, 227, 231);
     cursor: pointer;
 }
 

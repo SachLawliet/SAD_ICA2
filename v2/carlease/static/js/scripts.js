@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (selectedSection) {
         loadContent(selectedSection);
     } else {
-        loadContent('/verification');
+        loadContent('/verified');
     }
 });
 

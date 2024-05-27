@@ -52,10 +52,10 @@ legend {
     padding-bottom: 0.5rem;
 }
 
-.pt-3 {
-    padding-top: 0 !important;
-}
-
 .ml-2 {
     margin-left: 0 !important;
+}
+
+#logIn {
+    margin-left: 2rem;
 }

@@ -51,6 +51,9 @@
                     <a href="mailto:timothyglazer@gmail.com"><button type="button" class="btn btn-secondary btn-sm" id="mail-btn">Contact Us!</button></a>
                 </div>
             </div>
+            {% if current_user.is_authenticated %}
+
+            {% else %}
             <div class="col-md-6">
                 <div class="box">
                     <div id="handshake-icon"><img src="{{ url_for('static', filename='img/benefits.svg') }}" alt="Handshake icon"></div>
@@ -58,6 +61,7 @@
                     <a href="{{ url_for('register') }}"><button type="button" class="btn btn-secondary btn-sm" id="deals">Sign up for exclusive deals!</button></a>
                 </div>
             </div>
+            {% endif %}
         </div>
     </div>
 </section>
