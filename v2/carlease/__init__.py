@@ -23,8 +23,8 @@ bootstrap = Bootstrap(app)
 app.config['MAIL_SERVER'] = 'smtp.googlemail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USERNAME'] = 'carlease4@gmail.com'
-app.config['MAIL_PASSWORD'] = 'ofcdwnzvcqspdnls'
+app.config['MAIL_USERNAME'] = 'timothyglazer@gmail.com'
+app.config['MAIL_PASSWORD'] = 'udyavmfqcblhykqm'
 mail = Mail(app)
 
 #END RESET PW
