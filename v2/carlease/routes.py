@@ -217,12 +217,11 @@ def book_appointment():
         db.session.commit()
 
         send_confirmation_email(appointment)
-
-        flash('Appointment booked successfully. Check your email for confirmation.')
-        return redirect(url_for('index'))
+        
+        return redirect(url_for('home'))
     return render_template('book_appointment.html', form=form)
 
 def send_confirmation_email(appointment):
-    msg = Message('Appointment Confirmation', sender='carlease4@gmail.com', recipients=[appointment.email])
+    msg = Message('Appointment Confirmation', sender='timothyglazer@gmail.com', recipients=[appointment.email])
     msg.body = f"Hi {appointment.name},\n\nYour appointment on {appointment.date.strftime('%Y-%m-%d')} has been successfully booked.\n\nThank you!"
     mail.send(msg)
