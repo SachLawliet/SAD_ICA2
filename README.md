@@ -1,5 +1,6 @@
 new features:
-delete acc
-recaptcha
-verify form
-logging
+delete acc,
+recaptcha,
+verify form,
+logging,
+reset password
