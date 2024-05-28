@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/navbar.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/homepage.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}">
+</head>
+<body>
+
+<!-- Include header content -->
+{% include 'partials/_navbar.html' %}
+
+<!-- Cookies -->
+
+<!-- Start of "Intro" section -->
+<section class="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="{{ url_for('static', filename='img/main-img.jpg') }}" alt="">
+            </div>
+            <div class="col-md-6 text-center">
+                <h4>Welcome to LeaseDrive!</h4>
+                <p>Welcome to LeaseDrive Czechia! Where innovation meets excellence! Dive into a world of limitless possibilities as we redefine the way you experience car leasing. Let's create something great together!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!----------------------------------------------!---------------------------------------------->
+
+<!-- Start of "Our Services" section  -->
+<section class="our-services">
+    <div class="container">
+        <h3 class="our-services-header">What we offer</h3>
+        <div class="row justify-content-center text-center">
+            <div class="col-md-6">
+                <div class="box">
+                    <div id="mini-car-icon"><img src="{{ url_for('static', filename='img/car-svgrepo-com.svg') }}" alt="Car icon"></div>
+                    <p>Explore our extensive inventory of top-quality vehicles, ranging from sleek sedans and versatile SUVs to rugged trucks and spacious vans. Whether you're looking for a compact commuter car or a luxurious executive sedan, we have the perfect vehicle to suit your needs and preferences.</p>
+                    <button type="button" class="btn btn-secondary btn-sm" id="view-cars">View our vehicles!</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="box">
+                    <div id="phone-icon"><img src="{{ url_for('static', filename='img/phone-flip-svgrepo-com.svg') }}" alt="Phone icon"></div>
+                    <p>Enjoy personalized customer support from our dedicated team of leasing experts, who are committed to providing exceptional service and guidance throughout your leasing journey. From initial inquiries to lease customization and ongoing support, we're here to ensure your leasing experience is smooth and stress-free.</p>
+                    <a href="mailto:timothyglazer@gmail.com"><button type="button" class="btn btn-secondary btn-sm" id="mail-btn">Contact Us!</button></a>
+                </div>
+            </div>
+            {% if current_user.is_authenticated %}
+
+            {% else %}
+            <div class="col-md-6">
+                <div class="box">
+                    <div id="handshake-icon"><img src="{{ url_for('static', filename='img/benefits.svg') }}" alt="Handshake icon"></div>
+                    <p>Enjoy exclusive benefits and rewards as a valued member of our leasing community. From special discounts and promotions to priority access to new vehicle releases, we're constantly rewarding our loyal customers for choosing us as their leasing partner.</p>
+                    <a href="{{ url_for('register') }}"><button type="button" class="btn btn-secondary btn-sm" id="deals">Sign up for exclusive deals!</button></a>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+<!----------------------------------------------!---------------------------------------------->
+
+<!-- Start of "News" section -->
+<section class="news">
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <div class="news-container active" id="news1">
+                <div class="img-and-desc">
+                    <img src="{{ url_for('static', filename='img/audia4.jpg') }}" alt="">
+                    <p>Experience the epitome of sophistication and performance with the Audi A4. Elevate every journey and embrace the thrill of the road like never before with the Audi A4.</p>
+                </div>
+                <p>Discover the AUDI A4</p>
+            </div>
+            <div class="news-container" id="news2">
+                <div class="img-and-desc">
+                    <img src="{{ url_for('static', filename='img/bmwM3.jpg') }}" alt="">
+                    <p>hello world</p>
+                </div>
+                <p>BMW 3 Series in stock</p>
+            </div>
+            <div class="news-container" id="news3">
+                <div class="img-and-desc">
+                    <img src="{{ url_for('static', filename='img/octavia.jpg') }}" alt="">
+                    <p>hello world</p>
+                </div>
+                <p>Check out our best-selling vehicle! The Skoda Octavia</p>
+            </div>
+            <div class="news-btns">
+                <button class="btn btn-primary" id="prevBtn">Previous</button>
+                <button class="btn btn-primary" id="nextBtn">Next</button>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+
+<!-- Include footer content -->
+{% include 'partials/_footer.html' %}
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Link to your custom JavaScript file -->
+<script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>
