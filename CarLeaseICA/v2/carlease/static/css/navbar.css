@@ -1,0 +1,14 @@
+.navbar {
+    background-color: #fff !important;
+    border-bottom: 1px solid rgb(228, 227, 227);
+}
+
+.navbar-brand > img { 
+    height: 130px;
+}
+
+.nav-item > a{
+    color: #000;
+    font-size: 13px;
+    text-transform: uppercase;
+}
