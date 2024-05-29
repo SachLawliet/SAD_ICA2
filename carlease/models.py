@@ -23,6 +23,16 @@ class User(db.Model, UserMixin):
     role = db.Column(db.String(20), nullable=False, default='user')
     date_creation = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     verified_info = db.relationship('User_Verified', backref='private', lazy=True)
+    login_attempts = db.relationship('LoginAttempt', backref='user', lazy=True)
+
+# <!----------------------------------------------!---------------------------------------------->
+
+# Add Login Attempts to database
+class LoginAttempt(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
+    timestamp = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
+    success = db.Column(db.Boolean, nullable=False, default=False)
 
 # <!----------------------------------------------!---------------------------------------------->
 

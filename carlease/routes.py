@@ -272,6 +272,10 @@ def register():
 # <!----------------------------------------------!---------------------------------------------->
 
 # Login route
+MAX_LOGIN_ATTEMPTS = 5
+
+BLOCK_DURATION_SECONDS = 600
+
 @app.route("/login", methods=['GET', 'POST'])
 def login():
     logger.info('Login page accessed')
@@ -286,9 +290,22 @@ def login():
             next_page = request.args.get('next')
             return redirect(next_page) if next_page else redirect(url_for('home'))
         else:
-            logger.warning('Login failed for email: %s', form.email.data)
-            flash('Login Unsuccessful. Please check email and password', 'danger')
+            email = form.email.data
+            if 'login_attempts' in session:
+                session['login_attempts'] += 1
+            else:
+                session['login_attempts'] = 1
+                
+            if session['login_attempts'] >= MAX_LOGIN_ATTEMPTS:
+                logger.warning('Login blocked for email: %s', email)
+                flash('Too many login attempts. Please try again later.', 'danger')
+                session['login_cooldown_timestamp'] = datetime.now() + timedelta(seconds=BLOCK_DURATION_SECONDS)
+            else:
+                logger.warning('Login failed for email: %s', form.email.data)
+                flash('Login Unsuccessful. Please check email and password', 'danger')
     return render_template('login.html', title='Login', form=form)
+
+# <!----------------------------------------------!---------------------------------------------->
 
 @app.route("/admin")
 @login_required

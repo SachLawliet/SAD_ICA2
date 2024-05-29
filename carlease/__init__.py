@@ -31,6 +31,6 @@ VERIFY_URL= 'https://www.google.com/recaptcha/api/siteverify'
 from carlease import routes
 
 with app.app_context():
-    # db.drop_all()
+    db.drop_all()
     db.create_all()
     pass
