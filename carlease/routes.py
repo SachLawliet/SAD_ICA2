@@ -4,11 +4,11 @@ from flask_mail import Message
 from itsdangerous import URLSafeTimedSerializer as Serializer
 import requests
 from carlease import app, db, bcrypt, bootstrap, mail, SITE_KEY, SECRET_KEY, VERIFY_URL
-from carlease.forms import RegistrationForm, LoginForm, VerifyForm, NotificationForm, RequestResetForm, ResetPasswordForm, AppointmentForm 
-from carlease.models import User, Car, User_Verified, Appointment, PasswordResetToken, LoginAttempt
+from carlease.forms import RegistrationForm, LoginForm, VerifyForm, NotificationForm, RequestResetForm, ResetPasswordForm, AppointmentForm
+from carlease.models import User, Car, User_Verified, Appointment, PasswordResetToken
 from carlease.decorators import admin_required
 from carlease.dao import UserDAO, CarDAO, User_VerifiedDAO
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta
 import os
 import secrets
 from sqlalchemy import func
@@ -22,86 +22,14 @@ logger = logging.getLogger(__name__)
 
 # <!----------------------------------------------!---------------------------------------------->
 
-# Route for home page
+#Route for home page
 @app.route("/")
 @app.route("/home")
 def home():
     logger.info('Home page accessed')
     return render_template('index.html')
 
-
 # <!----------------------------------------------!---------------------------------------------->
-
-# Registration route
-@app.route("/registration", methods=['GET', 'POST'])
-def register():
-    logger.info('Registration page accessed')
-    if request.method == 'POST':
-        recaptcha_response = request.form.get('g-recaptcha-response')
-        if not recaptcha_response:
-            logger.warning('reCAPTCHA verification failed')
-            flash('reCAPTCHA verification failed. Please try again.', 'danger')
-            return redirect(url_for('register'))
-
-        data = {
-            'secret': os.environ.get('6Le6uOgpAAAAAOB8UclqUV0G9_1WI1ovxNDFVm-C'),
-            'response': recaptcha_response
-        }
-        verify_response = requests.post(VERIFY_URL, data=data).json()
-
-        if verify_response.get('success') :
-            logger.warning('Captcha failed')
-            flash('Captcha failed, try to register again')
-            return redirect(url_for('register'))
-
-        if current_user.is_authenticated:
-            return redirect(url_for('home'))
-
-        form = RegistrationForm()
-        if form.validate_on_submit():
-            UserDAO.create_user(form.full_name.data, form.email.data, form.password.data)
-            logger.info('New user registered: %s', form.email.data)
-            flash('Your account has been created!', 'success')
-            return redirect(url_for('login'))
-
-        return render_template('registration.html', title='Register', form=form, SITE_KEY=SITE_KEY)
-
-    form = RegistrationForm()
-    return render_template('registration.html', title='Register', form=form, SITE_KEY=SITE_KEY)
-# <!----------------------------------------------!---------------------------------------------->
-# Login route
-MAX_LOGIN_ATTEMPTS = 5
-
-BLOCK_DURATION_SECONDS = 600
-
-@app.route("/login", methods=['GET', 'POST'])
-def login():
-    logger.info('Login page accessed')
-    if current_user.is_authenticated:
-        return redirect(url_for('home'))
-    form = LoginForm()
-    if form.validate_on_submit():
-        user = UserDAO.get_user_by_email(form.email.data)
-        if user and bcrypt.check_password_hash(user.password, form.password.data):
-            login_user(user, remember=form.remember.data)
-            logger.info('User logged in: %s', form.email.data)
-            next_page = request.args.get('next')
-            return redirect(next_page) if next_page else redirect(url_for('home'))
-        else:
-            email = form.email.data
-            if 'login_attempts' in session:
-                session['login_attempts'] += 1
-            else:
-                session['login_attempts'] = 1
-                
-            if session['login_attempts'] >= MAX_LOGIN_ATTEMPTS:
-                logger.warning('Login blocked for email: %s', email)
-                flash('Too many login attempts. Please try again later.', 'danger')
-                session['login_cooldown_timestamp'] = datetime.now() + timedelta(seconds=BLOCK_DURATION_SECONDS)
-            else:
-                logger.warning('Login failed for email: %s', form.email.data)
-                flash('Login Unsuccessful. Please check email and password', 'danger')
-    return render_template('login.html', title='Login', form=form)
 
 #Route for logout
 @app.route("/logout")
@@ -266,6 +194,104 @@ def within_reset_limit(user, limit=3, timeframe=timedelta(hours=1)):
 
 # <!----------------------------------------------!---------------------------------------------->
 
+# Registration route
+def send_verification_email(user):
+    token = user.get_verification_token()
+    verification_url = url_for('confirm_email', token=token, _external=True)
+    msg = Message('Email Verification', 
+                  sender='timothyglazer@gmail.com', 
+                  recipients=[user.email])
+    msg.body = f'''Please verify your email address by clicking the link below:
+{verification_url}
+
+'''
+    mail.send(msg)
+
+@app.route("/request_verification_email", methods=['GET', 'POST'])
+def request_verification_email():
+    if current_user.is_authenticated and not current_user.is_confirmed:
+        send_verification_email(current_user)
+        flash('A verification email has been sent to your email address.', 'info')
+        return redirect(url_for('home'))
+    return redirect(url_for('login'))
+
+@app.route("/confirm_email/<token>")
+def confirm_email(token):
+    try:
+        serializer = Serializer(app.config['SECRET_KEY'])
+        user_id = serializer.loads(token)['user_id']
+        user = User.query.get(user_id)
+        if user:
+            token = secrets.token_hex(16)
+            db.session.add(reset_token)
+            db.session.commit()
+            send_reset_email(user)
+            flash('An email has been sent with instructions to reset your password.', 'info')
+            return redirect(url_for('login'))
+        else:
+            flash('Invalid or expired verification link.', 'danger')
+    except:
+        flash('Invalid or expired verification link.', 'danger')
+    return redirect(url_for('home'))
+
+@app.route("/registration", methods=['GET', 'POST'])
+def register():
+    logger.info('Registration page accessed')
+    if request.method == 'POST':
+        recaptcha_response = request.form.get('g-recaptcha-response')
+        if not recaptcha_response:
+            logger.warning('reCAPTCHA verification failed')
+            flash('reCAPTCHA verification failed. Please try again.', 'danger')
+            return redirect(url_for('register'))
+
+        data = {
+            'secret': os.environ.get('6Le6uOgpAAAAAOB8UclqUV0G9_1WI1ovxNDFVm-C'),
+            'response': recaptcha_response
+        }
+        verify_response = requests.post(VERIFY_URL, data=data).json()
+
+        if verify_response.get('success') :
+            logger.warning('Captcha failed')
+            flash('Captcha failed, try to register again')
+            return redirect(url_for('register'))
+
+        if current_user.is_authenticated:
+            return redirect(url_for('home'))
+
+        form = RegistrationForm()
+        if form.validate_on_submit():
+            UserDAO.create_user(form.full_name.data, form.email.data, form.password.data)
+            logger.info('New user registered: %s', form.email.data)
+            flash('Your account has been created!', 'success')
+            return redirect(url_for('login'))
+
+        return render_template('registration.html', title='Register', form=form, SITE_KEY=SITE_KEY)
+
+    form = RegistrationForm()
+    return render_template('registration.html', title='Register', form=form, SITE_KEY=SITE_KEY)
+# <!----------------------------------------------!---------------------------------------------->
+
+# Login route
+@app.route("/login", methods=['GET', 'POST'])
+def login():
+    logger.info('Login page accessed')
+    if current_user.is_authenticated:
+        return redirect(url_for('home'))
+    form = LoginForm()
+    if form.validate_on_submit():
+        user = UserDAO.get_user_by_email(form.email.data)
+        if user and bcrypt.check_password_hash(user.password, form.password.data):
+            login_user(user, remember=form.remember.data)
+            logger.info('User logged in: %s', form.email.data)
+            next_page = request.args.get('next')
+            return redirect(next_page) if next_page else redirect(url_for('home'))
+        else:
+            logger.warning('Login failed for email: %s', form.email.data)
+            flash('Login Unsuccessful. Please check email and password', 'danger')
+    return render_template('login.html', title='Login', form=form)
+
+# <!----------------------------------------------!---------------------------------------------->
+
 @app.route("/admin")
 @login_required
 @admin_required
@@ -291,21 +317,37 @@ def book_appointment():
     logger.info('Appointment booking page accessed')
     form = AppointmentForm()
     if form.validate_on_submit():
+        today = datetime.now().date()
+        
+        appointment_date = form.date.data
+        
+        if appointment_date <= today + timedelta(days=1):
+            flash('Appointment date must be at least tomorrow.', 'danger')
+            return render_template('book_appointment.html', form=form)  # Render the template with the error message
+        
+        existing_appointment = Appointment.query.filter_by(email=form.email.data, date=appointment_date).first()
+        if existing_appointment:
+            flash('You already have an appointment booked for this date.', 'danger')
+            return render_template('book_appointment.html', form=form)
+
         appointment = Appointment(
             name=form.name.data,
             email=form.email.data,
-            date=form.date.data,
+            date=form.date.data
         )
         db.session.add(appointment)
         db.session.commit()
 
-        send_confirmation_email(appointment.email, form.date.data)  
+        send_confirmation_email(appointment)
         
         return redirect(url_for('home'))
     return render_template('book_appointment.html', form=form)
 
-def send_confirmation_email(email, date):
-    msg = Message('Appointment Confirmation', sender='timothyglazer@gmail.com', recipients=[email])
-    msg.body = f"Hi,\n\nYour appointment on {date.strftime('%Y-%m-%d')} has been successfully booked.\n\nThank you!"
+def send_confirmation_email(appointment):
+    msg = Message('Appointment Confirmation', sender='timothyglazer@gmail.com', recipients=[appointment.email])
+    msg.body = f"Hi {appointment.name},\n\nYour appointment on {appointment.date.strftime('%Y-%m-%d')} has been successfully booked.\n\nThank you!"
     mail.send(msg)
+
 # <!----------------------------------------------!---------------------------------------------->
+
+# Setting up Cookies

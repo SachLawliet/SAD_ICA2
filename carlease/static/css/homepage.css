@@ -147,20 +147,33 @@
 /* --------------------------------------------!-------------------------------------------- */
 
 /* Cookies section */
-#cookie-banner {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #f0f0f0;
-    padding: 20px;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.cookies {
+    background-color: #e1f2ffa5;
 }
 
-#cookie-banner button {
-    margin: 0 10px;
+.cookies form {
+    margin-top: 20px;
+}
+
+.cookies label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.cookies input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.cookies button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
     cursor: pointer;
+}
+
+.cookies button:hover {
+    background-color: #0056b3;
 }

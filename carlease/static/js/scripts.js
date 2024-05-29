@@ -179,26 +179,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 // JS for booking appointment
 $(function() {
+    var tomorrow = new Date();
+    tomorrow.setDate(tomorrow.getDate() + 1);
+    
     $("#appointment_date").datepicker({
-        minDate: 0 
+        minDate: tomorrow
     });
 });
-
-// --------------------------------------------!-------------------------------------------- //
-
-// JS for cookies  
-function acceptCookies() {
-    document.getElementById("cookiePopup").style.display = "none";
-    // Send a request to Flask to set the cookie
-    fetch('/acceptcookies', {
-        method: 'POST'
-    });
-}
-
-function rejectCookies() {
-    document.getElementById("cookiePopup").style.display = "none";
-    // Send a request to Flask to reject the cookies
-    fetch('/rejectcookies', {
-        method: 'POST'
-    });
-}

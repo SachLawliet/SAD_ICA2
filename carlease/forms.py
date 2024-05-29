@@ -1,7 +1,7 @@
 from flask import flash
 from flask_wtf import FlaskForm
 from flask_login import current_user
-from wtforms import StringField, PasswordField, SubmitField, BooleanField, DateField, SelectField
+from wtforms import StringField, PasswordField, SubmitField, BooleanField, DateField
 from wtforms.validators import DataRequired, Length, Email, EqualTo, ValidationError
 from carlease.models import User, User_Verified
 from datetime import date
@@ -75,4 +75,3 @@ class AppointmentForm(FlaskForm):
     name = StringField('Name', validators=[DataRequired()])
     email = StringField('Email', validators=[DataRequired(), Email()])
     date = DateField('Appointment Date', format='%Y-%m-%d', validators=[DataRequired()], id='appointment_date')
-    city = SelectField('City', choices=[('Praha', 'Praha'), ('Ostrava', 'Ostrava'), ('Brno', 'Brno'), ('Karlovy Vary', 'Karlovy Vary')], validators=[DataRequired()])
