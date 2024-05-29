@@ -1,0 +1,31 @@
+#resetTokenHeader {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    border-bottom: none !important;
+}
+
+.reset-token .content-section {
+    padding: 0 3rem 4rem 3rem;
+}
+
+.reset-token .form-control {
+    font-size: 14px;
+}
+
+.reset-token .btn {
+    font-size: 12px;
+    width: 20vh;
+    text-transform: uppercase;
+    border-radius: 50px;
+    background-color: #f6fafd;
+    border: 1px solid black;
+    color: #000;
+    transition: ease-in-out 0.3s;
+}
+
+.reset-token .btn:hover {
+    background-color: rgb(220, 227, 231);
+    color: #000;
+    border: 1px solid black;
+}
