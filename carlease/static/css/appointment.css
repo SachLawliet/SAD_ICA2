@@ -7,11 +7,27 @@
     text-align: center;
 }
 
+
+
 .container > form {
     margin-top: 4rem;
 }
 
 .appointment button {
     margin-bottom: 2rem;
+    font-size: 12px;
+    width: 30vh;
+    text-transform: uppercase;
+    border-radius: 50px;
+    background-color: #f6fafd;
+    border: 1px solid black;
+    color: #000;
+    transition: ease-in-out 0.3s;
+}
+
+.appointment button:hover {
+    background-color: rgb(220, 227, 231);
+    color: #000;
+    border: 1px solid black;
 }
 

@@ -183,3 +183,22 @@ $(function() {
         minDate: 0 
     });
 });
+
+// --------------------------------------------!-------------------------------------------- //
+
+// JS for cookies  
+function acceptCookies() {
+    document.getElementById("cookiePopup").style.display = "none";
+    // Send a request to Flask to set the cookie
+    fetch('/acceptcookies', {
+        method: 'POST'
+    });
+}
+
+function rejectCookies() {
+    document.getElementById("cookiePopup").style.display = "none";
+    // Send a request to Flask to reject the cookies
+    fetch('/rejectcookies', {
+        method: 'POST'
+    });
+}

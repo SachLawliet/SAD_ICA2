@@ -25,34 +25,7 @@ class User(db.Model, UserMixin):
     verified_info = db.relationship('User_Verified', backref='private', lazy=True)
     login_attempts = db.relationship('LoginAttempt', backref='user', lazy=True)
 
-# <!----------------------------------------------!---------------------------------------------->
-
-# Add Login Attempts to database
-class LoginAttempt(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
-    timestamp = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
-    success = db.Column(db.Boolean, nullable=False, default=False)
-
-# <!----------------------------------------------!---------------------------------------------->
-
-# Email verification
-    def get_verification_token(self, expires_sec=1800):
-        serializer = Serializer(app.config['SECRET_KEY'], expires_sec)
-        return serializer.dumps({'user_id': self.id}).decode('utf-8')
-    
-    @staticmethod
-    def verify_email_token(token):
-        s = Serializer(app.config['SECRET_KEY'])
-        try:
-            user_id = s.loads(token)['user_id']
-        except:
-            return None
-        return User.query.get(user_id)
-
-# <!----------------------------------------------!---------------------------------------------->
-
-#RESET PW BEGIN
+    #RESET PW BEGIN
     def get_reset_token(self, expires_sec=1800):
         s = Serializer(app.config['SECRET_KEY'], expires_sec)
         return s.dumps({'user_id': self.id}).decode('utf-8')
@@ -65,7 +38,16 @@ class LoginAttempt(db.Model):
         except:
             return None
         return User.query.get(user_id)
-#RESET PW END
+    #RESET PW END
+
+# <!----------------------------------------------!---------------------------------------------->
+
+# Add Login Attempts to database
+class LoginAttempt(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
+    timestamp = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
+    success = db.Column(db.Boolean, nullable=False, default=False)
 
 # <!----------------------------------------------!---------------------------------------------->
 
