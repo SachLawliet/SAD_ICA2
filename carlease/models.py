@@ -25,7 +25,7 @@ class User(db.Model, UserMixin):
     verified_info = db.relationship('User_Verified', backref='private', lazy=True)
     login_attempts = db.relationship('LoginAttempt', backref='user', lazy=True)
 
-    #RESET PW BEGIN
+#RESET PW BEGIN
     def get_reset_token(self, expires_sec=1800):
         s = Serializer(app.config['SECRET_KEY'], expires_sec)
         return s.dumps({'user_id': self.id}).decode('utf-8')
@@ -38,7 +38,7 @@ class User(db.Model, UserMixin):
         except:
             return None
         return User.query.get(user_id)
-    #RESET PW END
+#RESET PW END
 
 # <!----------------------------------------------!---------------------------------------------->
 
@@ -51,6 +51,21 @@ class LoginAttempt(db.Model):
 
 # <!----------------------------------------------!---------------------------------------------->
 
+# Email verification
+    def get_verification_token(self, expires_sec=1800):
+        serializer = Serializer(app.config['SECRET_KEY'], expires_sec)
+        return serializer.dumps({'user_id': self.id}).decode('utf-8')
+    
+    @staticmethod
+    def verify_email_token(token):
+        s = Serializer(app.config['SECRET_KEY'])
+        try:
+            user_id = s.loads(token)['user_id']
+        except:
+            return None
+        return User.query.get(user_id)
+
+# <!----------------------------------------------!---------------------------------------------->
     def __repr__(self):
         return f"User('{self.email}', '{self.id}', '{self.phone}')"
     
