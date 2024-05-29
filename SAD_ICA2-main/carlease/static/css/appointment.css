@@ -1,0 +1,17 @@
+.appointment > .container {
+    margin-top: 2rem;
+}
+
+.appointment h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.container > form {
+    margin-top: 4rem;
+}
+
+.appointment button {
+    margin-bottom: 2rem;
+}
+

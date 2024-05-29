@@ -1,0 +1,179 @@
+/* Start introduction to welcome page */
+.intro {
+    padding-top: 4rem;
+    border-bottom: 1px solid rgb(228, 227, 227) ;
+}
+
+.intro .container .row .col-md-6 > img {
+    width: 100%;
+    border-radius: 30px;
+    border: 2px solid rgb(83, 83, 83);
+    margin-bottom: 4rem;
+}
+
+.intro .container .row .col-md-6 > h4 {
+    font-size: 1.65rem; 
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/* --------------------------------------------!-------------------------------------------- */
+
+/* Start services section */
+.our-services {
+    margin-top: 4rem;
+    border-bottom: 1px solid rgb(228, 227, 227) ;
+}
+
+.our-services-header {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.our-services .container .row {
+    margin-top: 4rem;
+}
+
+.our-services .container .row .col-md-6 > .box {
+    background-color: #e1f2ffa5;
+    border-radius: 20px;
+    border: 0.5px solid black;
+    padding: 3rem;
+    margin: 0 0 3rem 0;
+}
+
+#mini-car-icon img, #phone-icon img, #handshake-icon img {
+    height: 30px;
+    margin-bottom: 2rem;
+}
+
+.our-services .container .row .col-md-6 .box > p {
+    font-size: 12.5px;
+}
+
+#view-cars, #mail-btn, #deals {
+    color: #000;
+    background-color: #f6fafd;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 40px;
+    padding: 0.4rem;
+    margin-top: 1rem;
+    transition: ease-in-out 0.3s;
+}
+
+#view-cars:hover {
+    background-color: rgb(220, 227, 231)
+}
+
+#mail-btn:hover {
+    background-color: rgb(220, 227, 231) 
+}
+
+#deals:hover {
+    background-color: rgb(220, 227, 231)  
+}
+
+/* --------------------------------------------!-------------------------------------------- */
+
+/* Start news section */
+.news {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.news-container {
+    display: none;
+    background-color: #e1f2ffa5;
+    transition: opacity 0.3s ease-in-out;
+    padding: 3rem;
+    border: 0.5px solid black;
+}
+
+.news .col-md-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news-btns {
+    display: flex;
+    gap: 2rem;
+}
+
+.news-btns .btn {
+    font-size: 12px;
+    width: 20vh;
+    text-transform: uppercase;
+    border-radius: 50px;
+    background-color: #f6fafd;
+    border: 1px solid black;
+    color: #000;
+    transition: ease-in-out 0.3s;
+}
+
+.news-btns .btn:hover {
+    background-color: rgb(220, 227, 231)
+}
+
+#news1, #news2, #news3 {
+    border-radius: 70px;
+    margin-bottom: 2.5rem;
+}
+
+.img-and-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-and-desc > img {
+    height: 20vh;
+    width: 20%;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+.img-and-desc > p {
+    font-size: 12px;
+}
+
+.active {
+    display: block;
+    opacity: 1;
+}
+
+/* --------------------------------------------!-------------------------------------------- */
+
+/* Cookies section */
+.cookies {
+    background-color: #e1f2ffa5;
+}
+
+.cookies form {
+    margin-top: 20px;
+}
+
+.cookies label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.cookies input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.cookies button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cookies button:hover {
+    background-color: #0056b3;
+}
