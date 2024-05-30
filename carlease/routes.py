@@ -251,7 +251,7 @@ def login():
     if form.validate_on_submit():
         user = UserDAO.get_user_by_email(form.email.data)
         if user and bcrypt.check_password_hash(user.password, form.password.data):
-            if user.email_verified:  # Check if the user's email is verified
+            if user.email_verified: 
                 login_user(user, remember=form.remember.data)
                 logger.info('User logged in: %s', form.email.data)
                 next_page = request.args.get('next')
@@ -300,7 +300,7 @@ def book_appointment():
         
         if appointment_date <= today + timedelta(days=1):
             flash('Appointment date must be at least tomorrow.', 'danger')
-            return render_template('book_appointment.html', form=form)  # Render the template with the error message
+            return render_template('book_appointment.html', form=form) 
         
         existing_appointment = Appointment.query.filter_by(email=form.email.data, date=appointment_date).first()
         if existing_appointment:
@@ -330,5 +330,4 @@ def send_confirmation_email(appointment):
 # T&C
 @app.route("/terms_conditions")
 def terms_conditions():
-    # Assuming tc.pdf is in the static directory
     return redirect(url_for('static', filename='tc.pdf'))
