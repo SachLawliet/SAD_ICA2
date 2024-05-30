@@ -18,7 +18,7 @@
     <div class="container">
         <h1>Book an Appointment for a Test Drive</h1>
         <form method="POST" action="{{ url_for('book_appointment') }}">
-            {{ form.hidden_tag() }}
+            {{ form.csrf_token }}
             <div class="form-group">
                 {{ form.name(class="form-control", placeholder = "Full Name") }}
             </div>

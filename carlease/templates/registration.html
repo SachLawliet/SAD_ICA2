@@ -40,7 +40,6 @@
   <div class="register">
       <form method="POST" action="" id="registrationForm">
         {{ form.csrf_token }}
-          {{form.hidden_tag() }}
           <fieldset class="form-group">
               <legend class="border-bottom mb=4">sign up</legend>
               <div class="form-group" id="fullName">
@@ -101,6 +100,11 @@
                   {% else %}
                   {{ form.confirm_password(class="form-control form-control-lg", placeholder = "Confirm password") }}
                   {% endif %}
+              </div>
+              <div class="form-group form-check">
+                {{ form.t_c(class="form-check-input", id="agreeTerms") }}
+                <label class="form-check-label" for="agreeTerms">I agree to the <a href="{{ url_for('terms_conditions') }}" target="_blank">Terms & Conditions</a></label>
+                <div class="invalid-feedback" id="termsError">You must agree to the Terms & Conditions.</div>
               </div>
           </fieldset>
           <button class="g-recaptcha btn btn-outline-info" 
