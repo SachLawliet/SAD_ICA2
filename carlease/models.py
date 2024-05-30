@@ -23,7 +23,10 @@ class User(db.Model, UserMixin):
     date_creation = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     verified_info = db.relationship('User_Verified', backref='private', lazy=True)
     email_verified = db.Column(db.Boolean, default=False)
+    login_attempts = db.Column(db.Integer, default=0)
+    last_failed_attempt = db.Column(db.DateTime)
 
+#RESET PW BEGIN
     def get_reset_token(self, expires_sec=1800):
         s = Serializer(app.config['SECRET_KEY'], expires_sec)
         return s.dumps({'user_id': self.id}).decode('utf-8')
@@ -49,6 +52,8 @@ class User(db.Model, UserMixin):
         except:
             return None
         return User.query.get(user_id)
+# Email verification end
+#RESET PW END
 
 # <!----------------------------------------------!---------------------------------------------->
 
@@ -58,6 +63,8 @@ class LoginAttempt(db.Model):
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
     timestamp = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     success = db.Column(db.Boolean, nullable=False, default=False)
+    login_attempts = db.Column(db.Integer, default=0)
+    last_failed_attempt = db.Column(db.DateTime)
 
 # <!----------------------------------------------!---------------------------------------------->
 

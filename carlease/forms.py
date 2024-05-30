@@ -38,17 +38,19 @@ class LoginForm(FlaskForm):
     remember = BooleanField('Remember me')
     submit = SubmitField('Login')
 
+# <!----------------------------------------------!---------------------------------------------->
+
 class NotificationForm(FlaskForm):
     promotional_emails = BooleanField('Receive promotional emails')
     no_notifications = BooleanField('Do not receive any emails or notifications')
     submit = SubmitField('Save Preferences')
 
+# <!----------------------------------------------!---------------------------------------------->
 
 class VerifyForm(FlaskForm):
     phone = StringField('Phone', validators=[DataRequired()])
     address = StringField('Address', validators=[DataRequired(), Length(max=64)])
     submit = SubmitField('Get Verified')
-
     def validate_phone(self, phone):
         user = User_Verified.query.filter_by(phone=phone.data).first()
         if user:
