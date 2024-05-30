@@ -5982,3 +5982,1648 @@
 2024-05-29 20:42:22,792 INFO  * Restarting with stat
 2024-05-29 20:42:23,091 WARNING  * Debugger is active!
 2024-05-29 20:42:23,095 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:17:01,300 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-30 09:17:01,300 INFO [33mPress CTRL+C to quit[0m
+2024-05-30 09:17:01,301 INFO  * Restarting with stat
+2024-05-30 09:17:01,604 WARNING  * Debugger is active!
+2024-05-30 09:17:01,613 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:17:12,953 INFO Home page accessed
+2024-05-30 09:17:13,006 INFO 127.0.0.1 - - [30/May/2024 09:17:13] "GET / HTTP/1.1" 200 -
+2024-05-30 09:17:13,030 INFO 127.0.0.1 - - [30/May/2024 09:17:13] "GET /static/img/main-img.jpg HTTP/1.1" 200 -
+2024-05-30 09:17:13,030 INFO 127.0.0.1 - - [30/May/2024 09:17:13] "GET /static/css/navbar.css HTTP/1.1" 200 -
+2024-05-30 09:17:13,032 INFO 127.0.0.1 - - [30/May/2024 09:17:13] "GET /static/css/homepage.css HTTP/1.1" 200 -
+2024-05-30 09:17:13,032 INFO 127.0.0.1 - - [30/May/2024 09:17:13] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-05-30 09:17:13,033 INFO 127.0.0.1 - - [30/May/2024 09:17:13] "GET /static/css/footer.css HTTP/1.1" 200 -
+2024-05-30 09:17:13,033 INFO 127.0.0.1 - - [30/May/2024 09:17:13] "GET /static/img/LeaseDrive.png HTTP/1.1" 200 -
+2024-05-30 09:17:13,036 INFO 127.0.0.1 - - [30/May/2024 09:17:13] "GET /static/img/car-svgrepo-com.svg HTTP/1.1" 200 -
+2024-05-30 09:17:13,036 INFO 127.0.0.1 - - [30/May/2024 09:17:13] "GET /static/img/audia4.jpg HTTP/1.1" 200 -
+2024-05-30 09:17:13,037 INFO 127.0.0.1 - - [30/May/2024 09:17:13] "GET /static/img/phone-flip-svgrepo-com.svg HTTP/1.1" 200 -
+2024-05-30 09:17:13,037 INFO 127.0.0.1 - - [30/May/2024 09:17:13] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2024-05-30 09:17:13,040 INFO 127.0.0.1 - - [30/May/2024 09:17:13] "GET /static/img/bmwM3.jpg HTTP/1.1" 200 -
+2024-05-30 09:17:13,040 INFO 127.0.0.1 - - [30/May/2024 09:17:13] "GET /static/img/octavia.jpg HTTP/1.1" 200 -
+2024-05-30 09:17:13,253 INFO User verification page accessed for user ID: 1
+2024-05-30 09:17:13,254 INFO User information found: Phone: +420 774 599 197, Address: Hybernska 24
+2024-05-30 09:17:13,259 INFO 127.0.0.1 - - [30/May/2024 09:17:13] "GET /verified HTTP/1.1" 200 -
+2024-05-30 09:17:19,930 INFO User logged out
+2024-05-30 09:17:19,949 INFO 127.0.0.1 - - [30/May/2024 09:17:19] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-05-30 09:17:19,951 INFO Home page accessed
+2024-05-30 09:17:19,953 INFO 127.0.0.1 - - [30/May/2024 09:17:19] "GET /home HTTP/1.1" 200 -
+2024-05-30 09:17:19,979 INFO 127.0.0.1 - - [30/May/2024 09:17:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:17:19,982 INFO 127.0.0.1 - - [30/May/2024 09:17:19] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:17:19,985 INFO 127.0.0.1 - - [30/May/2024 09:17:19] "[36mGET /static/css/homepage.css HTTP/1.1[0m" 304 -
+2024-05-30 09:17:19,986 INFO 127.0.0.1 - - [30/May/2024 09:17:19] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:17:19,989 INFO 127.0.0.1 - - [30/May/2024 09:17:19] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:17:19,991 INFO 127.0.0.1 - - [30/May/2024 09:17:19] "[36mGET /static/img/car-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 09:17:19,993 INFO 127.0.0.1 - - [30/May/2024 09:17:19] "[36mGET /static/img/main-img.jpg HTTP/1.1[0m" 304 -
+2024-05-30 09:17:19,994 INFO 127.0.0.1 - - [30/May/2024 09:17:19] "[36mGET /static/img/phone-flip-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 09:17:19,997 INFO 127.0.0.1 - - [30/May/2024 09:17:19] "GET /static/img/benefits.svg HTTP/1.1" 200 -
+2024-05-30 09:17:19,998 INFO 127.0.0.1 - - [30/May/2024 09:17:19] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:17:20,001 INFO 127.0.0.1 - - [30/May/2024 09:17:20] "[36mGET /static/img/audia4.jpg HTTP/1.1[0m" 304 -
+2024-05-30 09:17:20,002 INFO 127.0.0.1 - - [30/May/2024 09:17:20] "[36mGET /static/img/octavia.jpg HTTP/1.1[0m" 304 -
+2024-05-30 09:17:20,002 INFO 127.0.0.1 - - [30/May/2024 09:17:20] "[36mGET /static/img/bmwM3.jpg HTTP/1.1[0m" 304 -
+2024-05-30 09:17:20,042 INFO 127.0.0.1 - - [30/May/2024 09:17:20] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:17:22,941 INFO Registration page accessed
+2024-05-30 09:17:22,970 INFO 127.0.0.1 - - [30/May/2024 09:17:22] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:17:22,997 INFO 127.0.0.1 - - [30/May/2024 09:17:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:17:23,002 INFO 127.0.0.1 - - [30/May/2024 09:17:23] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:17:23,004 INFO 127.0.0.1 - - [30/May/2024 09:17:23] "GET /static/css/registration.css HTTP/1.1" 200 -
+2024-05-30 09:17:23,006 INFO 127.0.0.1 - - [30/May/2024 09:17:23] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:17:23,007 INFO 127.0.0.1 - - [30/May/2024 09:17:23] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:17:23,010 INFO 127.0.0.1 - - [30/May/2024 09:17:23] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:17:23,114 INFO 127.0.0.1 - - [30/May/2024 09:17:23] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:17:28,258 INFO Registration page accessed
+2024-05-30 09:17:28,269 INFO 127.0.0.1 - - [30/May/2024 09:17:28] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:17:28,296 INFO 127.0.0.1 - - [30/May/2024 09:17:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:17:28,299 INFO 127.0.0.1 - - [30/May/2024 09:17:28] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:17:28,302 INFO 127.0.0.1 - - [30/May/2024 09:17:28] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:17:28,303 INFO 127.0.0.1 - - [30/May/2024 09:17:28] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:17:28,305 INFO 127.0.0.1 - - [30/May/2024 09:17:28] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:17:28,305 INFO 127.0.0.1 - - [30/May/2024 09:17:28] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:17:28,314 INFO 127.0.0.1 - - [30/May/2024 09:17:28] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:19:06,371 INFO Registration page accessed
+2024-05-30 09:19:06,409 INFO 127.0.0.1 - - [30/May/2024 09:19:06] "[35m[1mGET /registration HTTP/1.1[0m" 500 -
+2024-05-30 09:19:06,434 INFO 127.0.0.1 - - [30/May/2024 09:19:06] "[36mGET /registration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-30 09:19:06,436 INFO 127.0.0.1 - - [30/May/2024 09:19:06] "[36mGET /registration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-30 09:19:06,462 INFO 127.0.0.1 - - [30/May/2024 09:19:06] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-30 09:19:06,492 INFO 127.0.0.1 - - [30/May/2024 09:19:06] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-30 09:19:34,765 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/forms.py', reloading
+2024-05-30 09:19:34,841 INFO  * Restarting with stat
+2024-05-30 09:19:35,329 WARNING  * Debugger is active!
+2024-05-30 09:19:35,335 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:19:35,904 INFO Registration page accessed
+2024-05-30 09:19:35,923 INFO 127.0.0.1 - - [30/May/2024 09:19:35] "[35m[1mGET /registration HTTP/1.1[0m" 500 -
+2024-05-30 09:19:35,940 INFO 127.0.0.1 - - [30/May/2024 09:19:35] "[36mGET /registration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-30 09:19:35,941 INFO 127.0.0.1 - - [30/May/2024 09:19:35] "[36mGET /registration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-30 09:19:35,972 INFO 127.0.0.1 - - [30/May/2024 09:19:35] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-30 09:19:36,008 INFO 127.0.0.1 - - [30/May/2024 09:19:36] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-30 09:20:11,598 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/routes.py', reloading
+2024-05-30 09:20:11,665 INFO  * Restarting with stat
+2024-05-30 09:20:12,194 WARNING  * Debugger is active!
+2024-05-30 09:20:12,202 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:20:14,506 INFO Registration page accessed
+2024-05-30 09:20:14,531 INFO 127.0.0.1 - - [30/May/2024 09:20:14] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:20:14,564 INFO 127.0.0.1 - - [30/May/2024 09:20:14] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:20:14,565 INFO 127.0.0.1 - - [30/May/2024 09:20:14] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:20:14,565 INFO 127.0.0.1 - - [30/May/2024 09:20:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:20:14,567 INFO 127.0.0.1 - - [30/May/2024 09:20:14] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:20:14,568 INFO 127.0.0.1 - - [30/May/2024 09:20:14] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:20:14,568 INFO 127.0.0.1 - - [30/May/2024 09:20:14] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:20:14,607 INFO 127.0.0.1 - - [30/May/2024 09:20:14] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:20:16,145 INFO 127.0.0.1 - - [30/May/2024 09:20:16] "[32mGET /terms_conditions HTTP/1.1[0m" 302 -
+2024-05-30 09:20:16,150 INFO 127.0.0.1 - - [30/May/2024 09:20:16] "[33mGET /static/tc.pdf HTTP/1.1[0m" 404 -
+2024-05-30 09:20:54,519 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/routes.py', reloading
+2024-05-30 09:20:54,593 INFO  * Restarting with stat
+2024-05-30 09:20:55,061 WARNING  * Debugger is active!
+2024-05-30 09:20:55,068 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:20:55,900 INFO Registration page accessed
+2024-05-30 09:20:55,923 INFO 127.0.0.1 - - [30/May/2024 09:20:55] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:20:55,967 INFO 127.0.0.1 - - [30/May/2024 09:20:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:20:55,967 INFO 127.0.0.1 - - [30/May/2024 09:20:55] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:20:55,968 INFO 127.0.0.1 - - [30/May/2024 09:20:55] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:20:55,968 INFO 127.0.0.1 - - [30/May/2024 09:20:55] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:20:55,969 INFO 127.0.0.1 - - [30/May/2024 09:20:55] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:20:55,970 INFO 127.0.0.1 - - [30/May/2024 09:20:55] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:20:56,024 INFO 127.0.0.1 - - [30/May/2024 09:20:56] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:20:56,738 INFO 127.0.0.1 - - [30/May/2024 09:20:56] "[32mGET /terms_conditions HTTP/1.1[0m" 302 -
+2024-05-30 09:20:56,742 INFO 127.0.0.1 - - [30/May/2024 09:20:56] "GET /static/tc.pdf HTTP/1.1" 200 -
+2024-05-30 09:21:05,914 INFO Registration page accessed
+2024-05-30 09:21:05,918 INFO 127.0.0.1 - - [30/May/2024 09:21:05] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:21:05,950 INFO 127.0.0.1 - - [30/May/2024 09:21:05] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:21:05,952 INFO 127.0.0.1 - - [30/May/2024 09:21:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:21:05,953 INFO 127.0.0.1 - - [30/May/2024 09:21:05] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:21:05,954 INFO 127.0.0.1 - - [30/May/2024 09:21:05] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:21:05,955 INFO 127.0.0.1 - - [30/May/2024 09:21:05] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:21:05,956 INFO 127.0.0.1 - - [30/May/2024 09:21:05] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:21:05,996 INFO 127.0.0.1 - - [30/May/2024 09:21:05] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:21:07,042 INFO 127.0.0.1 - - [30/May/2024 09:21:07] "[32mGET /terms_conditions HTTP/1.1[0m" 302 -
+2024-05-30 09:21:07,047 INFO 127.0.0.1 - - [30/May/2024 09:21:07] "[36mGET /static/tc.pdf HTTP/1.1[0m" 304 -
+2024-05-30 09:21:32,379 INFO Login page accessed
+2024-05-30 09:21:32,398 INFO 127.0.0.1 - - [30/May/2024 09:21:32] "GET /login HTTP/1.1" 200 -
+2024-05-30 09:21:32,428 INFO 127.0.0.1 - - [30/May/2024 09:21:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:21:32,429 INFO 127.0.0.1 - - [30/May/2024 09:21:32] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:21:32,430 INFO 127.0.0.1 - - [30/May/2024 09:21:32] "GET /static/css/login.css HTTP/1.1" 200 -
+2024-05-30 09:21:32,431 INFO 127.0.0.1 - - [30/May/2024 09:21:32] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:21:32,431 INFO 127.0.0.1 - - [30/May/2024 09:21:32] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:21:32,432 INFO 127.0.0.1 - - [30/May/2024 09:21:32] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:21:32,445 INFO 127.0.0.1 - - [30/May/2024 09:21:32] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:21:34,857 INFO Login page accessed
+2024-05-30 09:21:35,166 WARNING Login failed for email: timglazerr@gmail.com
+2024-05-30 09:21:35,170 INFO 127.0.0.1 - - [30/May/2024 09:21:35] "POST /login HTTP/1.1" 200 -
+2024-05-30 09:21:35,239 INFO 127.0.0.1 - - [30/May/2024 09:21:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:21:35,242 INFO 127.0.0.1 - - [30/May/2024 09:21:35] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-05-30 09:21:35,245 INFO 127.0.0.1 - - [30/May/2024 09:21:35] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:21:35,247 INFO 127.0.0.1 - - [30/May/2024 09:21:35] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:21:35,248 INFO 127.0.0.1 - - [30/May/2024 09:21:35] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:21:35,251 INFO 127.0.0.1 - - [30/May/2024 09:21:35] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:21:35,298 INFO 127.0.0.1 - - [30/May/2024 09:21:35] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:21:47,448 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/routes.py', reloading
+2024-05-30 09:21:47,527 INFO  * Restarting with stat
+2024-05-30 09:21:48,015 WARNING  * Debugger is active!
+2024-05-30 09:21:48,020 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:21:48,394 INFO Login page accessed
+2024-05-30 09:21:48,420 INFO 127.0.0.1 - - [30/May/2024 09:21:48] "GET /login HTTP/1.1" 200 -
+2024-05-30 09:21:48,441 INFO 127.0.0.1 - - [30/May/2024 09:21:48] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:21:48,441 INFO 127.0.0.1 - - [30/May/2024 09:21:48] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-05-30 09:21:48,442 INFO 127.0.0.1 - - [30/May/2024 09:21:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:21:48,446 INFO 127.0.0.1 - - [30/May/2024 09:21:48] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:21:48,446 INFO 127.0.0.1 - - [30/May/2024 09:21:48] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:21:48,447 INFO 127.0.0.1 - - [30/May/2024 09:21:48] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:21:48,466 INFO 127.0.0.1 - - [30/May/2024 09:21:48] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:21:50,979 INFO Login page accessed
+2024-05-30 09:21:51,282 WARNING Login failed for email: timglazerr@gmail.com
+2024-05-30 09:21:51,283 INFO 127.0.0.1 - - [30/May/2024 09:21:51] "POST /login HTTP/1.1" 200 -
+2024-05-30 09:21:51,385 INFO 127.0.0.1 - - [30/May/2024 09:21:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:21:51,386 INFO 127.0.0.1 - - [30/May/2024 09:21:51] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-05-30 09:21:51,386 INFO 127.0.0.1 - - [30/May/2024 09:21:51] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:21:51,387 INFO 127.0.0.1 - - [30/May/2024 09:21:51] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:21:51,388 INFO 127.0.0.1 - - [30/May/2024 09:21:51] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:21:51,388 INFO 127.0.0.1 - - [30/May/2024 09:21:51] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:21:51,435 INFO 127.0.0.1 - - [30/May/2024 09:21:51] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:24:09,070 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/models.py', reloading
+2024-05-30 09:24:09,195 INFO  * Restarting with stat
+2024-05-30 09:24:09,850 WARNING  * Debugger is active!
+2024-05-30 09:24:09,857 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:24:21,946 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/models.py', reloading
+2024-05-30 09:24:22,026 INFO  * Restarting with stat
+2024-05-30 09:24:22,461 WARNING  * Debugger is active!
+2024-05-30 09:24:22,467 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:24:24,487 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/models.py', reloading
+2024-05-30 09:24:24,541 INFO  * Restarting with stat
+2024-05-30 09:24:24,881 WARNING  * Debugger is active!
+2024-05-30 09:24:24,885 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:26:01,608 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/routes.py', reloading
+2024-05-30 09:26:01,685 INFO  * Restarting with stat
+2024-05-30 09:26:02,186 WARNING  * Debugger is active!
+2024-05-30 09:26:02,192 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:26:07,236 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/routes.py', reloading
+2024-05-30 09:26:07,303 INFO  * Restarting with stat
+2024-05-30 09:26:07,959 WARNING  * Debugger is active!
+2024-05-30 09:26:07,966 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:26:44,185 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/routes.py', reloading
+2024-05-30 09:26:44,268 INFO  * Restarting with stat
+2024-05-30 09:26:44,729 WARNING  * Debugger is active!
+2024-05-30 09:26:44,736 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:26:58,823 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/routes.py', reloading
+2024-05-30 09:26:58,917 INFO  * Restarting with stat
+2024-05-30 09:26:59,349 WARNING  * Debugger is active!
+2024-05-30 09:26:59,355 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:27:35,625 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/models.py', reloading
+2024-05-30 09:27:35,731 INFO  * Restarting with stat
+2024-05-30 09:27:36,188 WARNING  * Debugger is active!
+2024-05-30 09:27:36,193 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:28:16,495 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/models.py', reloading
+2024-05-30 09:28:16,577 INFO  * Restarting with stat
+2024-05-30 09:30:04,578 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-30 09:30:04,578 INFO [33mPress CTRL+C to quit[0m
+2024-05-30 09:30:04,579 INFO  * Restarting with stat
+2024-05-30 09:30:04,890 WARNING  * Debugger is active!
+2024-05-30 09:30:04,897 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:30:06,522 INFO Login page accessed
+2024-05-30 09:30:06,532 INFO 127.0.0.1 - - [30/May/2024 09:30:06] "GET /login HTTP/1.1" 200 -
+2024-05-30 09:30:06,594 INFO 127.0.0.1 - - [30/May/2024 09:30:06] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-05-30 09:30:06,595 INFO 127.0.0.1 - - [30/May/2024 09:30:06] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:30:06,595 INFO 127.0.0.1 - - [30/May/2024 09:30:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:30:06,596 INFO 127.0.0.1 - - [30/May/2024 09:30:06] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:30:06,597 INFO 127.0.0.1 - - [30/May/2024 09:30:06] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:30:06,612 INFO 127.0.0.1 - - [30/May/2024 09:30:06] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:30:06,647 INFO 127.0.0.1 - - [30/May/2024 09:30:06] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:30:13,312 INFO Home page accessed
+2024-05-30 09:30:13,357 INFO 127.0.0.1 - - [30/May/2024 09:30:13] "GET / HTTP/1.1" 200 -
+2024-05-30 09:30:13,394 INFO 127.0.0.1 - - [30/May/2024 09:30:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:30:13,397 INFO 127.0.0.1 - - [30/May/2024 09:30:13] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:30:13,398 INFO 127.0.0.1 - - [30/May/2024 09:30:13] "[36mGET /static/css/homepage.css HTTP/1.1[0m" 304 -
+2024-05-30 09:30:13,401 INFO 127.0.0.1 - - [30/May/2024 09:30:13] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:30:13,401 INFO 127.0.0.1 - - [30/May/2024 09:30:13] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:30:13,403 INFO 127.0.0.1 - - [30/May/2024 09:30:13] "[36mGET /static/img/main-img.jpg HTTP/1.1[0m" 304 -
+2024-05-30 09:30:13,421 INFO 127.0.0.1 - - [30/May/2024 09:30:13] "[36mGET /static/img/phone-flip-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 09:30:13,422 INFO 127.0.0.1 - - [30/May/2024 09:30:13] "[36mGET /static/img/benefits.svg HTTP/1.1[0m" 304 -
+2024-05-30 09:30:13,431 INFO 127.0.0.1 - - [30/May/2024 09:30:13] "[36mGET /static/img/car-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 09:30:13,432 INFO 127.0.0.1 - - [30/May/2024 09:30:13] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:30:13,434 INFO 127.0.0.1 - - [30/May/2024 09:30:13] "[36mGET /static/img/audia4.jpg HTTP/1.1[0m" 304 -
+2024-05-30 09:30:13,442 INFO 127.0.0.1 - - [30/May/2024 09:30:13] "[36mGET /static/img/bmwM3.jpg HTTP/1.1[0m" 304 -
+2024-05-30 09:30:13,443 INFO 127.0.0.1 - - [30/May/2024 09:30:13] "[36mGET /static/img/octavia.jpg HTTP/1.1[0m" 304 -
+2024-05-30 09:30:13,628 INFO 127.0.0.1 - - [30/May/2024 09:30:13] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:30:17,039 INFO Home page accessed
+2024-05-30 09:30:17,041 INFO 127.0.0.1 - - [30/May/2024 09:30:17] "GET / HTTP/1.1" 200 -
+2024-05-30 09:30:17,057 INFO 127.0.0.1 - - [30/May/2024 09:30:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:30:17,059 INFO 127.0.0.1 - - [30/May/2024 09:30:17] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:30:17,060 INFO 127.0.0.1 - - [30/May/2024 09:30:17] "[36mGET /static/css/homepage.css HTTP/1.1[0m" 304 -
+2024-05-30 09:30:17,060 INFO 127.0.0.1 - - [30/May/2024 09:30:17] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:30:17,062 INFO 127.0.0.1 - - [30/May/2024 09:30:17] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:30:17,063 INFO 127.0.0.1 - - [30/May/2024 09:30:17] "[36mGET /static/img/main-img.jpg HTTP/1.1[0m" 304 -
+2024-05-30 09:30:17,067 INFO 127.0.0.1 - - [30/May/2024 09:30:17] "[36mGET /static/img/car-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 09:30:17,067 INFO 127.0.0.1 - - [30/May/2024 09:30:17] "[36mGET /static/img/phone-flip-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 09:30:17,068 INFO 127.0.0.1 - - [30/May/2024 09:30:17] "[36mGET /static/img/benefits.svg HTTP/1.1[0m" 304 -
+2024-05-30 09:30:17,070 INFO 127.0.0.1 - - [30/May/2024 09:30:17] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:30:17,071 INFO 127.0.0.1 - - [30/May/2024 09:30:17] "[36mGET /static/img/audia4.jpg HTTP/1.1[0m" 304 -
+2024-05-30 09:30:17,072 INFO 127.0.0.1 - - [30/May/2024 09:30:17] "[36mGET /static/img/bmwM3.jpg HTTP/1.1[0m" 304 -
+2024-05-30 09:30:17,073 INFO 127.0.0.1 - - [30/May/2024 09:30:17] "[36mGET /static/img/octavia.jpg HTTP/1.1[0m" 304 -
+2024-05-30 09:30:17,075 INFO 127.0.0.1 - - [30/May/2024 09:30:17] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:30:28,050 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/__init__.py', reloading
+2024-05-30 09:30:28,155 INFO  * Restarting with stat
+2024-05-30 09:30:28,677 WARNING  * Debugger is active!
+2024-05-30 09:30:28,682 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:30:29,576 INFO Home page accessed
+2024-05-30 09:30:29,597 INFO 127.0.0.1 - - [30/May/2024 09:30:29] "GET / HTTP/1.1" 200 -
+2024-05-30 09:30:29,624 INFO 127.0.0.1 - - [30/May/2024 09:30:29] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:30:29,625 INFO 127.0.0.1 - - [30/May/2024 09:30:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:30:29,626 INFO 127.0.0.1 - - [30/May/2024 09:30:29] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:30:29,627 INFO 127.0.0.1 - - [30/May/2024 09:30:29] "[36mGET /static/css/homepage.css HTTP/1.1[0m" 304 -
+2024-05-30 09:30:29,628 INFO 127.0.0.1 - - [30/May/2024 09:30:29] "[36mGET /static/img/main-img.jpg HTTP/1.1[0m" 304 -
+2024-05-30 09:30:29,628 INFO 127.0.0.1 - - [30/May/2024 09:30:29] "[36mGET /static/img/car-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 09:30:29,630 INFO 127.0.0.1 - - [30/May/2024 09:30:29] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:30:29,630 INFO 127.0.0.1 - - [30/May/2024 09:30:29] "[36mGET /static/img/phone-flip-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 09:30:29,630 INFO 127.0.0.1 - - [30/May/2024 09:30:29] "[36mGET /static/img/benefits.svg HTTP/1.1[0m" 304 -
+2024-05-30 09:30:29,631 INFO 127.0.0.1 - - [30/May/2024 09:30:29] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:30:29,632 INFO 127.0.0.1 - - [30/May/2024 09:30:29] "[36mGET /static/img/audia4.jpg HTTP/1.1[0m" 304 -
+2024-05-30 09:30:29,633 INFO 127.0.0.1 - - [30/May/2024 09:30:29] "[36mGET /static/img/bmwM3.jpg HTTP/1.1[0m" 304 -
+2024-05-30 09:30:29,633 INFO 127.0.0.1 - - [30/May/2024 09:30:29] "[36mGET /static/img/octavia.jpg HTTP/1.1[0m" 304 -
+2024-05-30 09:30:29,646 INFO 127.0.0.1 - - [30/May/2024 09:30:29] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:30:33,718 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/__init__.py', reloading
+2024-05-30 09:30:33,837 INFO  * Restarting with stat
+2024-05-30 09:30:34,261 WARNING  * Debugger is active!
+2024-05-30 09:30:34,266 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:30:34,271 INFO Home page accessed
+2024-05-30 09:30:34,277 INFO 127.0.0.1 - - [30/May/2024 09:30:34] "GET / HTTP/1.1" 200 -
+2024-05-30 09:30:34,323 INFO 127.0.0.1 - - [30/May/2024 09:30:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:30:34,324 INFO 127.0.0.1 - - [30/May/2024 09:30:34] "[36mGET /static/css/homepage.css HTTP/1.1[0m" 304 -
+2024-05-30 09:30:34,325 INFO 127.0.0.1 - - [30/May/2024 09:30:34] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:30:34,327 INFO 127.0.0.1 - - [30/May/2024 09:30:34] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:30:34,328 INFO 127.0.0.1 - - [30/May/2024 09:30:34] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:30:34,328 INFO 127.0.0.1 - - [30/May/2024 09:30:34] "[36mGET /static/img/main-img.jpg HTTP/1.1[0m" 304 -
+2024-05-30 09:30:34,329 INFO 127.0.0.1 - - [30/May/2024 09:30:34] "[36mGET /static/img/car-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 09:30:34,329 INFO 127.0.0.1 - - [30/May/2024 09:30:34] "[36mGET /static/img/phone-flip-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 09:30:34,330 INFO 127.0.0.1 - - [30/May/2024 09:30:34] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:30:34,330 INFO 127.0.0.1 - - [30/May/2024 09:30:34] "[36mGET /static/img/benefits.svg HTTP/1.1[0m" 304 -
+2024-05-30 09:30:34,332 INFO 127.0.0.1 - - [30/May/2024 09:30:34] "[36mGET /static/img/bmwM3.jpg HTTP/1.1[0m" 304 -
+2024-05-30 09:30:34,332 INFO 127.0.0.1 - - [30/May/2024 09:30:34] "[36mGET /static/img/audia4.jpg HTTP/1.1[0m" 304 -
+2024-05-30 09:30:34,333 INFO 127.0.0.1 - - [30/May/2024 09:30:34] "[36mGET /static/img/octavia.jpg HTTP/1.1[0m" 304 -
+2024-05-30 09:30:34,349 INFO 127.0.0.1 - - [30/May/2024 09:30:34] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:30:52,010 INFO Registration page accessed
+2024-05-30 09:30:52,035 INFO 127.0.0.1 - - [30/May/2024 09:30:52] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:30:52,056 INFO 127.0.0.1 - - [30/May/2024 09:30:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:30:52,060 INFO 127.0.0.1 - - [30/May/2024 09:30:52] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:30:52,068 INFO 127.0.0.1 - - [30/May/2024 09:30:52] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:30:52,069 INFO 127.0.0.1 - - [30/May/2024 09:30:52] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:30:52,070 INFO 127.0.0.1 - - [30/May/2024 09:30:52] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:30:52,071 INFO 127.0.0.1 - - [30/May/2024 09:30:52] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:30:52,186 INFO 127.0.0.1 - - [30/May/2024 09:30:52] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:31:05,203 INFO Registration page accessed
+2024-05-30 09:31:05,216 DEBUG Starting new HTTPS connection (1): www.google.com:443
+2024-05-30 09:31:05,353 DEBUG https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2024-05-30 09:31:05,356 WARNING Captcha failed
+2024-05-30 09:31:05,357 INFO 127.0.0.1 - - [30/May/2024 09:31:05] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-05-30 09:31:05,359 INFO Registration page accessed
+2024-05-30 09:31:05,361 INFO 127.0.0.1 - - [30/May/2024 09:31:05] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:31:05,381 INFO 127.0.0.1 - - [30/May/2024 09:31:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:31:05,386 INFO 127.0.0.1 - - [30/May/2024 09:31:05] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:31:05,388 INFO 127.0.0.1 - - [30/May/2024 09:31:05] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:31:05,389 INFO 127.0.0.1 - - [30/May/2024 09:31:05] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:31:05,390 INFO 127.0.0.1 - - [30/May/2024 09:31:05] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:31:05,391 INFO 127.0.0.1 - - [30/May/2024 09:31:05] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:31:05,401 INFO 127.0.0.1 - - [30/May/2024 09:31:05] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:31:22,190 INFO Registration page accessed
+2024-05-30 09:31:22,192 DEBUG Starting new HTTPS connection (1): www.google.com:443
+2024-05-30 09:31:22,279 DEBUG https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2024-05-30 09:31:22,280 WARNING Captcha failed
+2024-05-30 09:31:22,280 INFO 127.0.0.1 - - [30/May/2024 09:31:22] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-05-30 09:31:22,282 INFO Registration page accessed
+2024-05-30 09:31:22,284 INFO 127.0.0.1 - - [30/May/2024 09:31:22] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:31:22,309 INFO 127.0.0.1 - - [30/May/2024 09:31:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:31:22,310 INFO 127.0.0.1 - - [30/May/2024 09:31:22] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:31:22,311 INFO 127.0.0.1 - - [30/May/2024 09:31:22] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:31:22,312 INFO 127.0.0.1 - - [30/May/2024 09:31:22] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:31:22,313 INFO 127.0.0.1 - - [30/May/2024 09:31:22] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:31:22,314 INFO 127.0.0.1 - - [30/May/2024 09:31:22] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:31:22,320 INFO 127.0.0.1 - - [30/May/2024 09:31:22] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:33:29,762 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/__init__.py', reloading
+2024-05-30 09:33:29,847 INFO  * Restarting with stat
+2024-05-30 09:35:24,396 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-30 09:35:24,397 INFO [33mPress CTRL+C to quit[0m
+2024-05-30 09:35:24,397 INFO  * Restarting with stat
+2024-05-30 09:35:24,700 WARNING  * Debugger is active!
+2024-05-30 09:35:24,708 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:35:27,587 INFO Registration page accessed
+2024-05-30 09:35:27,608 INFO 127.0.0.1 - - [30/May/2024 09:35:27] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:35:27,641 INFO 127.0.0.1 - - [30/May/2024 09:35:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:35:27,644 INFO 127.0.0.1 - - [30/May/2024 09:35:27] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:35:27,644 INFO 127.0.0.1 - - [30/May/2024 09:35:27] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:35:27,646 INFO 127.0.0.1 - - [30/May/2024 09:35:27] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:35:27,647 INFO 127.0.0.1 - - [30/May/2024 09:35:27] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:35:27,647 INFO 127.0.0.1 - - [30/May/2024 09:35:27] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:35:27,684 INFO 127.0.0.1 - - [30/May/2024 09:35:27] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:35:39,980 INFO Registration page accessed
+2024-05-30 09:35:39,990 DEBUG Starting new HTTPS connection (1): www.google.com:443
+2024-05-30 09:35:40,106 DEBUG https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2024-05-30 09:35:40,107 WARNING Captcha failed
+2024-05-30 09:35:40,108 INFO 127.0.0.1 - - [30/May/2024 09:35:40] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-05-30 09:35:40,117 INFO Registration page accessed
+2024-05-30 09:35:40,119 INFO 127.0.0.1 - - [30/May/2024 09:35:40] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:35:40,166 INFO 127.0.0.1 - - [30/May/2024 09:35:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:35:40,169 INFO 127.0.0.1 - - [30/May/2024 09:35:40] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:35:40,169 INFO 127.0.0.1 - - [30/May/2024 09:35:40] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:35:40,172 INFO 127.0.0.1 - - [30/May/2024 09:35:40] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:35:40,173 INFO 127.0.0.1 - - [30/May/2024 09:35:40] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:35:40,174 INFO 127.0.0.1 - - [30/May/2024 09:35:40] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:35:40,207 INFO 127.0.0.1 - - [30/May/2024 09:35:40] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:36:17,376 INFO Registration page accessed
+2024-05-30 09:36:17,400 INFO 127.0.0.1 - - [30/May/2024 09:36:17] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:36:17,429 INFO 127.0.0.1 - - [30/May/2024 09:36:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:36:17,435 INFO 127.0.0.1 - - [30/May/2024 09:36:17] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:36:17,436 INFO 127.0.0.1 - - [30/May/2024 09:36:17] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:36:17,438 INFO 127.0.0.1 - - [30/May/2024 09:36:17] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:36:17,438 INFO 127.0.0.1 - - [30/May/2024 09:36:17] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:36:17,439 INFO 127.0.0.1 - - [30/May/2024 09:36:17] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:36:17,454 INFO 127.0.0.1 - - [30/May/2024 09:36:17] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:36:29,686 INFO Registration page accessed
+2024-05-30 09:36:29,687 WARNING reCAPTCHA verification failed
+2024-05-30 09:36:29,687 INFO 127.0.0.1 - - [30/May/2024 09:36:29] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-05-30 09:36:29,691 INFO Registration page accessed
+2024-05-30 09:36:29,694 INFO 127.0.0.1 - - [30/May/2024 09:36:29] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:36:29,710 INFO 127.0.0.1 - - [30/May/2024 09:36:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:36:29,711 INFO 127.0.0.1 - - [30/May/2024 09:36:29] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:36:29,713 INFO 127.0.0.1 - - [30/May/2024 09:36:29] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:36:29,714 INFO 127.0.0.1 - - [30/May/2024 09:36:29] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:36:29,715 INFO 127.0.0.1 - - [30/May/2024 09:36:29] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:36:29,716 INFO 127.0.0.1 - - [30/May/2024 09:36:29] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:36:29,740 INFO 127.0.0.1 - - [30/May/2024 09:36:29] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:36:41,892 INFO Registration page accessed
+2024-05-30 09:36:41,931 INFO 127.0.0.1 - - [30/May/2024 09:36:41] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:36:41,982 INFO 127.0.0.1 - - [30/May/2024 09:36:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:36:41,994 INFO 127.0.0.1 - - [30/May/2024 09:36:41] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:36:41,997 INFO 127.0.0.1 - - [30/May/2024 09:36:41] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:36:41,999 INFO 127.0.0.1 - - [30/May/2024 09:36:41] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:36:42,001 INFO 127.0.0.1 - - [30/May/2024 09:36:42] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:36:42,002 INFO 127.0.0.1 - - [30/May/2024 09:36:42] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:36:42,045 INFO 127.0.0.1 - - [30/May/2024 09:36:42] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:37:38,740 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/routes.py', reloading
+2024-05-30 09:37:38,837 INFO  * Restarting with stat
+2024-05-30 09:37:39,325 WARNING  * Debugger is active!
+2024-05-30 09:37:39,332 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:37:44,361 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/routes.py', reloading
+2024-05-30 09:37:44,424 INFO  * Restarting with stat
+2024-05-30 09:37:44,757 WARNING  * Debugger is active!
+2024-05-30 09:37:44,763 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:37:47,039 INFO Registration page accessed
+2024-05-30 09:37:47,082 INFO 127.0.0.1 - - [30/May/2024 09:37:47] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:37:47,124 INFO 127.0.0.1 - - [30/May/2024 09:37:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:37:47,125 INFO 127.0.0.1 - - [30/May/2024 09:37:47] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:37:47,126 INFO 127.0.0.1 - - [30/May/2024 09:37:47] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:37:47,127 INFO 127.0.0.1 - - [30/May/2024 09:37:47] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:37:47,128 INFO 127.0.0.1 - - [30/May/2024 09:37:47] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:37:47,129 INFO 127.0.0.1 - - [30/May/2024 09:37:47] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:37:47,149 INFO 127.0.0.1 - - [30/May/2024 09:37:47] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:37:57,003 INFO Registration page accessed
+2024-05-30 09:37:57,011 DEBUG Starting new HTTPS connection (1): www.google.com:443
+2024-05-30 09:37:57,109 DEBUG https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2024-05-30 09:37:57,110 WARNING Captcha failed
+2024-05-30 09:37:57,110 INFO 127.0.0.1 - - [30/May/2024 09:37:57] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-05-30 09:37:57,112 INFO Registration page accessed
+2024-05-30 09:37:57,114 INFO 127.0.0.1 - - [30/May/2024 09:37:57] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:37:57,145 INFO 127.0.0.1 - - [30/May/2024 09:37:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:37:57,145 INFO 127.0.0.1 - - [30/May/2024 09:37:57] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:37:57,149 INFO 127.0.0.1 - - [30/May/2024 09:37:57] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:37:57,150 INFO 127.0.0.1 - - [30/May/2024 09:37:57] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:37:57,152 INFO 127.0.0.1 - - [30/May/2024 09:37:57] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:37:57,152 INFO 127.0.0.1 - - [30/May/2024 09:37:57] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:37:57,177 INFO 127.0.0.1 - - [30/May/2024 09:37:57] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:38:01,901 INFO 127.0.0.1 - - [30/May/2024 09:38:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:38:01,902 INFO 127.0.0.1 - - [30/May/2024 09:38:01] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:38:01,903 INFO 127.0.0.1 - - [30/May/2024 09:38:01] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:38:01,904 INFO 127.0.0.1 - - [30/May/2024 09:38:01] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:40:53,508 INFO Registration page accessed
+2024-05-30 09:40:53,528 INFO 127.0.0.1 - - [30/May/2024 09:40:53] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:40:53,559 INFO 127.0.0.1 - - [30/May/2024 09:40:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:40:53,562 INFO 127.0.0.1 - - [30/May/2024 09:40:53] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:40:53,563 INFO 127.0.0.1 - - [30/May/2024 09:40:53] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:40:53,566 INFO 127.0.0.1 - - [30/May/2024 09:40:53] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:40:53,567 INFO 127.0.0.1 - - [30/May/2024 09:40:53] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:40:53,573 INFO 127.0.0.1 - - [30/May/2024 09:40:53] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:40:53,652 INFO 127.0.0.1 - - [30/May/2024 09:40:53] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:41:10,761 INFO Registration page accessed
+2024-05-30 09:41:10,764 INFO 127.0.0.1 - - [30/May/2024 09:41:10] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:41:11,999 INFO Registration page accessed
+2024-05-30 09:41:12,001 INFO 127.0.0.1 - - [30/May/2024 09:41:12] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:41:12,595 INFO Registration page accessed
+2024-05-30 09:41:12,597 INFO 127.0.0.1 - - [30/May/2024 09:41:12] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:41:13,688 INFO Registration page accessed
+2024-05-30 09:41:13,690 INFO 127.0.0.1 - - [30/May/2024 09:41:13] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:41:14,075 INFO Registration page accessed
+2024-05-30 09:41:14,076 INFO 127.0.0.1 - - [30/May/2024 09:41:14] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:41:14,494 INFO Registration page accessed
+2024-05-30 09:41:14,495 INFO 127.0.0.1 - - [30/May/2024 09:41:14] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:41:14,941 INFO Registration page accessed
+2024-05-30 09:41:14,943 INFO 127.0.0.1 - - [30/May/2024 09:41:14] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:41:15,474 INFO Registration page accessed
+2024-05-30 09:41:15,476 INFO 127.0.0.1 - - [30/May/2024 09:41:15] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:41:16,059 INFO Registration page accessed
+2024-05-30 09:41:16,060 INFO 127.0.0.1 - - [30/May/2024 09:41:16] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:41:16,611 INFO Registration page accessed
+2024-05-30 09:41:16,613 INFO 127.0.0.1 - - [30/May/2024 09:41:16] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:41:17,125 INFO Registration page accessed
+2024-05-30 09:41:17,126 INFO 127.0.0.1 - - [30/May/2024 09:41:17] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:41:17,711 INFO Registration page accessed
+2024-05-30 09:41:17,712 INFO 127.0.0.1 - - [30/May/2024 09:41:17] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:41:18,255 INFO Registration page accessed
+2024-05-30 09:41:18,257 INFO 127.0.0.1 - - [30/May/2024 09:41:18] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:41:20,300 INFO Registration page accessed
+2024-05-30 09:41:20,301 INFO 127.0.0.1 - - [30/May/2024 09:41:20] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:41:20,319 INFO 127.0.0.1 - - [30/May/2024 09:41:20] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:41:20,319 INFO 127.0.0.1 - - [30/May/2024 09:41:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:41:20,319 INFO 127.0.0.1 - - [30/May/2024 09:41:20] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:41:20,322 INFO 127.0.0.1 - - [30/May/2024 09:41:20] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:41:20,323 INFO 127.0.0.1 - - [30/May/2024 09:41:20] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:41:20,324 INFO 127.0.0.1 - - [30/May/2024 09:41:20] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:41:20,335 INFO 127.0.0.1 - - [30/May/2024 09:41:20] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:41:29,533 INFO Registration page accessed
+2024-05-30 09:41:29,536 DEBUG Starting new HTTPS connection (1): www.google.com:443
+2024-05-30 09:41:29,648 DEBUG https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2024-05-30 09:41:29,649 WARNING Captcha failed
+2024-05-30 09:41:29,650 INFO 127.0.0.1 - - [30/May/2024 09:41:29] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-05-30 09:41:29,652 INFO Registration page accessed
+2024-05-30 09:41:29,656 INFO 127.0.0.1 - - [30/May/2024 09:41:29] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:41:29,681 INFO 127.0.0.1 - - [30/May/2024 09:41:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:41:29,682 INFO 127.0.0.1 - - [30/May/2024 09:41:29] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:41:29,682 INFO 127.0.0.1 - - [30/May/2024 09:41:29] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:41:29,684 INFO 127.0.0.1 - - [30/May/2024 09:41:29] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:41:29,685 INFO 127.0.0.1 - - [30/May/2024 09:41:29] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:41:29,685 INFO 127.0.0.1 - - [30/May/2024 09:41:29] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:41:29,702 INFO 127.0.0.1 - - [30/May/2024 09:41:29] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:42:46,268 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/routes.py', reloading
+2024-05-30 09:42:46,364 INFO  * Restarting with stat
+2024-05-30 09:42:46,880 WARNING  * Debugger is active!
+2024-05-30 09:42:46,886 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:42:48,615 INFO Registration page accessed
+2024-05-30 09:42:48,639 INFO 127.0.0.1 - - [30/May/2024 09:42:48] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:42:48,677 INFO 127.0.0.1 - - [30/May/2024 09:42:48] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:42:48,678 INFO 127.0.0.1 - - [30/May/2024 09:42:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:42:48,678 INFO 127.0.0.1 - - [30/May/2024 09:42:48] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:42:48,678 INFO 127.0.0.1 - - [30/May/2024 09:42:48] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:42:48,679 INFO 127.0.0.1 - - [30/May/2024 09:42:48] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:42:48,680 INFO 127.0.0.1 - - [30/May/2024 09:42:48] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:42:48,722 INFO 127.0.0.1 - - [30/May/2024 09:42:48] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:42:58,842 INFO Registration page accessed
+2024-05-30 09:42:58,849 DEBUG Starting new HTTPS connection (1): www.google.com:443
+2024-05-30 09:42:58,948 DEBUG https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2024-05-30 09:42:58,950 WARNING Captcha failed
+2024-05-30 09:42:58,951 INFO 127.0.0.1 - - [30/May/2024 09:42:58] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-05-30 09:42:58,953 INFO Registration page accessed
+2024-05-30 09:42:58,955 INFO 127.0.0.1 - - [30/May/2024 09:42:58] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:42:58,980 INFO 127.0.0.1 - - [30/May/2024 09:42:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:42:58,980 INFO 127.0.0.1 - - [30/May/2024 09:42:58] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:42:58,980 INFO 127.0.0.1 - - [30/May/2024 09:42:58] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:42:58,982 INFO 127.0.0.1 - - [30/May/2024 09:42:58] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:42:58,982 INFO 127.0.0.1 - - [30/May/2024 09:42:58] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:42:58,983 INFO 127.0.0.1 - - [30/May/2024 09:42:58] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:42:58,996 INFO 127.0.0.1 - - [30/May/2024 09:42:58] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:43:16,093 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/routes.py', reloading
+2024-05-30 09:43:16,177 INFO  * Restarting with stat
+2024-05-30 09:43:16,636 WARNING  * Debugger is active!
+2024-05-30 09:43:16,642 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:43:16,783 INFO Registration page accessed
+2024-05-30 09:43:16,795 INFO 127.0.0.1 - - [30/May/2024 09:43:16] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:43:16,814 INFO 127.0.0.1 - - [30/May/2024 09:43:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:43:16,815 INFO 127.0.0.1 - - [30/May/2024 09:43:16] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:43:16,817 INFO 127.0.0.1 - - [30/May/2024 09:43:16] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:43:16,818 INFO 127.0.0.1 - - [30/May/2024 09:43:16] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:43:16,818 INFO 127.0.0.1 - - [30/May/2024 09:43:16] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:43:16,818 INFO 127.0.0.1 - - [30/May/2024 09:43:16] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:43:16,828 INFO 127.0.0.1 - - [30/May/2024 09:43:16] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:43:27,128 INFO Registration page accessed
+2024-05-30 09:43:27,134 DEBUG Starting new HTTPS connection (1): www.google.com:443
+2024-05-30 09:43:27,232 DEBUG https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2024-05-30 09:43:27,233 WARNING Captcha failed
+2024-05-30 09:43:27,234 INFO 127.0.0.1 - - [30/May/2024 09:43:27] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-05-30 09:43:27,237 INFO Registration page accessed
+2024-05-30 09:43:27,239 INFO 127.0.0.1 - - [30/May/2024 09:43:27] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:43:27,263 INFO 127.0.0.1 - - [30/May/2024 09:43:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:43:27,264 INFO 127.0.0.1 - - [30/May/2024 09:43:27] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:43:27,264 INFO 127.0.0.1 - - [30/May/2024 09:43:27] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:43:27,267 INFO 127.0.0.1 - - [30/May/2024 09:43:27] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:43:27,268 INFO 127.0.0.1 - - [30/May/2024 09:43:27] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:43:27,268 INFO 127.0.0.1 - - [30/May/2024 09:43:27] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:43:27,275 INFO 127.0.0.1 - - [30/May/2024 09:43:27] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:43:34,776 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/routes.py', reloading
+2024-05-30 09:43:34,868 INFO  * Restarting with stat
+2024-05-30 09:43:35,301 WARNING  * Debugger is active!
+2024-05-30 09:43:35,306 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:45:29,136 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/routes.py', reloading
+2024-05-30 09:45:29,241 INFO  * Restarting with stat
+2024-05-30 09:45:29,764 WARNING  * Debugger is active!
+2024-05-30 09:45:29,771 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:46:22,194 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/routes.py', reloading
+2024-05-30 09:46:22,289 INFO  * Restarting with stat
+2024-05-30 09:46:22,751 WARNING  * Debugger is active!
+2024-05-30 09:46:22,756 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:46:25,484 INFO Registration page accessed
+2024-05-30 09:46:25,509 INFO 127.0.0.1 - - [30/May/2024 09:46:25] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:46:25,539 INFO 127.0.0.1 - - [30/May/2024 09:46:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:46:25,540 INFO 127.0.0.1 - - [30/May/2024 09:46:25] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:46:25,541 INFO 127.0.0.1 - - [30/May/2024 09:46:25] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:46:25,543 INFO 127.0.0.1 - - [30/May/2024 09:46:25] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:46:25,543 INFO 127.0.0.1 - - [30/May/2024 09:46:25] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:46:25,543 INFO 127.0.0.1 - - [30/May/2024 09:46:25] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:46:25,557 INFO 127.0.0.1 - - [30/May/2024 09:46:25] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:46:39,918 INFO Registration page accessed
+2024-05-30 09:46:39,926 DEBUG Starting new HTTPS connection (1): www.google.com:443
+2024-05-30 09:46:40,043 DEBUG https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2024-05-30 09:46:40,044 WARNING reCAPTCHA verification failed
+2024-05-30 09:46:40,045 INFO 127.0.0.1 - - [30/May/2024 09:46:40] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-05-30 09:46:40,048 INFO Registration page accessed
+2024-05-30 09:46:40,051 INFO 127.0.0.1 - - [30/May/2024 09:46:40] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:46:40,075 INFO 127.0.0.1 - - [30/May/2024 09:46:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:46:40,076 INFO 127.0.0.1 - - [30/May/2024 09:46:40] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:46:40,078 INFO 127.0.0.1 - - [30/May/2024 09:46:40] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:46:40,079 INFO 127.0.0.1 - - [30/May/2024 09:46:40] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:46:40,080 INFO 127.0.0.1 - - [30/May/2024 09:46:40] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:46:40,081 INFO 127.0.0.1 - - [30/May/2024 09:46:40] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:46:40,094 INFO 127.0.0.1 - - [30/May/2024 09:46:40] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:48:22,743 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/forms.py', reloading
+2024-05-30 09:48:22,827 INFO  * Restarting with stat
+2024-05-30 09:51:04,170 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-30 09:51:04,170 INFO [33mPress CTRL+C to quit[0m
+2024-05-30 09:51:04,171 INFO  * Restarting with stat
+2024-05-30 09:51:04,559 WARNING  * Debugger is active!
+2024-05-30 09:51:04,566 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:51:05,217 INFO Registration page accessed
+2024-05-30 09:51:05,242 INFO 127.0.0.1 - - [30/May/2024 09:51:05] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:51:05,594 INFO 127.0.0.1 - - [30/May/2024 09:51:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:51:05,600 INFO 127.0.0.1 - - [30/May/2024 09:51:05] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:51:05,604 INFO 127.0.0.1 - - [30/May/2024 09:51:05] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:51:05,606 INFO 127.0.0.1 - - [30/May/2024 09:51:05] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:51:05,606 INFO 127.0.0.1 - - [30/May/2024 09:51:05] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:51:05,686 INFO 127.0.0.1 - - [30/May/2024 09:51:05] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:51:05,780 INFO 127.0.0.1 - - [30/May/2024 09:51:05] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:51:17,071 INFO Registration page accessed
+2024-05-30 09:51:17,080 DEBUG Starting new HTTPS connection (1): www.google.com:443
+2024-05-30 09:51:17,288 DEBUG https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2024-05-30 09:51:17,289 WARNING reCAPTCHA verification failed
+2024-05-30 09:51:17,290 INFO 127.0.0.1 - - [30/May/2024 09:51:17] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-05-30 09:51:17,292 INFO Registration page accessed
+2024-05-30 09:51:17,295 INFO 127.0.0.1 - - [30/May/2024 09:51:17] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:51:17,320 INFO 127.0.0.1 - - [30/May/2024 09:51:17] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:51:17,320 INFO 127.0.0.1 - - [30/May/2024 09:51:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:51:17,322 INFO 127.0.0.1 - - [30/May/2024 09:51:17] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:51:17,323 INFO 127.0.0.1 - - [30/May/2024 09:51:17] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:51:17,325 INFO 127.0.0.1 - - [30/May/2024 09:51:17] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:51:17,325 INFO 127.0.0.1 - - [30/May/2024 09:51:17] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:51:17,343 INFO 127.0.0.1 - - [30/May/2024 09:51:17] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:54:49,409 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/routes.py', reloading
+2024-05-30 09:54:49,510 INFO  * Restarting with stat
+2024-05-30 09:54:50,029 WARNING  * Debugger is active!
+2024-05-30 09:54:50,037 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:54:52,343 INFO Registration page accessed
+2024-05-30 09:54:52,376 INFO 127.0.0.1 - - [30/May/2024 09:54:52] "[35m[1mGET /registration HTTP/1.1[0m" 500 -
+2024-05-30 09:54:52,402 INFO 127.0.0.1 - - [30/May/2024 09:54:52] "[36mGET /registration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-30 09:54:52,402 INFO 127.0.0.1 - - [30/May/2024 09:54:52] "[36mGET /registration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-30 09:54:52,427 INFO 127.0.0.1 - - [30/May/2024 09:54:52] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-30 09:54:52,460 INFO 127.0.0.1 - - [30/May/2024 09:54:52] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-30 09:54:53,280 INFO Registration page accessed
+2024-05-30 09:54:53,290 INFO 127.0.0.1 - - [30/May/2024 09:54:53] "[35m[1mGET /registration HTTP/1.1[0m" 500 -
+2024-05-30 09:54:53,329 INFO 127.0.0.1 - - [30/May/2024 09:54:53] "[36mGET /registration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-30 09:54:53,331 INFO 127.0.0.1 - - [30/May/2024 09:54:53] "[36mGET /registration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-30 09:54:53,358 INFO 127.0.0.1 - - [30/May/2024 09:54:53] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-30 09:54:53,376 INFO 127.0.0.1 - - [30/May/2024 09:54:53] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-30 09:55:08,154 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/routes.py', reloading
+2024-05-30 09:55:08,262 INFO  * Restarting with stat
+2024-05-30 09:55:08,629 WARNING  * Debugger is active!
+2024-05-30 09:55:08,633 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:55:10,030 INFO Registration page accessed
+2024-05-30 09:55:10,056 INFO 127.0.0.1 - - [30/May/2024 09:55:10] "[35m[1mGET /registration HTTP/1.1[0m" 500 -
+2024-05-30 09:55:10,074 INFO 127.0.0.1 - - [30/May/2024 09:55:10] "[36mGET /registration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-30 09:55:10,074 INFO 127.0.0.1 - - [30/May/2024 09:55:10] "[36mGET /registration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-30 09:55:10,079 INFO 127.0.0.1 - - [30/May/2024 09:55:10] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-30 09:55:10,095 INFO 127.0.0.1 - - [30/May/2024 09:55:10] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-30 09:55:10,728 INFO Registration page accessed
+2024-05-30 09:55:10,738 INFO 127.0.0.1 - - [30/May/2024 09:55:10] "[35m[1mGET /registration HTTP/1.1[0m" 500 -
+2024-05-30 09:55:10,753 INFO 127.0.0.1 - - [30/May/2024 09:55:10] "[36mGET /registration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-30 09:55:10,754 INFO 127.0.0.1 - - [30/May/2024 09:55:10] "[36mGET /registration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-30 09:55:10,770 INFO 127.0.0.1 - - [30/May/2024 09:55:10] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-30 09:55:10,778 INFO 127.0.0.1 - - [30/May/2024 09:55:10] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-30 09:55:11,291 INFO Registration page accessed
+2024-05-30 09:55:11,304 INFO 127.0.0.1 - - [30/May/2024 09:55:11] "[35m[1mGET /registration HTTP/1.1[0m" 500 -
+2024-05-30 09:55:11,332 INFO 127.0.0.1 - - [30/May/2024 09:55:11] "[36mGET /registration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-30 09:55:11,344 INFO 127.0.0.1 - - [30/May/2024 09:55:11] "[36mGET /registration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-30 09:55:11,382 INFO 127.0.0.1 - - [30/May/2024 09:55:11] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-30 09:55:11,457 INFO 127.0.0.1 - - [30/May/2024 09:55:11] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-30 09:55:11,818 INFO Registration page accessed
+2024-05-30 09:55:11,830 INFO 127.0.0.1 - - [30/May/2024 09:55:11] "[35m[1mGET /registration HTTP/1.1[0m" 500 -
+2024-05-30 09:55:11,844 INFO 127.0.0.1 - - [30/May/2024 09:55:11] "[36mGET /registration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-30 09:55:11,846 INFO 127.0.0.1 - - [30/May/2024 09:55:11] "[36mGET /registration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-30 09:55:11,852 INFO 127.0.0.1 - - [30/May/2024 09:55:11] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-30 09:55:11,868 INFO 127.0.0.1 - - [30/May/2024 09:55:11] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-30 09:55:27,792 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/routes.py', reloading
+2024-05-30 09:55:27,895 INFO  * Restarting with stat
+2024-05-30 09:55:28,295 WARNING  * Debugger is active!
+2024-05-30 09:55:28,300 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:55:35,433 INFO Registration page accessed
+2024-05-30 09:55:35,459 INFO 127.0.0.1 - - [30/May/2024 09:55:35] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:55:35,486 INFO 127.0.0.1 - - [30/May/2024 09:55:35] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:55:35,486 INFO 127.0.0.1 - - [30/May/2024 09:55:35] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:55:35,486 INFO 127.0.0.1 - - [30/May/2024 09:55:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:55:35,487 INFO 127.0.0.1 - - [30/May/2024 09:55:35] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:55:35,489 INFO 127.0.0.1 - - [30/May/2024 09:55:35] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:55:35,490 INFO 127.0.0.1 - - [30/May/2024 09:55:35] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:55:35,514 INFO 127.0.0.1 - - [30/May/2024 09:55:35] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:55:45,737 INFO Registration page accessed
+2024-05-30 09:55:45,744 DEBUG Starting new HTTPS connection (1): www.google.com:443
+2024-05-30 09:55:45,862 DEBUG https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2024-05-30 09:55:45,864 DEBUG Starting new HTTPS connection (1): www.google.com:443
+2024-05-30 09:55:45,952 DEBUG https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2024-05-30 09:55:45,954 WARNING Captcha failed
+2024-05-30 09:55:45,955 INFO 127.0.0.1 - - [30/May/2024 09:55:45] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-05-30 09:55:45,958 INFO Registration page accessed
+2024-05-30 09:55:45,960 INFO 127.0.0.1 - - [30/May/2024 09:55:45] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:55:45,980 INFO 127.0.0.1 - - [30/May/2024 09:55:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:55:45,981 INFO 127.0.0.1 - - [30/May/2024 09:55:45] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:55:45,982 INFO 127.0.0.1 - - [30/May/2024 09:55:45] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:55:45,984 INFO 127.0.0.1 - - [30/May/2024 09:55:45] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:55:45,985 INFO 127.0.0.1 - - [30/May/2024 09:55:45] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:55:45,985 INFO 127.0.0.1 - - [30/May/2024 09:55:45] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:55:45,994 INFO 127.0.0.1 - - [30/May/2024 09:55:45] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:56:10,604 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/routes.py', reloading
+2024-05-30 09:56:10,690 INFO  * Restarting with stat
+2024-05-30 09:56:11,143 WARNING  * Debugger is active!
+2024-05-30 09:56:11,149 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:56:11,154 INFO Registration page accessed
+2024-05-30 09:56:11,162 INFO 127.0.0.1 - - [30/May/2024 09:56:11] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:56:11,194 INFO 127.0.0.1 - - [30/May/2024 09:56:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:56:11,194 INFO 127.0.0.1 - - [30/May/2024 09:56:11] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:56:11,194 INFO 127.0.0.1 - - [30/May/2024 09:56:11] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:56:11,195 INFO 127.0.0.1 - - [30/May/2024 09:56:11] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:56:11,195 INFO 127.0.0.1 - - [30/May/2024 09:56:11] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:56:11,196 INFO 127.0.0.1 - - [30/May/2024 09:56:11] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:56:11,215 INFO 127.0.0.1 - - [30/May/2024 09:56:11] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:57:01,901 INFO Registration page accessed
+2024-05-30 09:57:01,918 INFO 127.0.0.1 - - [30/May/2024 09:57:01] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:57:01,935 INFO 127.0.0.1 - - [30/May/2024 09:57:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:57:01,936 INFO 127.0.0.1 - - [30/May/2024 09:57:01] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:57:01,937 INFO 127.0.0.1 - - [30/May/2024 09:57:01] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:57:01,939 INFO 127.0.0.1 - - [30/May/2024 09:57:01] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:57:01,940 INFO 127.0.0.1 - - [30/May/2024 09:57:01] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:57:01,941 INFO 127.0.0.1 - - [30/May/2024 09:57:01] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:57:01,954 INFO 127.0.0.1 - - [30/May/2024 09:57:01] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:57:13,818 INFO Registration page accessed
+2024-05-30 09:57:13,827 DEBUG Starting new HTTPS connection (1): www.google.com:443
+2024-05-30 09:57:13,935 DEBUG https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2024-05-30 09:57:13,939 WARNING reCAPTCHA verification failed
+2024-05-30 09:57:13,940 INFO 127.0.0.1 - - [30/May/2024 09:57:13] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-05-30 09:57:13,948 INFO Registration page accessed
+2024-05-30 09:57:13,950 INFO 127.0.0.1 - - [30/May/2024 09:57:13] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:57:13,984 INFO 127.0.0.1 - - [30/May/2024 09:57:13] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:57:13,984 INFO 127.0.0.1 - - [30/May/2024 09:57:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:57:13,984 INFO 127.0.0.1 - - [30/May/2024 09:57:13] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:57:13,987 INFO 127.0.0.1 - - [30/May/2024 09:57:13] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:57:13,988 INFO 127.0.0.1 - - [30/May/2024 09:57:13] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:57:13,989 INFO 127.0.0.1 - - [30/May/2024 09:57:13] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:57:14,044 INFO 127.0.0.1 - - [30/May/2024 09:57:14] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:57:28,728 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/routes.py', reloading
+2024-05-30 09:57:28,810 INFO  * Restarting with stat
+2024-05-30 09:57:29,257 WARNING  * Debugger is active!
+2024-05-30 09:57:29,262 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:57:32,127 INFO Registration page accessed
+2024-05-30 09:57:32,153 INFO 127.0.0.1 - - [30/May/2024 09:57:32] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:57:32,181 INFO 127.0.0.1 - - [30/May/2024 09:57:32] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:57:32,182 INFO 127.0.0.1 - - [30/May/2024 09:57:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:57:32,182 INFO 127.0.0.1 - - [30/May/2024 09:57:32] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:57:32,183 INFO 127.0.0.1 - - [30/May/2024 09:57:32] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:57:32,183 INFO 127.0.0.1 - - [30/May/2024 09:57:32] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:57:32,184 INFO 127.0.0.1 - - [30/May/2024 09:57:32] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:57:32,203 INFO 127.0.0.1 - - [30/May/2024 09:57:32] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:57:43,594 INFO Registration page accessed
+2024-05-30 09:57:43,596 INFO 127.0.0.1 - - [30/May/2024 09:57:43] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:57:43,616 INFO 127.0.0.1 - - [30/May/2024 09:57:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:57:43,617 INFO 127.0.0.1 - - [30/May/2024 09:57:43] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:57:43,620 INFO 127.0.0.1 - - [30/May/2024 09:57:43] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:57:43,620 INFO 127.0.0.1 - - [30/May/2024 09:57:43] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:57:43,621 INFO 127.0.0.1 - - [30/May/2024 09:57:43] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:57:43,621 INFO 127.0.0.1 - - [30/May/2024 09:57:43] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:57:43,628 INFO 127.0.0.1 - - [30/May/2024 09:57:43] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:57:55,115 INFO Registration page accessed
+2024-05-30 09:57:55,123 DEBUG Starting new HTTPS connection (1): www.google.com:443
+2024-05-30 09:57:55,224 DEBUG https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2024-05-30 09:57:55,227 DEBUG Starting new HTTPS connection (1): www.google.com:443
+2024-05-30 09:57:55,317 DEBUG https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2024-05-30 09:57:55,318 WARNING Captcha failed
+2024-05-30 09:57:55,319 INFO 127.0.0.1 - - [30/May/2024 09:57:55] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-05-30 09:57:55,321 INFO Registration page accessed
+2024-05-30 09:57:55,325 INFO 127.0.0.1 - - [30/May/2024 09:57:55] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:57:55,356 INFO 127.0.0.1 - - [30/May/2024 09:57:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:57:55,356 INFO 127.0.0.1 - - [30/May/2024 09:57:55] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:57:55,356 INFO 127.0.0.1 - - [30/May/2024 09:57:55] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:57:55,358 INFO 127.0.0.1 - - [30/May/2024 09:57:55] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:57:55,359 INFO 127.0.0.1 - - [30/May/2024 09:57:55] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:57:55,360 INFO 127.0.0.1 - - [30/May/2024 09:57:55] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:57:55,369 INFO 127.0.0.1 - - [30/May/2024 09:57:55] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:58:56,891 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/routes.py', reloading
+2024-05-30 09:58:56,965 INFO  * Restarting with stat
+2024-05-30 09:58:57,383 WARNING  * Debugger is active!
+2024-05-30 09:58:57,388 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:58:58,395 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/routes.py', reloading
+2024-05-30 09:58:58,470 INFO  * Restarting with stat
+2024-05-30 09:58:58,790 WARNING  * Debugger is active!
+2024-05-30 09:58:58,795 INFO  * Debugger PIN: 116-082-326
+2024-05-30 09:58:59,000 INFO Registration page accessed
+2024-05-30 09:58:59,016 INFO 127.0.0.1 - - [30/May/2024 09:58:59] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:58:59,041 INFO 127.0.0.1 - - [30/May/2024 09:58:59] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:58:59,043 INFO 127.0.0.1 - - [30/May/2024 09:58:59] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:58:59,044 INFO 127.0.0.1 - - [30/May/2024 09:58:59] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:58:59,046 INFO 127.0.0.1 - - [30/May/2024 09:58:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:58:59,047 INFO 127.0.0.1 - - [30/May/2024 09:58:59] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:58:59,048 INFO 127.0.0.1 - - [30/May/2024 09:58:59] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:58:59,064 INFO 127.0.0.1 - - [30/May/2024 09:58:59] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 09:59:50,263 INFO Registration page accessed
+2024-05-30 09:59:50,266 INFO 127.0.0.1 - - [30/May/2024 09:59:50] "GET /registration HTTP/1.1" 200 -
+2024-05-30 09:59:50,290 INFO 127.0.0.1 - - [30/May/2024 09:59:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 09:59:50,293 INFO 127.0.0.1 - - [30/May/2024 09:59:50] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 09:59:50,293 INFO 127.0.0.1 - - [30/May/2024 09:59:50] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 09:59:50,296 INFO 127.0.0.1 - - [30/May/2024 09:59:50] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 09:59:50,296 INFO 127.0.0.1 - - [30/May/2024 09:59:50] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 09:59:50,298 INFO 127.0.0.1 - - [30/May/2024 09:59:50] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 09:59:50,315 INFO 127.0.0.1 - - [30/May/2024 09:59:50] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:00:15,126 INFO Registration page accessed
+2024-05-30 10:00:15,135 DEBUG Starting new HTTPS connection (1): www.google.com:443
+2024-05-30 10:00:15,259 DEBUG https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2024-05-30 10:00:15,260 WARNING reCAPTCHA verification failed
+2024-05-30 10:00:15,262 INFO 127.0.0.1 - - [30/May/2024 10:00:15] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-05-30 10:00:15,268 INFO Registration page accessed
+2024-05-30 10:00:15,271 INFO 127.0.0.1 - - [30/May/2024 10:00:15] "GET /registration HTTP/1.1" 200 -
+2024-05-30 10:00:15,306 INFO 127.0.0.1 - - [30/May/2024 10:00:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:00:15,307 INFO 127.0.0.1 - - [30/May/2024 10:00:15] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 10:00:15,307 INFO 127.0.0.1 - - [30/May/2024 10:00:15] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:00:15,310 INFO 127.0.0.1 - - [30/May/2024 10:00:15] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:00:15,310 INFO 127.0.0.1 - - [30/May/2024 10:00:15] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:00:15,311 INFO 127.0.0.1 - - [30/May/2024 10:00:15] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:00:15,359 INFO 127.0.0.1 - - [30/May/2024 10:00:15] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:00:28,281 INFO Registration page accessed
+2024-05-30 10:00:28,283 INFO 127.0.0.1 - - [30/May/2024 10:00:28] "GET /registration HTTP/1.1" 200 -
+2024-05-30 10:00:28,303 INFO 127.0.0.1 - - [30/May/2024 10:00:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:00:28,304 INFO 127.0.0.1 - - [30/May/2024 10:00:28] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 10:00:28,305 INFO 127.0.0.1 - - [30/May/2024 10:00:28] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:00:28,307 INFO 127.0.0.1 - - [30/May/2024 10:00:28] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:00:28,308 INFO 127.0.0.1 - - [30/May/2024 10:00:28] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:00:28,309 INFO 127.0.0.1 - - [30/May/2024 10:00:28] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:00:28,319 INFO 127.0.0.1 - - [30/May/2024 10:00:28] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:00:51,269 INFO Registration page accessed
+2024-05-30 10:00:51,286 INFO 127.0.0.1 - - [30/May/2024 10:00:51] "GET /registration HTTP/1.1" 200 -
+2024-05-30 10:00:51,301 INFO 127.0.0.1 - - [30/May/2024 10:00:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:00:51,302 INFO 127.0.0.1 - - [30/May/2024 10:00:51] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 10:00:51,304 INFO 127.0.0.1 - - [30/May/2024 10:00:51] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:00:51,305 INFO 127.0.0.1 - - [30/May/2024 10:00:51] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:00:51,306 INFO 127.0.0.1 - - [30/May/2024 10:00:51] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:00:51,307 INFO 127.0.0.1 - - [30/May/2024 10:00:51] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:00:51,410 INFO 127.0.0.1 - - [30/May/2024 10:00:51] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:01:05,263 INFO 127.0.0.1 - - [30/May/2024 10:01:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:01:05,264 INFO 127.0.0.1 - - [30/May/2024 10:01:05] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 10:01:05,265 INFO 127.0.0.1 - - [30/May/2024 10:01:05] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:01:05,266 INFO 127.0.0.1 - - [30/May/2024 10:01:05] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:03:12,452 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-30 10:03:12,452 INFO [33mPress CTRL+C to quit[0m
+2024-05-30 10:03:12,453 INFO  * Restarting with stat
+2024-05-30 10:03:12,744 WARNING  * Debugger is active!
+2024-05-30 10:03:12,751 INFO  * Debugger PIN: 116-082-326
+2024-05-30 10:03:14,152 INFO Registration page accessed
+2024-05-30 10:03:14,177 INFO 127.0.0.1 - - [30/May/2024 10:03:14] "GET /registration HTTP/1.1" 200 -
+2024-05-30 10:03:14,219 INFO 127.0.0.1 - - [30/May/2024 10:03:14] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 10:03:14,222 INFO 127.0.0.1 - - [30/May/2024 10:03:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:03:14,223 INFO 127.0.0.1 - - [30/May/2024 10:03:14] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:03:14,223 INFO 127.0.0.1 - - [30/May/2024 10:03:14] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:03:14,223 INFO 127.0.0.1 - - [30/May/2024 10:03:14] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:03:14,224 INFO 127.0.0.1 - - [30/May/2024 10:03:14] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:03:14,277 INFO 127.0.0.1 - - [30/May/2024 10:03:14] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:03:29,902 INFO Registration page accessed
+2024-05-30 10:03:29,910 DEBUG Starting new HTTPS connection (1): www.google.com:443
+2024-05-30 10:03:30,040 DEBUG https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2024-05-30 10:03:30,044 DEBUG Starting new HTTPS connection (1): www.google.com:443
+2024-05-30 10:03:30,138 DEBUG https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2024-05-30 10:03:30,139 WARNING Captcha failed
+2024-05-30 10:03:30,139 INFO 127.0.0.1 - - [30/May/2024 10:03:30] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-05-30 10:03:30,142 INFO Registration page accessed
+2024-05-30 10:03:30,144 INFO 127.0.0.1 - - [30/May/2024 10:03:30] "GET /registration HTTP/1.1" 200 -
+2024-05-30 10:03:30,165 INFO 127.0.0.1 - - [30/May/2024 10:03:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:03:30,167 INFO 127.0.0.1 - - [30/May/2024 10:03:30] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:03:30,168 INFO 127.0.0.1 - - [30/May/2024 10:03:30] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:03:30,169 INFO 127.0.0.1 - - [30/May/2024 10:03:30] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 10:03:30,171 INFO 127.0.0.1 - - [30/May/2024 10:03:30] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:03:30,171 INFO 127.0.0.1 - - [30/May/2024 10:03:30] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:03:30,183 INFO 127.0.0.1 - - [30/May/2024 10:03:30] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:03:50,030 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/routes.py', reloading
+2024-05-30 10:03:50,294 INFO  * Restarting with stat
+2024-05-30 10:03:50,817 WARNING  * Debugger is active!
+2024-05-30 10:03:50,828 INFO  * Debugger PIN: 116-082-326
+2024-05-30 10:03:51,106 INFO Registration page accessed
+2024-05-30 10:03:51,134 INFO 127.0.0.1 - - [30/May/2024 10:03:51] "GET /registration HTTP/1.1" 200 -
+2024-05-30 10:03:51,177 INFO 127.0.0.1 - - [30/May/2024 10:03:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:03:51,182 INFO 127.0.0.1 - - [30/May/2024 10:03:51] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:03:51,182 INFO 127.0.0.1 - - [30/May/2024 10:03:51] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:03:51,182 INFO 127.0.0.1 - - [30/May/2024 10:03:51] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:03:51,182 INFO 127.0.0.1 - - [30/May/2024 10:03:51] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 10:03:51,183 INFO 127.0.0.1 - - [30/May/2024 10:03:51] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:03:51,214 INFO 127.0.0.1 - - [30/May/2024 10:03:51] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:04:01,772 INFO Registration page accessed
+2024-05-30 10:04:01,779 DEBUG Starting new HTTPS connection (1): www.google.com:443
+2024-05-30 10:04:01,874 DEBUG https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2024-05-30 10:04:01,877 WARNING Captcha failed
+2024-05-30 10:04:01,877 INFO 127.0.0.1 - - [30/May/2024 10:04:01] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-05-30 10:04:01,881 INFO Registration page accessed
+2024-05-30 10:04:01,884 INFO 127.0.0.1 - - [30/May/2024 10:04:01] "GET /registration HTTP/1.1" 200 -
+2024-05-30 10:04:01,928 INFO 127.0.0.1 - - [30/May/2024 10:04:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:04:01,928 INFO 127.0.0.1 - - [30/May/2024 10:04:01] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:04:01,929 INFO 127.0.0.1 - - [30/May/2024 10:04:01] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 10:04:01,933 INFO 127.0.0.1 - - [30/May/2024 10:04:01] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:04:01,933 INFO 127.0.0.1 - - [30/May/2024 10:04:01] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:04:01,934 INFO 127.0.0.1 - - [30/May/2024 10:04:01] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:04:01,964 INFO 127.0.0.1 - - [30/May/2024 10:04:01] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:04:07,039 INFO 127.0.0.1 - - [30/May/2024 10:04:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:04:07,040 INFO 127.0.0.1 - - [30/May/2024 10:04:07] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 10:04:07,042 INFO 127.0.0.1 - - [30/May/2024 10:04:07] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:04:07,044 INFO 127.0.0.1 - - [30/May/2024 10:04:07] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:06:47,411 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/routes.py', reloading
+2024-05-30 10:06:47,501 INFO  * Restarting with stat
+2024-05-30 10:06:48,175 WARNING  * Debugger is active!
+2024-05-30 10:06:48,183 INFO  * Debugger PIN: 116-082-326
+2024-05-30 10:06:53,306 INFO Registration page accessed
+2024-05-30 10:06:53,329 INFO 127.0.0.1 - - [30/May/2024 10:06:53] "GET /registration HTTP/1.1" 200 -
+2024-05-30 10:06:53,389 INFO 127.0.0.1 - - [30/May/2024 10:06:53] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:06:53,390 INFO 127.0.0.1 - - [30/May/2024 10:06:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:06:53,390 INFO 127.0.0.1 - - [30/May/2024 10:06:53] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:06:53,391 INFO 127.0.0.1 - - [30/May/2024 10:06:53] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:06:53,391 INFO 127.0.0.1 - - [30/May/2024 10:06:53] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 10:06:53,392 INFO 127.0.0.1 - - [30/May/2024 10:06:53] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:06:53,443 INFO 127.0.0.1 - - [30/May/2024 10:06:53] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:07:05,450 INFO Registration page accessed
+2024-05-30 10:07:05,749 INFO 127.0.0.1 - - [30/May/2024 10:07:05] "[35m[1mPOST /registration HTTP/1.1[0m" 500 -
+2024-05-30 10:07:05,774 INFO 127.0.0.1 - - [30/May/2024 10:07:05] "[36mGET /registration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-30 10:07:05,775 INFO 127.0.0.1 - - [30/May/2024 10:07:05] "[36mGET /registration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-30 10:07:05,807 INFO 127.0.0.1 - - [30/May/2024 10:07:05] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-30 10:07:05,838 INFO 127.0.0.1 - - [30/May/2024 10:07:05] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-30 10:07:21,540 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/routes.py', reloading
+2024-05-30 10:07:21,632 INFO  * Restarting with stat
+2024-05-30 10:07:22,286 WARNING  * Debugger is active!
+2024-05-30 10:07:22,291 INFO  * Debugger PIN: 116-082-326
+2024-05-30 10:07:24,042 INFO Registration page accessed
+2024-05-30 10:07:24,436 INFO 127.0.0.1 - - [30/May/2024 10:07:24] "[35m[1mPOST /registration HTTP/1.1[0m" 500 -
+2024-05-30 10:07:24,524 INFO 127.0.0.1 - - [30/May/2024 10:07:24] "[36mGET /registration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-30 10:07:24,526 INFO 127.0.0.1 - - [30/May/2024 10:07:24] "[36mGET /registration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-30 10:07:24,561 INFO 127.0.0.1 - - [30/May/2024 10:07:24] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-30 10:07:24,598 INFO 127.0.0.1 - - [30/May/2024 10:07:24] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-30 10:07:28,328 INFO Registration page accessed
+2024-05-30 10:07:28,604 INFO 127.0.0.1 - - [30/May/2024 10:07:28] "[35m[1mPOST /registration HTTP/1.1[0m" 500 -
+2024-05-30 10:07:28,708 INFO 127.0.0.1 - - [30/May/2024 10:07:28] "[36mGET /registration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-30 10:07:28,708 INFO 127.0.0.1 - - [30/May/2024 10:07:28] "[36mGET /registration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-30 10:07:28,728 INFO 127.0.0.1 - - [30/May/2024 10:07:28] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-30 10:07:28,741 INFO 127.0.0.1 - - [30/May/2024 10:07:28] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-30 10:07:51,518 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/routes.py', reloading
+2024-05-30 10:07:51,614 INFO  * Restarting with stat
+2024-05-30 10:07:52,090 WARNING  * Debugger is active!
+2024-05-30 10:07:52,096 INFO  * Debugger PIN: 116-082-326
+2024-05-30 10:07:52,955 INFO Registration page accessed
+2024-05-30 10:07:53,281 INFO 127.0.0.1 - - [30/May/2024 10:07:53] "[35m[1mPOST /registration HTTP/1.1[0m" 500 -
+2024-05-30 10:07:53,302 INFO 127.0.0.1 - - [30/May/2024 10:07:53] "[36mGET /registration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-30 10:07:53,303 INFO 127.0.0.1 - - [30/May/2024 10:07:53] "[36mGET /registration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-30 10:07:53,323 INFO 127.0.0.1 - - [30/May/2024 10:07:53] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-30 10:07:53,348 INFO 127.0.0.1 - - [30/May/2024 10:07:53] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-30 10:08:55,701 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/models.py', reloading
+2024-05-30 10:08:55,804 INFO  * Restarting with stat
+2024-05-30 10:09:14,342 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-30 10:09:14,342 INFO [33mPress CTRL+C to quit[0m
+2024-05-30 10:09:14,343 INFO  * Restarting with stat
+2024-05-30 10:09:14,673 WARNING  * Debugger is active!
+2024-05-30 10:09:14,680 INFO  * Debugger PIN: 116-082-326
+2024-05-30 10:09:16,942 INFO Registration page accessed
+2024-05-30 10:09:16,993 INFO 127.0.0.1 - - [30/May/2024 10:09:16] "POST /registration HTTP/1.1" 200 -
+2024-05-30 10:09:17,024 INFO 127.0.0.1 - - [30/May/2024 10:09:17] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 10:09:17,024 INFO 127.0.0.1 - - [30/May/2024 10:09:17] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:09:17,027 INFO 127.0.0.1 - - [30/May/2024 10:09:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:09:17,030 INFO 127.0.0.1 - - [30/May/2024 10:09:17] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:09:17,030 INFO 127.0.0.1 - - [30/May/2024 10:09:17] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:09:17,034 INFO 127.0.0.1 - - [30/May/2024 10:09:17] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:09:17,065 INFO 127.0.0.1 - - [30/May/2024 10:09:17] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:09:20,162 INFO Registration page accessed
+2024-05-30 10:09:20,164 INFO 127.0.0.1 - - [30/May/2024 10:09:20] "GET /registration HTTP/1.1" 200 -
+2024-05-30 10:09:20,182 INFO 127.0.0.1 - - [30/May/2024 10:09:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:09:20,185 INFO 127.0.0.1 - - [30/May/2024 10:09:20] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 10:09:20,186 INFO 127.0.0.1 - - [30/May/2024 10:09:20] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:09:20,188 INFO 127.0.0.1 - - [30/May/2024 10:09:20] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:09:20,190 INFO 127.0.0.1 - - [30/May/2024 10:09:20] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:09:20,191 INFO 127.0.0.1 - - [30/May/2024 10:09:20] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:09:20,211 INFO 127.0.0.1 - - [30/May/2024 10:09:20] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:09:31,946 INFO Registration page accessed
+2024-05-30 10:09:31,951 INFO 127.0.0.1 - - [30/May/2024 10:09:31] "POST /registration HTTP/1.1" 200 -
+2024-05-30 10:09:31,976 INFO 127.0.0.1 - - [30/May/2024 10:09:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:09:31,979 INFO 127.0.0.1 - - [30/May/2024 10:09:31] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:09:31,980 INFO 127.0.0.1 - - [30/May/2024 10:09:31] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 10:09:31,981 INFO 127.0.0.1 - - [30/May/2024 10:09:31] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:09:31,983 INFO 127.0.0.1 - - [30/May/2024 10:09:31] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:09:31,983 INFO 127.0.0.1 - - [30/May/2024 10:09:31] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:09:31,997 INFO 127.0.0.1 - - [30/May/2024 10:09:31] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:09:54,011 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/__init__.py', reloading
+2024-05-30 10:09:54,086 INFO  * Restarting with stat
+2024-05-30 10:09:54,603 WARNING  * Debugger is active!
+2024-05-30 10:09:54,610 INFO  * Debugger PIN: 116-082-326
+2024-05-30 10:09:54,615 INFO Registration page accessed
+2024-05-30 10:09:54,625 INFO 127.0.0.1 - - [30/May/2024 10:09:54] "GET /registration HTTP/1.1" 200 -
+2024-05-30 10:09:54,660 INFO 127.0.0.1 - - [30/May/2024 10:09:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:09:54,666 INFO 127.0.0.1 - - [30/May/2024 10:09:54] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:09:54,666 INFO 127.0.0.1 - - [30/May/2024 10:09:54] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:09:54,667 INFO 127.0.0.1 - - [30/May/2024 10:09:54] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 10:09:54,667 INFO 127.0.0.1 - - [30/May/2024 10:09:54] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:09:54,667 INFO 127.0.0.1 - - [30/May/2024 10:09:54] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:09:54,692 INFO 127.0.0.1 - - [30/May/2024 10:09:54] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:10:03,687 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/__init__.py', reloading
+2024-05-30 10:10:03,769 INFO  * Restarting with stat
+2024-05-30 10:10:04,256 WARNING  * Debugger is active!
+2024-05-30 10:10:04,261 INFO  * Debugger PIN: 116-082-326
+2024-05-30 10:10:05,239 INFO Registration page accessed
+2024-05-30 10:10:05,263 INFO 127.0.0.1 - - [30/May/2024 10:10:05] "GET /registration HTTP/1.1" 200 -
+2024-05-30 10:10:05,302 INFO 127.0.0.1 - - [30/May/2024 10:10:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:10:05,305 INFO 127.0.0.1 - - [30/May/2024 10:10:05] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 10:10:05,305 INFO 127.0.0.1 - - [30/May/2024 10:10:05] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:10:05,306 INFO 127.0.0.1 - - [30/May/2024 10:10:05] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:10:05,306 INFO 127.0.0.1 - - [30/May/2024 10:10:05] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:10:05,306 INFO 127.0.0.1 - - [30/May/2024 10:10:05] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:10:05,340 INFO 127.0.0.1 - - [30/May/2024 10:10:05] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:10:15,335 INFO Registration page accessed
+2024-05-30 10:10:16,988 INFO New user registered: timglazerr@gmail.com
+2024-05-30 10:10:16,991 INFO 127.0.0.1 - - [30/May/2024 10:10:16] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-05-30 10:10:16,995 INFO Login page accessed
+2024-05-30 10:10:17,011 INFO 127.0.0.1 - - [30/May/2024 10:10:17] "GET /login HTTP/1.1" 200 -
+2024-05-30 10:10:17,054 INFO 127.0.0.1 - - [30/May/2024 10:10:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:10:17,059 INFO 127.0.0.1 - - [30/May/2024 10:10:17] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:10:17,059 INFO 127.0.0.1 - - [30/May/2024 10:10:17] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:10:17,060 INFO 127.0.0.1 - - [30/May/2024 10:10:17] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:10:17,061 INFO 127.0.0.1 - - [30/May/2024 10:10:17] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:10:17,062 INFO 127.0.0.1 - - [30/May/2024 10:10:17] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-05-30 10:10:17,093 INFO 127.0.0.1 - - [30/May/2024 10:10:17] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:10:27,780 INFO 127.0.0.1 - - [30/May/2024 10:10:27] "[32mGET /verify_email/eyJhbGciOiJIUzUxMiIsImlhdCI6MTcxNzA1NjYxNSwiZXhwIjoxNzE3MDU4NDE1fQ.eyJ1c2VyX2lkIjoxfQ.W2SW0fsfk85bdXmaZHQFLQrIDPgEzQ0W0owrz7vw8PdET45KtYeGrKFrcOwaOKUth23wazi8WnMpqyjK_fVNrQ HTTP/1.1[0m" 302 -
+2024-05-30 10:10:27,784 INFO Login page accessed
+2024-05-30 10:10:27,787 INFO 127.0.0.1 - - [30/May/2024 10:10:27] "GET /login HTTP/1.1" 200 -
+2024-05-30 10:10:27,810 INFO 127.0.0.1 - - [30/May/2024 10:10:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:10:27,812 INFO 127.0.0.1 - - [30/May/2024 10:10:27] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:10:27,812 INFO 127.0.0.1 - - [30/May/2024 10:10:27] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-05-30 10:10:27,816 INFO 127.0.0.1 - - [30/May/2024 10:10:27] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:10:27,816 INFO 127.0.0.1 - - [30/May/2024 10:10:27] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:10:27,816 INFO 127.0.0.1 - - [30/May/2024 10:10:27] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:10:27,852 INFO 127.0.0.1 - - [30/May/2024 10:10:27] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:10:33,452 INFO Login page accessed
+2024-05-30 10:10:33,454 INFO 127.0.0.1 - - [30/May/2024 10:10:33] "GET /login HTTP/1.1" 200 -
+2024-05-30 10:10:33,481 INFO 127.0.0.1 - - [30/May/2024 10:10:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:10:33,486 INFO 127.0.0.1 - - [30/May/2024 10:10:33] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:10:33,488 INFO 127.0.0.1 - - [30/May/2024 10:10:33] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-05-30 10:10:33,490 INFO 127.0.0.1 - - [30/May/2024 10:10:33] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:10:33,490 INFO 127.0.0.1 - - [30/May/2024 10:10:33] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:10:33,491 INFO 127.0.0.1 - - [30/May/2024 10:10:33] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:10:33,513 INFO 127.0.0.1 - - [30/May/2024 10:10:33] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:10:36,014 INFO Login page accessed
+2024-05-30 10:10:36,015 INFO 127.0.0.1 - - [30/May/2024 10:10:36] "GET /login HTTP/1.1" 200 -
+2024-05-30 10:10:36,052 INFO 127.0.0.1 - - [30/May/2024 10:10:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:10:36,055 INFO 127.0.0.1 - - [30/May/2024 10:10:36] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-05-30 10:10:36,055 INFO 127.0.0.1 - - [30/May/2024 10:10:36] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:10:36,057 INFO 127.0.0.1 - - [30/May/2024 10:10:36] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:10:36,058 INFO 127.0.0.1 - - [30/May/2024 10:10:36] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:10:36,059 INFO 127.0.0.1 - - [30/May/2024 10:10:36] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:10:36,099 INFO 127.0.0.1 - - [30/May/2024 10:10:36] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:11:12,786 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/models.py', reloading
+2024-05-30 10:11:12,866 INFO  * Restarting with stat
+2024-05-30 10:11:13,365 WARNING  * Debugger is active!
+2024-05-30 10:11:13,372 INFO  * Debugger PIN: 116-082-326
+2024-05-30 10:11:35,031 INFO Login page accessed
+2024-05-30 10:11:35,058 INFO 127.0.0.1 - - [30/May/2024 10:11:35] "GET /login HTTP/1.1" 200 -
+2024-05-30 10:11:35,088 INFO 127.0.0.1 - - [30/May/2024 10:11:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:11:35,088 INFO 127.0.0.1 - - [30/May/2024 10:11:35] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:11:35,089 INFO 127.0.0.1 - - [30/May/2024 10:11:35] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:11:35,089 INFO 127.0.0.1 - - [30/May/2024 10:11:35] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:11:35,089 INFO 127.0.0.1 - - [30/May/2024 10:11:35] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-05-30 10:11:35,091 INFO 127.0.0.1 - - [30/May/2024 10:11:35] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:11:35,106 INFO 127.0.0.1 - - [30/May/2024 10:11:35] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:11:36,563 INFO 127.0.0.1 - - [30/May/2024 10:11:36] "GET /reset_password HTTP/1.1" 200 -
+2024-05-30 10:11:36,582 INFO 127.0.0.1 - - [30/May/2024 10:11:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:11:36,584 INFO 127.0.0.1 - - [30/May/2024 10:11:36] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-05-30 10:11:36,585 INFO 127.0.0.1 - - [30/May/2024 10:11:36] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:11:36,585 INFO 127.0.0.1 - - [30/May/2024 10:11:36] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:11:36,589 INFO 127.0.0.1 - - [30/May/2024 10:11:36] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:11:36,591 INFO 127.0.0.1 - - [30/May/2024 10:11:36] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:11:36,591 INFO 127.0.0.1 - - [30/May/2024 10:11:36] "GET /static/css/reset_password.css HTTP/1.1" 200 -
+2024-05-30 10:11:36,617 INFO 127.0.0.1 - - [30/May/2024 10:11:36] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:11:39,630 INFO 127.0.0.1 - - [30/May/2024 10:11:39] "[32mPOST /reset_password HTTP/1.1[0m" 302 -
+2024-05-30 10:11:39,634 INFO Login page accessed
+2024-05-30 10:11:39,637 INFO 127.0.0.1 - - [30/May/2024 10:11:39] "GET /login HTTP/1.1" 200 -
+2024-05-30 10:11:39,692 INFO 127.0.0.1 - - [30/May/2024 10:11:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:11:39,693 INFO 127.0.0.1 - - [30/May/2024 10:11:39] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-05-30 10:11:39,694 INFO 127.0.0.1 - - [30/May/2024 10:11:39] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:11:39,694 INFO 127.0.0.1 - - [30/May/2024 10:11:39] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:11:39,697 INFO 127.0.0.1 - - [30/May/2024 10:11:39] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:11:39,698 INFO 127.0.0.1 - - [30/May/2024 10:11:39] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:11:39,706 INFO 127.0.0.1 - - [30/May/2024 10:11:39] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:11:50,393 INFO 127.0.0.1 - - [30/May/2024 10:11:50] "GET /reset_password/eyJhbGciOiJIUzUxMiIsImlhdCI6MTcxNzA1NjY5OCwiZXhwIjoxNzE3MDU4NDk4fQ.eyJ1c2VyX2lkIjoxfQ.jau03MYHORIY1EZNx_e8SA24I3Qv8QlC6kDOTPAsBLz9nv9KCnaWxw6Th-wTesJWrrL1sqPwXHx2QZ4bEJr5eA HTTP/1.1" 200 -
+2024-05-30 10:11:50,410 INFO 127.0.0.1 - - [30/May/2024 10:11:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:11:50,412 INFO 127.0.0.1 - - [30/May/2024 10:11:50] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:11:50,414 INFO 127.0.0.1 - - [30/May/2024 10:11:50] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:11:50,416 INFO 127.0.0.1 - - [30/May/2024 10:11:50] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:11:50,418 INFO 127.0.0.1 - - [30/May/2024 10:11:50] "GET /static/css/reset_token.css HTTP/1.1" 200 -
+2024-05-30 10:11:50,420 INFO 127.0.0.1 - - [30/May/2024 10:11:50] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:11:50,451 INFO 127.0.0.1 - - [30/May/2024 10:11:50] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:11:56,121 INFO 127.0.0.1 - - [30/May/2024 10:11:56] "[32mPOST /reset_password/eyJhbGciOiJIUzUxMiIsImlhdCI6MTcxNzA1NjY5OCwiZXhwIjoxNzE3MDU4NDk4fQ.eyJ1c2VyX2lkIjoxfQ.jau03MYHORIY1EZNx_e8SA24I3Qv8QlC6kDOTPAsBLz9nv9KCnaWxw6Th-wTesJWrrL1sqPwXHx2QZ4bEJr5eA HTTP/1.1[0m" 302 -
+2024-05-30 10:11:56,123 INFO Login page accessed
+2024-05-30 10:11:56,124 INFO 127.0.0.1 - - [30/May/2024 10:11:56] "GET /login HTTP/1.1" 200 -
+2024-05-30 10:11:56,263 INFO 127.0.0.1 - - [30/May/2024 10:11:56] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-05-30 10:11:56,264 INFO 127.0.0.1 - - [30/May/2024 10:11:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:11:56,266 INFO 127.0.0.1 - - [30/May/2024 10:11:56] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:11:56,266 INFO 127.0.0.1 - - [30/May/2024 10:11:56] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:11:56,267 INFO 127.0.0.1 - - [30/May/2024 10:11:56] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:11:56,268 INFO 127.0.0.1 - - [30/May/2024 10:11:56] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:11:56,307 INFO 127.0.0.1 - - [30/May/2024 10:11:56] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:12:00,777 INFO Login page accessed
+2024-05-30 10:12:00,779 INFO 127.0.0.1 - - [30/May/2024 10:12:00] "GET /login HTTP/1.1" 200 -
+2024-05-30 10:12:00,795 INFO 127.0.0.1 - - [30/May/2024 10:12:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:12:00,796 INFO 127.0.0.1 - - [30/May/2024 10:12:00] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-05-30 10:12:00,799 INFO 127.0.0.1 - - [30/May/2024 10:12:00] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:12:00,799 INFO 127.0.0.1 - - [30/May/2024 10:12:00] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:12:00,800 INFO 127.0.0.1 - - [30/May/2024 10:12:00] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:12:00,801 INFO 127.0.0.1 - - [30/May/2024 10:12:00] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:12:00,817 INFO 127.0.0.1 - - [30/May/2024 10:12:00] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:12:04,673 INFO Login page accessed
+2024-05-30 10:12:04,945 INFO User logged in: timglazerr@gmail.com
+2024-05-30 10:12:04,946 INFO 127.0.0.1 - - [30/May/2024 10:12:04] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-05-30 10:12:04,962 INFO Home page accessed
+2024-05-30 10:12:04,967 INFO 127.0.0.1 - - [30/May/2024 10:12:04] "GET /home HTTP/1.1" 200 -
+2024-05-30 10:12:05,075 INFO 127.0.0.1 - - [30/May/2024 10:12:05] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:12:05,076 INFO 127.0.0.1 - - [30/May/2024 10:12:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:12:05,076 INFO 127.0.0.1 - - [30/May/2024 10:12:05] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:12:05,077 INFO 127.0.0.1 - - [30/May/2024 10:12:05] "[36mGET /static/css/homepage.css HTTP/1.1[0m" 304 -
+2024-05-30 10:12:05,078 INFO 127.0.0.1 - - [30/May/2024 10:12:05] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:12:05,081 INFO 127.0.0.1 - - [30/May/2024 10:12:05] "[36mGET /static/img/phone-flip-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 10:12:05,081 INFO 127.0.0.1 - - [30/May/2024 10:12:05] "[36mGET /static/img/audia4.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:12:05,082 INFO 127.0.0.1 - - [30/May/2024 10:12:05] "[36mGET /static/img/car-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 10:12:05,083 INFO 127.0.0.1 - - [30/May/2024 10:12:05] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:12:05,083 INFO 127.0.0.1 - - [30/May/2024 10:12:05] "[36mGET /static/img/main-img.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:12:05,086 INFO 127.0.0.1 - - [30/May/2024 10:12:05] "[36mGET /static/img/bmwM3.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:12:05,086 INFO 127.0.0.1 - - [30/May/2024 10:12:05] "[36mGET /static/img/octavia.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:12:05,121 INFO User verification page accessed for user ID: 1
+2024-05-30 10:12:05,130 INFO 127.0.0.1 - - [30/May/2024 10:12:05] "GET /verified HTTP/1.1" 200 -
+2024-05-30 10:12:05,782 INFO Products page accessed
+2024-05-30 10:12:05,795 INFO 127.0.0.1 - - [30/May/2024 10:12:05] "GET /product HTTP/1.1" 200 -
+2024-05-30 10:12:05,813 INFO 127.0.0.1 - - [30/May/2024 10:12:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:12:05,815 INFO 127.0.0.1 - - [30/May/2024 10:12:05] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:12:05,816 INFO 127.0.0.1 - - [30/May/2024 10:12:05] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:12:05,818 INFO 127.0.0.1 - - [30/May/2024 10:12:05] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:12:05,820 INFO 127.0.0.1 - - [30/May/2024 10:12:05] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:12:05,821 INFO 127.0.0.1 - - [30/May/2024 10:12:05] "GET /static/css/product.css HTTP/1.1" 200 -
+2024-05-30 10:12:05,836 INFO User verification page accessed for user ID: 1
+2024-05-30 10:12:05,837 INFO 127.0.0.1 - - [30/May/2024 10:12:05] "GET /verified HTTP/1.1" 200 -
+2024-05-30 10:17:57,639 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/models.py', reloading
+2024-05-30 10:17:57,750 INFO  * Restarting with stat
+2024-05-30 10:17:58,270 WARNING  * Debugger is active!
+2024-05-30 10:17:58,276 INFO  * Debugger PIN: 116-082-326
+2024-05-30 10:18:17,437 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/__init__.py', reloading
+2024-05-30 10:18:17,522 INFO  * Restarting with stat
+2024-05-30 10:18:17,983 WARNING  * Debugger is active!
+2024-05-30 10:18:17,991 INFO  * Debugger PIN: 116-082-326
+2024-05-30 10:18:25,065 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/__init__.py', reloading
+2024-05-30 10:18:25,151 INFO  * Restarting with stat
+2024-05-30 10:18:25,529 WARNING  * Debugger is active!
+2024-05-30 10:18:25,536 INFO  * Debugger PIN: 116-082-326
+2024-05-30 10:18:26,293 INFO Products page accessed
+2024-05-30 10:18:26,329 INFO 127.0.0.1 - - [30/May/2024 10:18:26] "GET /product HTTP/1.1" 200 -
+2024-05-30 10:18:26,371 INFO 127.0.0.1 - - [30/May/2024 10:18:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:18:26,371 INFO 127.0.0.1 - - [30/May/2024 10:18:26] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:18:26,373 INFO 127.0.0.1 - - [30/May/2024 10:18:26] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:18:26,375 INFO 127.0.0.1 - - [30/May/2024 10:18:26] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:18:26,375 INFO 127.0.0.1 - - [30/May/2024 10:18:26] "[36mGET /static/css/product.css HTTP/1.1[0m" 304 -
+2024-05-30 10:18:26,376 INFO 127.0.0.1 - - [30/May/2024 10:18:26] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:18:26,402 INFO 127.0.0.1 - - [30/May/2024 10:18:26] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:19:50,353 INFO Products page accessed
+2024-05-30 10:19:50,360 INFO 127.0.0.1 - - [30/May/2024 10:19:50] "GET /product HTTP/1.1" 200 -
+2024-05-30 10:19:50,387 INFO 127.0.0.1 - - [30/May/2024 10:19:50] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:19:50,388 INFO 127.0.0.1 - - [30/May/2024 10:19:50] "[36mGET /static/css/product.css HTTP/1.1[0m" 304 -
+2024-05-30 10:19:50,388 INFO 127.0.0.1 - - [30/May/2024 10:19:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:19:50,390 INFO 127.0.0.1 - - [30/May/2024 10:19:50] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:19:50,390 INFO 127.0.0.1 - - [30/May/2024 10:19:50] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:19:50,393 INFO 127.0.0.1 - - [30/May/2024 10:19:50] "GET /static/cars/3series.jpg HTTP/1.1" 200 -
+2024-05-30 10:19:50,395 INFO 127.0.0.1 - - [30/May/2024 10:19:50] "GET /static/cars/cclass.jpg HTTP/1.1" 200 -
+2024-05-30 10:19:50,395 INFO 127.0.0.1 - - [30/May/2024 10:19:50] "GET /static/cars/a4.jpg HTTP/1.1" 200 -
+2024-05-30 10:19:50,396 INFO 127.0.0.1 - - [30/May/2024 10:19:50] "GET /static/cars/focus.jpg HTTP/1.1" 200 -
+2024-05-30 10:19:50,398 INFO 127.0.0.1 - - [30/May/2024 10:19:50] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:19:50,399 INFO 127.0.0.1 - - [30/May/2024 10:19:50] "GET /static/cars/clio.jpg HTTP/1.1" 200 -
+2024-05-30 10:19:50,403 INFO 127.0.0.1 - - [30/May/2024 10:19:50] "GET /static/cars/308.jpg HTTP/1.1" 200 -
+2024-05-30 10:19:50,406 INFO 127.0.0.1 - - [30/May/2024 10:19:50] "GET /static/cars/golf.jpg HTTP/1.1" 200 -
+2024-05-30 10:19:50,407 INFO 127.0.0.1 - - [30/May/2024 10:19:50] "GET /static/cars/passat.jpg HTTP/1.1" 200 -
+2024-05-30 10:19:50,412 INFO 127.0.0.1 - - [30/May/2024 10:19:50] "GET /static/cars/superb.jpg HTTP/1.1" 200 -
+2024-05-30 10:19:50,413 INFO 127.0.0.1 - - [30/May/2024 10:19:50] "GET /static/cars/octavia.jpg HTTP/1.1" 200 -
+2024-05-30 10:19:50,426 INFO 127.0.0.1 - - [30/May/2024 10:19:50] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:19:56,500 INFO Registration page accessed
+2024-05-30 10:19:56,522 INFO 127.0.0.1 - - [30/May/2024 10:19:56] "GET /registration HTTP/1.1" 200 -
+2024-05-30 10:19:56,547 INFO 127.0.0.1 - - [30/May/2024 10:19:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:19:56,551 INFO 127.0.0.1 - - [30/May/2024 10:19:56] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:19:56,551 INFO 127.0.0.1 - - [30/May/2024 10:19:56] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:19:56,552 INFO 127.0.0.1 - - [30/May/2024 10:19:56] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 10:19:56,553 INFO 127.0.0.1 - - [30/May/2024 10:19:56] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:19:56,555 INFO 127.0.0.1 - - [30/May/2024 10:19:56] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:19:56,654 INFO 127.0.0.1 - - [30/May/2024 10:19:56] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:20:21,809 INFO Registration page accessed
+2024-05-30 10:20:21,851 INFO 127.0.0.1 - - [30/May/2024 10:20:21] "POST /registration HTTP/1.1" 200 -
+2024-05-30 10:20:21,867 INFO 127.0.0.1 - - [30/May/2024 10:20:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:20:21,869 INFO 127.0.0.1 - - [30/May/2024 10:20:21] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:20:21,869 INFO 127.0.0.1 - - [30/May/2024 10:20:21] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 10:20:21,870 INFO 127.0.0.1 - - [30/May/2024 10:20:21] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:20:21,871 INFO 127.0.0.1 - - [30/May/2024 10:20:21] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:20:21,871 INFO 127.0.0.1 - - [30/May/2024 10:20:21] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:20:21,889 INFO 127.0.0.1 - - [30/May/2024 10:20:21] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:20:37,426 INFO Registration page accessed
+2024-05-30 10:20:38,806 INFO New user registered: timglazerr@gmail.com
+2024-05-30 10:20:38,810 INFO 127.0.0.1 - - [30/May/2024 10:20:38] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-05-30 10:20:38,816 INFO Login page accessed
+2024-05-30 10:20:38,819 INFO 127.0.0.1 - - [30/May/2024 10:20:38] "[32mGET /login HTTP/1.1[0m" 302 -
+2024-05-30 10:20:38,825 INFO Home page accessed
+2024-05-30 10:20:38,839 INFO 127.0.0.1 - - [30/May/2024 10:20:38] "GET /home HTTP/1.1" 200 -
+2024-05-30 10:20:38,906 INFO 127.0.0.1 - - [30/May/2024 10:20:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:20:38,910 INFO 127.0.0.1 - - [30/May/2024 10:20:38] "[36mGET /static/css/homepage.css HTTP/1.1[0m" 304 -
+2024-05-30 10:20:38,910 INFO 127.0.0.1 - - [30/May/2024 10:20:38] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:20:38,914 INFO 127.0.0.1 - - [30/May/2024 10:20:38] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:20:38,914 INFO 127.0.0.1 - - [30/May/2024 10:20:38] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:20:38,916 INFO 127.0.0.1 - - [30/May/2024 10:20:38] "[36mGET /static/img/main-img.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:20:38,917 INFO 127.0.0.1 - - [30/May/2024 10:20:38] "[36mGET /static/img/phone-flip-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 10:20:38,919 INFO 127.0.0.1 - - [30/May/2024 10:20:38] "[36mGET /static/img/car-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 10:20:38,921 INFO 127.0.0.1 - - [30/May/2024 10:20:38] "[36mGET /static/img/audia4.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:20:38,923 INFO 127.0.0.1 - - [30/May/2024 10:20:38] "[36mGET /static/img/bmwM3.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:20:38,925 INFO 127.0.0.1 - - [30/May/2024 10:20:38] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:20:38,926 INFO 127.0.0.1 - - [30/May/2024 10:20:38] "[36mGET /static/img/octavia.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:20:38,960 INFO User verification page accessed for user ID: 1
+2024-05-30 10:20:38,975 INFO 127.0.0.1 - - [30/May/2024 10:20:38] "GET /verified HTTP/1.1" 200 -
+2024-05-30 10:20:50,115 INFO 127.0.0.1 - - [30/May/2024 10:20:50] "[32mGET /verify_email/eyJhbGciOiJIUzUxMiIsImlhdCI6MTcxNzA1NzIzNywiZXhwIjoxNzE3MDU5MDM3fQ.eyJ1c2VyX2lkIjoxfQ.8Mw0L-xrM9xoT0lRbHtJCFb_IaCaOZrntVxEK3a5A1RETxWm1Flefmp86gvy19xKTCbypVE5rg61KT4DEnwjCg HTTP/1.1[0m" 302 -
+2024-05-30 10:20:50,117 INFO Login page accessed
+2024-05-30 10:20:50,118 INFO 127.0.0.1 - - [30/May/2024 10:20:50] "[32mGET /login HTTP/1.1[0m" 302 -
+2024-05-30 10:20:50,120 INFO Home page accessed
+2024-05-30 10:20:50,124 INFO 127.0.0.1 - - [30/May/2024 10:20:50] "GET /home HTTP/1.1" 200 -
+2024-05-30 10:20:50,146 INFO 127.0.0.1 - - [30/May/2024 10:20:50] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:20:50,146 INFO 127.0.0.1 - - [30/May/2024 10:20:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:20:50,149 INFO 127.0.0.1 - - [30/May/2024 10:20:50] "[36mGET /static/css/homepage.css HTTP/1.1[0m" 304 -
+2024-05-30 10:20:50,151 INFO 127.0.0.1 - - [30/May/2024 10:20:50] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:20:50,156 INFO 127.0.0.1 - - [30/May/2024 10:20:50] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:20:50,156 INFO 127.0.0.1 - - [30/May/2024 10:20:50] "[36mGET /static/img/car-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 10:20:50,157 INFO 127.0.0.1 - - [30/May/2024 10:20:50] "[36mGET /static/img/main-img.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:20:50,160 INFO 127.0.0.1 - - [30/May/2024 10:20:50] "[36mGET /static/img/audia4.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:20:50,161 INFO 127.0.0.1 - - [30/May/2024 10:20:50] "[36mGET /static/img/phone-flip-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 10:20:50,164 INFO 127.0.0.1 - - [30/May/2024 10:20:50] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:20:50,165 INFO 127.0.0.1 - - [30/May/2024 10:20:50] "[36mGET /static/img/octavia.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:20:50,166 INFO 127.0.0.1 - - [30/May/2024 10:20:50] "[36mGET /static/img/bmwM3.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:20:50,448 INFO User verification page accessed for user ID: 1
+2024-05-30 10:20:50,450 INFO 127.0.0.1 - - [30/May/2024 10:20:50] "GET /verified HTTP/1.1" 200 -
+2024-05-30 10:21:01,791 INFO User logged out
+2024-05-30 10:21:01,798 INFO 127.0.0.1 - - [30/May/2024 10:21:01] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-05-30 10:21:01,801 INFO Home page accessed
+2024-05-30 10:21:01,803 INFO 127.0.0.1 - - [30/May/2024 10:21:01] "GET /home HTTP/1.1" 200 -
+2024-05-30 10:21:01,822 INFO 127.0.0.1 - - [30/May/2024 10:21:01] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:21:01,823 INFO 127.0.0.1 - - [30/May/2024 10:21:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:21:01,824 INFO 127.0.0.1 - - [30/May/2024 10:21:01] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:21:01,824 INFO 127.0.0.1 - - [30/May/2024 10:21:01] "[36mGET /static/css/homepage.css HTTP/1.1[0m" 304 -
+2024-05-30 10:21:01,828 INFO 127.0.0.1 - - [30/May/2024 10:21:01] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:21:01,829 INFO 127.0.0.1 - - [30/May/2024 10:21:01] "[36mGET /static/img/main-img.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:21:01,830 INFO 127.0.0.1 - - [30/May/2024 10:21:01] "[36mGET /static/img/car-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 10:21:01,831 INFO 127.0.0.1 - - [30/May/2024 10:21:01] "[36mGET /static/img/phone-flip-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 10:21:01,834 INFO 127.0.0.1 - - [30/May/2024 10:21:01] "[36mGET /static/img/benefits.svg HTTP/1.1[0m" 304 -
+2024-05-30 10:21:01,834 INFO 127.0.0.1 - - [30/May/2024 10:21:01] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:21:01,836 INFO 127.0.0.1 - - [30/May/2024 10:21:01] "[36mGET /static/img/audia4.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:21:01,838 INFO 127.0.0.1 - - [30/May/2024 10:21:01] "[36mGET /static/img/octavia.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:21:01,838 INFO 127.0.0.1 - - [30/May/2024 10:21:01] "[36mGET /static/img/bmwM3.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:21:01,840 INFO 127.0.0.1 - - [30/May/2024 10:21:01] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:21:03,146 INFO Registration page accessed
+2024-05-30 10:21:03,149 INFO 127.0.0.1 - - [30/May/2024 10:21:03] "GET /registration HTTP/1.1" 200 -
+2024-05-30 10:21:03,172 INFO 127.0.0.1 - - [30/May/2024 10:21:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:21:03,175 INFO 127.0.0.1 - - [30/May/2024 10:21:03] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 10:21:03,176 INFO 127.0.0.1 - - [30/May/2024 10:21:03] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:21:03,176 INFO 127.0.0.1 - - [30/May/2024 10:21:03] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:21:03,179 INFO 127.0.0.1 - - [30/May/2024 10:21:03] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:21:03,180 INFO 127.0.0.1 - - [30/May/2024 10:21:03] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:21:03,189 INFO 127.0.0.1 - - [30/May/2024 10:21:03] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:21:04,553 INFO Registration page accessed
+2024-05-30 10:21:04,555 INFO 127.0.0.1 - - [30/May/2024 10:21:04] "GET /registration HTTP/1.1" 200 -
+2024-05-30 10:21:04,592 INFO 127.0.0.1 - - [30/May/2024 10:21:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:21:04,594 INFO 127.0.0.1 - - [30/May/2024 10:21:04] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:21:04,594 INFO 127.0.0.1 - - [30/May/2024 10:21:04] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 10:21:04,596 INFO 127.0.0.1 - - [30/May/2024 10:21:04] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:21:04,598 INFO 127.0.0.1 - - [30/May/2024 10:21:04] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:21:04,598 INFO 127.0.0.1 - - [30/May/2024 10:21:04] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:21:04,608 INFO 127.0.0.1 - - [30/May/2024 10:21:04] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:21:27,680 INFO Registration page accessed
+2024-05-30 10:21:28,916 INFO New user registered: timothyglazer@gmail.com
+2024-05-30 10:21:28,919 INFO 127.0.0.1 - - [30/May/2024 10:21:28] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-05-30 10:21:28,924 INFO Login page accessed
+2024-05-30 10:21:28,943 INFO 127.0.0.1 - - [30/May/2024 10:21:28] "GET /login HTTP/1.1" 200 -
+2024-05-30 10:21:29,007 INFO 127.0.0.1 - - [30/May/2024 10:21:29] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:21:29,009 INFO 127.0.0.1 - - [30/May/2024 10:21:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:21:29,010 INFO 127.0.0.1 - - [30/May/2024 10:21:29] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-05-30 10:21:29,012 INFO 127.0.0.1 - - [30/May/2024 10:21:29] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:21:29,013 INFO 127.0.0.1 - - [30/May/2024 10:21:29] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:21:29,013 INFO 127.0.0.1 - - [30/May/2024 10:21:29] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:21:29,032 INFO 127.0.0.1 - - [30/May/2024 10:21:29] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:21:39,969 INFO 127.0.0.1 - - [30/May/2024 10:21:39] "[32mGET /verify_email/eyJhbGciOiJIUzUxMiIsImlhdCI6MTcxNzA1NzI4NywiZXhwIjoxNzE3MDU5MDg3fQ.eyJ1c2VyX2lkIjoyfQ.MDSawS87wdE-ZR5hw17HpkQMrfPa_05PG8ZevJN8lryphWiqoHT62X0sP4tOqSx6rGSzmstJDvSiuf5AZWQ3Pw HTTP/1.1[0m" 302 -
+2024-05-30 10:21:39,972 INFO Login page accessed
+2024-05-30 10:21:39,975 INFO 127.0.0.1 - - [30/May/2024 10:21:39] "GET /login HTTP/1.1" 200 -
+2024-05-30 10:21:40,018 INFO 127.0.0.1 - - [30/May/2024 10:21:40] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-05-30 10:21:40,018 INFO 127.0.0.1 - - [30/May/2024 10:21:40] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:21:40,019 INFO 127.0.0.1 - - [30/May/2024 10:21:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:21:40,020 INFO 127.0.0.1 - - [30/May/2024 10:21:40] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:21:40,029 INFO 127.0.0.1 - - [30/May/2024 10:21:40] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:21:40,030 INFO 127.0.0.1 - - [30/May/2024 10:21:40] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:21:40,077 INFO 127.0.0.1 - - [30/May/2024 10:21:40] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:21:57,959 INFO Login page accessed
+2024-05-30 10:21:57,962 INFO 127.0.0.1 - - [30/May/2024 10:21:57] "GET /login HTTP/1.1" 200 -
+2024-05-30 10:21:57,973 INFO 127.0.0.1 - - [30/May/2024 10:21:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:21:57,976 INFO 127.0.0.1 - - [30/May/2024 10:21:57] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-05-30 10:21:57,977 INFO 127.0.0.1 - - [30/May/2024 10:21:57] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:21:57,979 INFO 127.0.0.1 - - [30/May/2024 10:21:57] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:21:57,980 INFO 127.0.0.1 - - [30/May/2024 10:21:57] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:21:57,981 INFO 127.0.0.1 - - [30/May/2024 10:21:57] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:21:58,008 INFO 127.0.0.1 - - [30/May/2024 10:21:58] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:22:06,840 INFO Login page accessed
+2024-05-30 10:22:07,116 INFO User logged in: timothyglazer@gmail.com
+2024-05-30 10:22:07,118 INFO 127.0.0.1 - - [30/May/2024 10:22:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-05-30 10:22:07,122 INFO Home page accessed
+2024-05-30 10:22:07,124 INFO 127.0.0.1 - - [30/May/2024 10:22:07] "GET /home HTTP/1.1" 200 -
+2024-05-30 10:22:07,182 INFO 127.0.0.1 - - [30/May/2024 10:22:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:22:07,182 INFO 127.0.0.1 - - [30/May/2024 10:22:07] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:22:07,183 INFO 127.0.0.1 - - [30/May/2024 10:22:07] "[36mGET /static/css/homepage.css HTTP/1.1[0m" 304 -
+2024-05-30 10:22:07,189 INFO 127.0.0.1 - - [30/May/2024 10:22:07] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:22:07,189 INFO 127.0.0.1 - - [30/May/2024 10:22:07] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:22:07,189 INFO 127.0.0.1 - - [30/May/2024 10:22:07] "[36mGET /static/img/main-img.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:22:07,191 INFO 127.0.0.1 - - [30/May/2024 10:22:07] "[36mGET /static/img/car-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 10:22:07,193 INFO 127.0.0.1 - - [30/May/2024 10:22:07] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:22:07,193 INFO 127.0.0.1 - - [30/May/2024 10:22:07] "[36mGET /static/img/phone-flip-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 10:22:07,194 INFO 127.0.0.1 - - [30/May/2024 10:22:07] "[36mGET /static/img/audia4.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:22:07,195 INFO 127.0.0.1 - - [30/May/2024 10:22:07] "[36mGET /static/img/bmwM3.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:22:07,196 INFO 127.0.0.1 - - [30/May/2024 10:22:07] "[36mGET /static/img/octavia.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:22:07,260 INFO User verification page accessed for user ID: 2
+2024-05-30 10:22:07,261 INFO 127.0.0.1 - - [30/May/2024 10:22:07] "GET /verified HTTP/1.1" 200 -
+2024-05-30 10:22:08,911 INFO Products page accessed
+2024-05-30 10:22:08,915 INFO 127.0.0.1 - - [30/May/2024 10:22:08] "GET /product HTTP/1.1" 200 -
+2024-05-30 10:22:08,939 INFO 127.0.0.1 - - [30/May/2024 10:22:08] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:22:08,940 INFO 127.0.0.1 - - [30/May/2024 10:22:08] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:22:08,941 INFO 127.0.0.1 - - [30/May/2024 10:22:08] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:22:08,944 INFO 127.0.0.1 - - [30/May/2024 10:22:08] "[36mGET /static/css/product.css HTTP/1.1[0m" 304 -
+2024-05-30 10:22:08,944 INFO 127.0.0.1 - - [30/May/2024 10:22:08] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:22:08,947 INFO 127.0.0.1 - - [30/May/2024 10:22:08] "[36mGET /static/cars/3series.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:22:08,948 INFO 127.0.0.1 - - [30/May/2024 10:22:08] "[36mGET /static/cars/a4.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:22:08,949 INFO 127.0.0.1 - - [30/May/2024 10:22:08] "[36mGET /static/cars/cclass.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:22:08,951 INFO 127.0.0.1 - - [30/May/2024 10:22:08] "[36mGET /static/cars/focus.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:22:08,954 INFO 127.0.0.1 - - [30/May/2024 10:22:08] "[36mGET /static/cars/clio.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:22:08,958 INFO 127.0.0.1 - - [30/May/2024 10:22:08] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:22:08,960 INFO 127.0.0.1 - - [30/May/2024 10:22:08] "[36mGET /static/cars/passat.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:22:08,960 INFO 127.0.0.1 - - [30/May/2024 10:22:08] "[36mGET /static/cars/308.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:22:08,960 INFO 127.0.0.1 - - [30/May/2024 10:22:08] "[36mGET /static/cars/golf.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:22:08,963 INFO 127.0.0.1 - - [30/May/2024 10:22:08] "[36mGET /static/cars/superb.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:22:08,963 INFO 127.0.0.1 - - [30/May/2024 10:22:08] "[36mGET /static/cars/octavia.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:22:08,974 INFO User verification page accessed for user ID: 2
+2024-05-30 10:22:08,976 INFO 127.0.0.1 - - [30/May/2024 10:22:08] "GET /verified HTTP/1.1" 200 -
+2024-05-30 10:22:10,462 INFO Appointment booking page accessed
+2024-05-30 10:22:10,471 INFO 127.0.0.1 - - [30/May/2024 10:22:10] "GET /book_appointment HTTP/1.1" 200 -
+2024-05-30 10:22:10,487 INFO 127.0.0.1 - - [30/May/2024 10:22:10] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:22:10,487 INFO 127.0.0.1 - - [30/May/2024 10:22:10] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:22:10,489 INFO 127.0.0.1 - - [30/May/2024 10:22:10] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:22:10,492 INFO 127.0.0.1 - - [30/May/2024 10:22:10] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:22:10,493 INFO 127.0.0.1 - - [30/May/2024 10:22:10] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:22:10,494 INFO 127.0.0.1 - - [30/May/2024 10:22:10] "GET /static/css/appointment.css HTTP/1.1" 200 -
+2024-05-30 10:22:10,510 INFO User verification page accessed for user ID: 2
+2024-05-30 10:22:10,511 INFO 127.0.0.1 - - [30/May/2024 10:22:10] "GET /verified HTTP/1.1" 200 -
+2024-05-30 10:24:01,249 INFO Products page accessed
+2024-05-30 10:24:01,281 INFO 127.0.0.1 - - [30/May/2024 10:24:01] "GET /product HTTP/1.1" 200 -
+2024-05-30 10:24:01,297 INFO 127.0.0.1 - - [30/May/2024 10:24:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:24:01,300 INFO 127.0.0.1 - - [30/May/2024 10:24:01] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:24:01,301 INFO 127.0.0.1 - - [30/May/2024 10:24:01] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:24:01,304 INFO 127.0.0.1 - - [30/May/2024 10:24:01] "[36mGET /static/cars/3series.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:24:01,305 INFO 127.0.0.1 - - [30/May/2024 10:24:01] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:24:01,305 INFO 127.0.0.1 - - [30/May/2024 10:24:01] "[36mGET /static/css/product.css HTTP/1.1[0m" 304 -
+2024-05-30 10:24:01,308 INFO 127.0.0.1 - - [30/May/2024 10:24:01] "[36mGET /static/cars/a4.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:24:01,310 INFO 127.0.0.1 - - [30/May/2024 10:24:01] "[36mGET /static/cars/cclass.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:24:01,314 INFO 127.0.0.1 - - [30/May/2024 10:24:01] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:24:01,317 INFO 127.0.0.1 - - [30/May/2024 10:24:01] "[36mGET /static/cars/focus.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:24:01,322 INFO 127.0.0.1 - - [30/May/2024 10:24:01] "[36mGET /static/cars/passat.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:24:01,323 INFO 127.0.0.1 - - [30/May/2024 10:24:01] "[36mGET /static/cars/clio.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:24:01,324 INFO 127.0.0.1 - - [30/May/2024 10:24:01] "[36mGET /static/cars/308.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:24:01,327 INFO 127.0.0.1 - - [30/May/2024 10:24:01] "[36mGET /static/cars/superb.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:24:01,328 INFO 127.0.0.1 - - [30/May/2024 10:24:01] "[36mGET /static/cars/golf.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:24:01,329 INFO 127.0.0.1 - - [30/May/2024 10:24:01] "[36mGET /static/cars/octavia.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:24:01,331 INFO User verification page accessed for user ID: 2
+2024-05-30 10:24:01,342 INFO 127.0.0.1 - - [30/May/2024 10:24:01] "GET /verified HTTP/1.1" 200 -
+2024-05-30 10:24:02,620 INFO Account page accessed
+2024-05-30 10:24:02,628 INFO 127.0.0.1 - - [30/May/2024 10:24:02] "GET /account HTTP/1.1" 200 -
+2024-05-30 10:24:02,647 INFO 127.0.0.1 - - [30/May/2024 10:24:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:24:02,649 INFO 127.0.0.1 - - [30/May/2024 10:24:02] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:24:02,651 INFO 127.0.0.1 - - [30/May/2024 10:24:02] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:24:02,652 INFO 127.0.0.1 - - [30/May/2024 10:24:02] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:24:02,653 INFO 127.0.0.1 - - [30/May/2024 10:24:02] "GET /static/css/account.css HTTP/1.1" 200 -
+2024-05-30 10:24:02,653 INFO 127.0.0.1 - - [30/May/2024 10:24:02] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:24:02,669 INFO User verification page accessed for user ID: 2
+2024-05-30 10:24:02,670 INFO 127.0.0.1 - - [30/May/2024 10:24:02] "GET /verified HTTP/1.1" 200 -
+2024-05-30 10:24:02,684 INFO 127.0.0.1 - - [30/May/2024 10:24:02] "[36mGET /static/css/account.css HTTP/1.1[0m" 304 -
+2024-05-30 10:24:04,013 INFO Delete account page accessed
+2024-05-30 10:24:04,016 INFO 127.0.0.1 - - [30/May/2024 10:24:04] "GET /delete_account HTTP/1.1" 200 -
+2024-05-30 10:24:04,020 INFO 127.0.0.1 - - [30/May/2024 10:24:04] "[36mGET /static/css/account.css HTTP/1.1[0m" 304 -
+2024-05-30 10:24:05,732 INFO Delete account page accessed
+2024-05-30 10:24:05,745 INFO 127.0.0.1 - - [30/May/2024 10:24:05] "[32mPOST /delete_account HTTP/1.1[0m" 302 -
+2024-05-30 10:24:05,747 INFO Registration page accessed
+2024-05-30 10:24:05,748 INFO 127.0.0.1 - - [30/May/2024 10:24:05] "GET /registration HTTP/1.1" 200 -
+2024-05-30 10:24:05,770 INFO 127.0.0.1 - - [30/May/2024 10:24:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:24:05,770 INFO 127.0.0.1 - - [30/May/2024 10:24:05] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:24:05,771 INFO 127.0.0.1 - - [30/May/2024 10:24:05] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:24:05,774 INFO 127.0.0.1 - - [30/May/2024 10:24:05] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:24:05,774 INFO 127.0.0.1 - - [30/May/2024 10:24:05] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:24:05,776 INFO 127.0.0.1 - - [30/May/2024 10:24:05] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 10:24:05,791 INFO 127.0.0.1 - - [30/May/2024 10:24:05] "[31m[1mGET /delete_account HTTP/1.1[0m" 401 -
+2024-05-30 10:24:07,216 INFO Registration page accessed
+2024-05-30 10:24:07,217 INFO 127.0.0.1 - - [30/May/2024 10:24:07] "GET /registration HTTP/1.1" 200 -
+2024-05-30 10:24:07,240 INFO 127.0.0.1 - - [30/May/2024 10:24:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:24:07,245 INFO 127.0.0.1 - - [30/May/2024 10:24:07] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:24:07,245 INFO 127.0.0.1 - - [30/May/2024 10:24:07] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:24:07,246 INFO 127.0.0.1 - - [30/May/2024 10:24:07] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 10:24:07,246 INFO 127.0.0.1 - - [30/May/2024 10:24:07] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:24:07,247 INFO 127.0.0.1 - - [30/May/2024 10:24:07] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:24:07,264 INFO 127.0.0.1 - - [30/May/2024 10:24:07] "[31m[1mGET /delete_account HTTP/1.1[0m" 401 -
+2024-05-30 10:24:37,456 INFO Registration page accessed
+2024-05-30 10:24:37,465 INFO 127.0.0.1 - - [30/May/2024 10:24:37] "POST /registration HTTP/1.1" 200 -
+2024-05-30 10:24:37,511 INFO 127.0.0.1 - - [30/May/2024 10:24:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:24:37,512 INFO 127.0.0.1 - - [30/May/2024 10:24:37] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 10:24:37,513 INFO 127.0.0.1 - - [30/May/2024 10:24:37] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:24:37,515 INFO 127.0.0.1 - - [30/May/2024 10:24:37] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:24:37,516 INFO 127.0.0.1 - - [30/May/2024 10:24:37] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:24:37,516 INFO 127.0.0.1 - - [30/May/2024 10:24:37] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:24:37,548 INFO 127.0.0.1 - - [30/May/2024 10:24:37] "[31m[1mGET /delete_account HTTP/1.1[0m" 401 -
+2024-05-30 10:24:46,541 INFO Registration page accessed
+2024-05-30 10:24:46,546 INFO 127.0.0.1 - - [30/May/2024 10:24:46] "POST /registration HTTP/1.1" 200 -
+2024-05-30 10:24:46,566 INFO 127.0.0.1 - - [30/May/2024 10:24:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:24:46,569 INFO 127.0.0.1 - - [30/May/2024 10:24:46] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 10:24:46,572 INFO 127.0.0.1 - - [30/May/2024 10:24:46] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:24:46,572 INFO 127.0.0.1 - - [30/May/2024 10:24:46] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:24:46,573 INFO 127.0.0.1 - - [30/May/2024 10:24:46] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:24:46,573 INFO 127.0.0.1 - - [30/May/2024 10:24:46] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:24:46,589 INFO 127.0.0.1 - - [30/May/2024 10:24:46] "[31m[1mGET /delete_account HTTP/1.1[0m" 401 -
+2024-05-30 10:24:55,771 INFO Registration page accessed
+2024-05-30 10:24:57,172 INFO New user registered: timothyglazer@gmail.com
+2024-05-30 10:24:57,174 INFO 127.0.0.1 - - [30/May/2024 10:24:57] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-05-30 10:24:57,178 INFO Login page accessed
+2024-05-30 10:24:57,180 INFO 127.0.0.1 - - [30/May/2024 10:24:57] "GET /login HTTP/1.1" 200 -
+2024-05-30 10:24:57,257 INFO 127.0.0.1 - - [30/May/2024 10:24:57] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:24:57,257 INFO 127.0.0.1 - - [30/May/2024 10:24:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:24:57,259 INFO 127.0.0.1 - - [30/May/2024 10:24:57] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:24:57,262 INFO 127.0.0.1 - - [30/May/2024 10:24:57] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:24:57,263 INFO 127.0.0.1 - - [30/May/2024 10:24:57] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:24:57,264 INFO 127.0.0.1 - - [30/May/2024 10:24:57] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-05-30 10:24:57,294 INFO 127.0.0.1 - - [30/May/2024 10:24:57] "[31m[1mGET /delete_account HTTP/1.1[0m" 401 -
+2024-05-30 10:25:08,363 INFO Login page accessed
+2024-05-30 10:25:08,636 INFO User logged in: timothyglazer@gmail.com
+2024-05-30 10:25:08,637 INFO 127.0.0.1 - - [30/May/2024 10:25:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-05-30 10:25:08,641 INFO Home page accessed
+2024-05-30 10:25:08,643 INFO 127.0.0.1 - - [30/May/2024 10:25:08] "GET /home HTTP/1.1" 200 -
+2024-05-30 10:25:08,699 INFO 127.0.0.1 - - [30/May/2024 10:25:08] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:25:08,700 INFO 127.0.0.1 - - [30/May/2024 10:25:08] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:25:08,700 INFO 127.0.0.1 - - [30/May/2024 10:25:08] "[36mGET /static/css/homepage.css HTTP/1.1[0m" 304 -
+2024-05-30 10:25:08,700 INFO 127.0.0.1 - - [30/May/2024 10:25:08] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:25:08,702 INFO 127.0.0.1 - - [30/May/2024 10:25:08] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:25:08,703 INFO 127.0.0.1 - - [30/May/2024 10:25:08] "[36mGET /static/img/main-img.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:25:08,706 INFO 127.0.0.1 - - [30/May/2024 10:25:08] "[36mGET /static/img/car-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 10:25:08,707 INFO 127.0.0.1 - - [30/May/2024 10:25:08] "[36mGET /static/img/audia4.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:25:08,708 INFO 127.0.0.1 - - [30/May/2024 10:25:08] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:25:08,709 INFO 127.0.0.1 - - [30/May/2024 10:25:08] "[36mGET /static/img/phone-flip-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 10:25:08,711 INFO 127.0.0.1 - - [30/May/2024 10:25:08] "[36mGET /static/img/bmwM3.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:25:08,714 INFO 127.0.0.1 - - [30/May/2024 10:25:08] "[36mGET /static/img/octavia.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:25:08,743 INFO Delete account page accessed
+2024-05-30 10:25:08,744 INFO 127.0.0.1 - - [30/May/2024 10:25:08] "GET /delete_account HTTP/1.1" 200 -
+2024-05-30 10:26:42,554 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/routes.py', reloading
+2024-05-30 10:26:42,642 INFO  * Restarting with stat
+2024-05-30 10:26:43,210 WARNING  * Debugger is active!
+2024-05-30 10:26:43,218 INFO  * Debugger PIN: 116-082-326
+2024-05-30 10:26:44,229 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/routes.py', reloading
+2024-05-30 10:26:44,320 INFO  * Restarting with stat
+2024-05-30 10:26:44,699 WARNING  * Debugger is active!
+2024-05-30 10:26:44,705 INFO  * Debugger PIN: 116-082-326
+2024-05-30 10:26:59,914 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/__init__.py', reloading
+2024-05-30 10:26:59,973 INFO  * Restarting with stat
+2024-05-30 10:27:00,461 WARNING  * Debugger is active!
+2024-05-30 10:27:00,467 INFO  * Debugger PIN: 116-082-326
+2024-05-30 10:27:02,483 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/__init__.py', reloading
+2024-05-30 10:27:02,563 INFO  * Restarting with stat
+2024-05-30 10:27:02,867 WARNING  * Debugger is active!
+2024-05-30 10:27:02,872 INFO  * Debugger PIN: 116-082-326
+2024-05-30 10:27:04,819 INFO Home page accessed
+2024-05-30 10:27:04,851 INFO 127.0.0.1 - - [30/May/2024 10:27:04] "GET /home HTTP/1.1" 200 -
+2024-05-30 10:27:04,883 INFO 127.0.0.1 - - [30/May/2024 10:27:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:27:04,884 INFO 127.0.0.1 - - [30/May/2024 10:27:04] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:27:04,885 INFO 127.0.0.1 - - [30/May/2024 10:27:04] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:27:04,885 INFO 127.0.0.1 - - [30/May/2024 10:27:04] "[36mGET /static/img/main-img.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:27:04,885 INFO 127.0.0.1 - - [30/May/2024 10:27:04] "[36mGET /static/css/homepage.css HTTP/1.1[0m" 304 -
+2024-05-30 10:27:04,885 INFO 127.0.0.1 - - [30/May/2024 10:27:04] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:27:04,889 INFO 127.0.0.1 - - [30/May/2024 10:27:04] "[36mGET /static/img/car-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 10:27:04,890 INFO 127.0.0.1 - - [30/May/2024 10:27:04] "[36mGET /static/img/phone-flip-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 10:27:04,890 INFO 127.0.0.1 - - [30/May/2024 10:27:04] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:27:04,891 INFO 127.0.0.1 - - [30/May/2024 10:27:04] "[36mGET /static/img/benefits.svg HTTP/1.1[0m" 304 -
+2024-05-30 10:27:04,892 INFO 127.0.0.1 - - [30/May/2024 10:27:04] "[36mGET /static/img/audia4.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:27:04,893 INFO 127.0.0.1 - - [30/May/2024 10:27:04] "[36mGET /static/img/octavia.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:27:04,893 INFO 127.0.0.1 - - [30/May/2024 10:27:04] "[36mGET /static/img/bmwM3.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:27:04,939 INFO 127.0.0.1 - - [30/May/2024 10:27:04] "[31m[1mGET /delete_account HTTP/1.1[0m" 401 -
+2024-05-30 10:27:09,834 INFO Registration page accessed
+2024-05-30 10:27:09,869 INFO 127.0.0.1 - - [30/May/2024 10:27:09] "GET /registration HTTP/1.1" 200 -
+2024-05-30 10:27:09,889 INFO 127.0.0.1 - - [30/May/2024 10:27:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:27:09,894 INFO 127.0.0.1 - - [30/May/2024 10:27:09] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 10:27:09,894 INFO 127.0.0.1 - - [30/May/2024 10:27:09] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:27:09,895 INFO 127.0.0.1 - - [30/May/2024 10:27:09] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:27:09,895 INFO 127.0.0.1 - - [30/May/2024 10:27:09] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:27:09,895 INFO 127.0.0.1 - - [30/May/2024 10:27:09] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:27:09,972 INFO 127.0.0.1 - - [30/May/2024 10:27:09] "[31m[1mGET /delete_account HTTP/1.1[0m" 401 -
+2024-05-30 10:27:19,845 INFO Registration page accessed
+2024-05-30 10:27:21,217 INFO New user registered: timothyglazer@gmail.com
+2024-05-30 10:27:21,220 INFO 127.0.0.1 - - [30/May/2024 10:27:21] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-05-30 10:27:21,227 INFO Login page accessed
+2024-05-30 10:27:21,248 INFO 127.0.0.1 - - [30/May/2024 10:27:21] "GET /login HTTP/1.1" 200 -
+2024-05-30 10:27:21,325 INFO 127.0.0.1 - - [30/May/2024 10:27:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:27:21,326 INFO 127.0.0.1 - - [30/May/2024 10:27:21] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:27:21,328 INFO 127.0.0.1 - - [30/May/2024 10:27:21] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:27:21,329 INFO 127.0.0.1 - - [30/May/2024 10:27:21] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-05-30 10:27:21,331 INFO 127.0.0.1 - - [30/May/2024 10:27:21] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:27:21,332 INFO 127.0.0.1 - - [30/May/2024 10:27:21] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:27:21,367 INFO 127.0.0.1 - - [30/May/2024 10:27:21] "[31m[1mGET /delete_account HTTP/1.1[0m" 401 -
+2024-05-30 10:27:29,997 INFO Login page accessed
+2024-05-30 10:27:30,279 WARNING Login failed for email: timothyglazer@gmail.com
+2024-05-30 10:27:30,280 INFO 127.0.0.1 - - [30/May/2024 10:27:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-05-30 10:27:30,282 INFO Login page accessed
+2024-05-30 10:27:30,284 INFO 127.0.0.1 - - [30/May/2024 10:27:30] "GET /login HTTP/1.1" 200 -
+2024-05-30 10:27:30,305 INFO 127.0.0.1 - - [30/May/2024 10:27:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:27:30,306 INFO 127.0.0.1 - - [30/May/2024 10:27:30] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-05-30 10:27:30,307 INFO 127.0.0.1 - - [30/May/2024 10:27:30] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:27:30,308 INFO 127.0.0.1 - - [30/May/2024 10:27:30] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:27:30,309 INFO 127.0.0.1 - - [30/May/2024 10:27:30] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:27:30,309 INFO 127.0.0.1 - - [30/May/2024 10:27:30] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:27:30,329 INFO 127.0.0.1 - - [30/May/2024 10:27:30] "[31m[1mGET /delete_account HTTP/1.1[0m" 401 -
+2024-05-30 10:27:34,762 INFO 127.0.0.1 - - [30/May/2024 10:27:34] "[32mGET /verify_email/eyJhbGciOiJIUzUxMiIsImlhdCI6MTcxNzA1NzY0MCwiZXhwIjoxNzE3MDU5NDQwfQ.eyJ1c2VyX2lkIjoxfQ.yqhLYYXyNbNFJZvLUc2XUnSUnGvKUS3hw6WoHmnX_NLWFjNkbyhLMF9OfqrMad8bmUqWr0V6p-FOKSy9epmwsA HTTP/1.1[0m" 302 -
+2024-05-30 10:27:34,764 INFO Login page accessed
+2024-05-30 10:27:34,768 INFO 127.0.0.1 - - [30/May/2024 10:27:34] "GET /login HTTP/1.1" 200 -
+2024-05-30 10:27:34,788 INFO 127.0.0.1 - - [30/May/2024 10:27:34] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-05-30 10:27:34,791 INFO 127.0.0.1 - - [30/May/2024 10:27:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:27:34,797 INFO 127.0.0.1 - - [30/May/2024 10:27:34] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:27:34,798 INFO 127.0.0.1 - - [30/May/2024 10:27:34] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:27:34,798 INFO 127.0.0.1 - - [30/May/2024 10:27:34] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:27:34,806 INFO 127.0.0.1 - - [30/May/2024 10:27:34] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:27:34,889 INFO 127.0.0.1 - - [30/May/2024 10:27:34] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:27:38,318 INFO Login page accessed
+2024-05-30 10:27:38,323 INFO 127.0.0.1 - - [30/May/2024 10:27:38] "GET /login HTTP/1.1" 200 -
+2024-05-30 10:27:38,403 INFO 127.0.0.1 - - [30/May/2024 10:27:38] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-05-30 10:27:38,404 INFO 127.0.0.1 - - [30/May/2024 10:27:38] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:27:38,405 INFO 127.0.0.1 - - [30/May/2024 10:27:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:27:38,405 INFO 127.0.0.1 - - [30/May/2024 10:27:38] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:27:38,408 INFO 127.0.0.1 - - [30/May/2024 10:27:38] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:27:38,409 INFO 127.0.0.1 - - [30/May/2024 10:27:38] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:27:38,434 INFO 127.0.0.1 - - [30/May/2024 10:27:38] "[31m[1mGET /delete_account HTTP/1.1[0m" 401 -
+2024-05-30 10:27:43,245 INFO Login page accessed
+2024-05-30 10:27:43,529 INFO User logged in: timothyglazer@gmail.com
+2024-05-30 10:27:43,530 INFO 127.0.0.1 - - [30/May/2024 10:27:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-05-30 10:27:43,534 INFO Home page accessed
+2024-05-30 10:27:43,535 INFO 127.0.0.1 - - [30/May/2024 10:27:43] "GET /home HTTP/1.1" 200 -
+2024-05-30 10:27:43,590 INFO 127.0.0.1 - - [30/May/2024 10:27:43] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:27:43,591 INFO 127.0.0.1 - - [30/May/2024 10:27:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:27:43,592 INFO 127.0.0.1 - - [30/May/2024 10:27:43] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:27:43,592 INFO 127.0.0.1 - - [30/May/2024 10:27:43] "[36mGET /static/css/homepage.css HTTP/1.1[0m" 304 -
+2024-05-30 10:27:43,594 INFO 127.0.0.1 - - [30/May/2024 10:27:43] "[36mGET /static/img/audia4.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:27:43,594 INFO 127.0.0.1 - - [30/May/2024 10:27:43] "[36mGET /static/img/main-img.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:27:43,594 INFO 127.0.0.1 - - [30/May/2024 10:27:43] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:27:43,596 INFO 127.0.0.1 - - [30/May/2024 10:27:43] "[36mGET /static/img/car-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 10:27:43,596 INFO 127.0.0.1 - - [30/May/2024 10:27:43] "[36mGET /static/img/phone-flip-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 10:27:43,599 INFO 127.0.0.1 - - [30/May/2024 10:27:43] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:27:43,600 INFO 127.0.0.1 - - [30/May/2024 10:27:43] "[36mGET /static/img/bmwM3.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:27:43,601 INFO 127.0.0.1 - - [30/May/2024 10:27:43] "[36mGET /static/img/octavia.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:27:43,646 INFO Delete account page accessed
+2024-05-30 10:27:43,661 INFO 127.0.0.1 - - [30/May/2024 10:27:43] "GET /delete_account HTTP/1.1" 200 -
+2024-05-30 10:30:14,583 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/routes.py', reloading
+2024-05-30 10:30:14,699 INFO  * Restarting with stat
+2024-05-30 10:52:35,778 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-30 10:52:35,778 INFO [33mPress CTRL+C to quit[0m
+2024-05-30 10:52:35,779 INFO  * Restarting with stat
+2024-05-30 10:52:36,169 WARNING  * Debugger is active!
+2024-05-30 10:52:36,177 INFO  * Debugger PIN: 116-082-326
+2024-05-30 10:52:38,562 INFO Home page accessed
+2024-05-30 10:52:38,605 INFO 127.0.0.1 - - [30/May/2024 10:52:38] "GET /home HTTP/1.1" 200 -
+2024-05-30 10:52:38,661 INFO 127.0.0.1 - - [30/May/2024 10:52:38] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:52:38,661 INFO 127.0.0.1 - - [30/May/2024 10:52:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:52:38,661 INFO 127.0.0.1 - - [30/May/2024 10:52:38] "[36mGET /static/img/main-img.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:52:38,662 INFO 127.0.0.1 - - [30/May/2024 10:52:38] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:52:38,662 INFO 127.0.0.1 - - [30/May/2024 10:52:38] "[36mGET /static/css/homepage.css HTTP/1.1[0m" 304 -
+2024-05-30 10:52:38,666 INFO 127.0.0.1 - - [30/May/2024 10:52:38] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:52:38,670 INFO 127.0.0.1 - - [30/May/2024 10:52:38] "[36mGET /static/img/car-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 10:52:38,672 INFO 127.0.0.1 - - [30/May/2024 10:52:38] "[36mGET /static/img/phone-flip-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 10:52:38,673 INFO 127.0.0.1 - - [30/May/2024 10:52:38] "[36mGET /static/img/audia4.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:52:38,674 INFO 127.0.0.1 - - [30/May/2024 10:52:38] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:52:38,676 INFO 127.0.0.1 - - [30/May/2024 10:52:38] "[36mGET /static/img/bmwM3.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:52:38,676 INFO 127.0.0.1 - - [30/May/2024 10:52:38] "[36mGET /static/img/octavia.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:52:38,835 INFO Delete account page accessed
+2024-05-30 10:52:38,839 INFO 127.0.0.1 - - [30/May/2024 10:52:38] "GET /delete_account HTTP/1.1" 200 -
+2024-05-30 10:52:40,125 INFO User logged out
+2024-05-30 10:52:40,132 INFO 127.0.0.1 - - [30/May/2024 10:52:40] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-05-30 10:52:40,134 INFO Home page accessed
+2024-05-30 10:52:40,135 INFO 127.0.0.1 - - [30/May/2024 10:52:40] "GET /home HTTP/1.1" 200 -
+2024-05-30 10:52:40,152 INFO 127.0.0.1 - - [30/May/2024 10:52:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:52:40,154 INFO 127.0.0.1 - - [30/May/2024 10:52:40] "[36mGET /static/css/homepage.css HTTP/1.1[0m" 304 -
+2024-05-30 10:52:40,154 INFO 127.0.0.1 - - [30/May/2024 10:52:40] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:52:40,157 INFO 127.0.0.1 - - [30/May/2024 10:52:40] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:52:40,157 INFO 127.0.0.1 - - [30/May/2024 10:52:40] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:52:40,159 INFO 127.0.0.1 - - [30/May/2024 10:52:40] "[36mGET /static/img/main-img.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:52:40,162 INFO 127.0.0.1 - - [30/May/2024 10:52:40] "[36mGET /static/img/car-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 10:52:40,165 INFO 127.0.0.1 - - [30/May/2024 10:52:40] "[36mGET /static/img/phone-flip-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 10:52:40,167 INFO 127.0.0.1 - - [30/May/2024 10:52:40] "[36mGET /static/img/benefits.svg HTTP/1.1[0m" 304 -
+2024-05-30 10:52:40,167 INFO 127.0.0.1 - - [30/May/2024 10:52:40] "[36mGET /static/img/audia4.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:52:40,168 INFO 127.0.0.1 - - [30/May/2024 10:52:40] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:52:40,170 INFO 127.0.0.1 - - [30/May/2024 10:52:40] "[36mGET /static/img/bmwM3.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:52:40,170 INFO 127.0.0.1 - - [30/May/2024 10:52:40] "[36mGET /static/img/octavia.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:52:40,198 INFO 127.0.0.1 - - [30/May/2024 10:52:40] "[31m[1mGET /delete_account HTTP/1.1[0m" 401 -
+2024-05-30 10:52:41,516 INFO Login page accessed
+2024-05-30 10:52:41,530 INFO 127.0.0.1 - - [30/May/2024 10:52:41] "GET /login HTTP/1.1" 200 -
+2024-05-30 10:52:41,556 INFO 127.0.0.1 - - [30/May/2024 10:52:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:52:41,560 INFO 127.0.0.1 - - [30/May/2024 10:52:41] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:52:41,561 INFO 127.0.0.1 - - [30/May/2024 10:52:41] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:52:41,563 INFO 127.0.0.1 - - [30/May/2024 10:52:41] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:52:41,564 INFO 127.0.0.1 - - [30/May/2024 10:52:41] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:52:41,565 INFO 127.0.0.1 - - [30/May/2024 10:52:41] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-05-30 10:52:41,605 INFO 127.0.0.1 - - [30/May/2024 10:52:41] "[31m[1mGET /delete_account HTTP/1.1[0m" 401 -
+2024-05-30 10:52:44,033 INFO Registration page accessed
+2024-05-30 10:52:44,052 INFO 127.0.0.1 - - [30/May/2024 10:52:44] "GET /registration HTTP/1.1" 200 -
+2024-05-30 10:52:44,069 INFO 127.0.0.1 - - [30/May/2024 10:52:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:52:44,072 INFO 127.0.0.1 - - [30/May/2024 10:52:44] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:52:44,072 INFO 127.0.0.1 - - [30/May/2024 10:52:44] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 10:52:44,074 INFO 127.0.0.1 - - [30/May/2024 10:52:44] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:52:44,076 INFO 127.0.0.1 - - [30/May/2024 10:52:44] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:52:44,077 INFO 127.0.0.1 - - [30/May/2024 10:52:44] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:52:44,182 INFO 127.0.0.1 - - [30/May/2024 10:52:44] "[31m[1mGET /delete_account HTTP/1.1[0m" 401 -
+2024-05-30 10:52:59,597 INFO Registration page accessed
+2024-05-30 10:52:59,641 INFO 127.0.0.1 - - [30/May/2024 10:52:59] "POST /registration HTTP/1.1" 200 -
+2024-05-30 10:52:59,660 INFO 127.0.0.1 - - [30/May/2024 10:52:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:52:59,663 INFO 127.0.0.1 - - [30/May/2024 10:52:59] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:52:59,663 INFO 127.0.0.1 - - [30/May/2024 10:52:59] "[36mGET /static/css/registration.css HTTP/1.1[0m" 304 -
+2024-05-30 10:52:59,663 INFO 127.0.0.1 - - [30/May/2024 10:52:59] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:52:59,663 INFO 127.0.0.1 - - [30/May/2024 10:52:59] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:52:59,664 INFO 127.0.0.1 - - [30/May/2024 10:52:59] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:52:59,676 INFO 127.0.0.1 - - [30/May/2024 10:52:59] "[31m[1mGET /delete_account HTTP/1.1[0m" 401 -
+2024-05-30 10:53:07,067 INFO Registration page accessed
+2024-05-30 10:53:08,829 INFO New user registered: timglazerr@gmail.com
+2024-05-30 10:53:08,831 INFO 127.0.0.1 - - [30/May/2024 10:53:08] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-05-30 10:53:08,834 INFO Login page accessed
+2024-05-30 10:53:08,836 INFO 127.0.0.1 - - [30/May/2024 10:53:08] "GET /login HTTP/1.1" 200 -
+2024-05-30 10:53:08,886 INFO 127.0.0.1 - - [30/May/2024 10:53:08] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:53:08,887 INFO 127.0.0.1 - - [30/May/2024 10:53:08] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-05-30 10:53:08,888 INFO 127.0.0.1 - - [30/May/2024 10:53:08] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:53:08,891 INFO 127.0.0.1 - - [30/May/2024 10:53:08] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:53:08,892 INFO 127.0.0.1 - - [30/May/2024 10:53:08] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:53:08,892 INFO 127.0.0.1 - - [30/May/2024 10:53:08] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:53:08,905 INFO 127.0.0.1 - - [30/May/2024 10:53:08] "[31m[1mGET /delete_account HTTP/1.1[0m" 401 -
+2024-05-30 10:53:23,788 INFO Login page accessed
+2024-05-30 10:53:24,062 WARNING Login failed for email: timglazerr@gmail.com
+2024-05-30 10:53:24,063 INFO 127.0.0.1 - - [30/May/2024 10:53:24] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-05-30 10:53:24,068 INFO Login page accessed
+2024-05-30 10:53:24,069 INFO 127.0.0.1 - - [30/May/2024 10:53:24] "GET /login HTTP/1.1" 200 -
+2024-05-30 10:53:24,096 INFO 127.0.0.1 - - [30/May/2024 10:53:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:53:24,097 INFO 127.0.0.1 - - [30/May/2024 10:53:24] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-05-30 10:53:24,098 INFO 127.0.0.1 - - [30/May/2024 10:53:24] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:53:24,098 INFO 127.0.0.1 - - [30/May/2024 10:53:24] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:53:24,099 INFO 127.0.0.1 - - [30/May/2024 10:53:24] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:53:24,099 INFO 127.0.0.1 - - [30/May/2024 10:53:24] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:53:24,122 INFO 127.0.0.1 - - [30/May/2024 10:53:24] "[31m[1mGET /delete_account HTTP/1.1[0m" 401 -
+2024-05-30 10:53:26,336 INFO 127.0.0.1 - - [30/May/2024 10:53:26] "[32mGET /verify_email/eyJhbGciOiJIUzUxMiIsImlhdCI6MTcxNzA1OTE4NywiZXhwIjoxNzE3MDYwOTg3fQ.eyJ1c2VyX2lkIjoyfQ.NOWHLwNwn8rql_-Fzxec1PD1Bh-y3qyUx3Z8cVVOqxosOkk1dcz2V6nQTILsiiKD00TJO_X-25XfWmCGaYMHnw HTTP/1.1[0m" 302 -
+2024-05-30 10:53:26,344 INFO Login page accessed
+2024-05-30 10:53:26,346 INFO 127.0.0.1 - - [30/May/2024 10:53:26] "GET /login HTTP/1.1" 200 -
+2024-05-30 10:53:26,376 INFO 127.0.0.1 - - [30/May/2024 10:53:26] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-05-30 10:53:26,376 INFO 127.0.0.1 - - [30/May/2024 10:53:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:53:26,377 INFO 127.0.0.1 - - [30/May/2024 10:53:26] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:53:26,381 INFO 127.0.0.1 - - [30/May/2024 10:53:26] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:53:26,382 INFO 127.0.0.1 - - [30/May/2024 10:53:26] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:53:26,385 INFO 127.0.0.1 - - [30/May/2024 10:53:26] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:53:26,418 INFO 127.0.0.1 - - [30/May/2024 10:53:26] "[31m[1mGET /verified HTTP/1.1[0m" 401 -
+2024-05-30 10:53:35,045 INFO Login page accessed
+2024-05-30 10:53:35,317 INFO User logged in: timglazerr@gmail.com
+2024-05-30 10:53:35,318 INFO 127.0.0.1 - - [30/May/2024 10:53:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-05-30 10:53:35,321 INFO Home page accessed
+2024-05-30 10:53:35,322 INFO 127.0.0.1 - - [30/May/2024 10:53:35] "GET /home HTTP/1.1" 200 -
+2024-05-30 10:53:35,457 INFO 127.0.0.1 - - [30/May/2024 10:53:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-30 10:53:35,458 INFO 127.0.0.1 - - [30/May/2024 10:53:35] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2024-05-30 10:53:35,459 INFO 127.0.0.1 - - [30/May/2024 10:53:35] "[36mGET /static/css/footer.css HTTP/1.1[0m" 304 -
+2024-05-30 10:53:35,460 INFO 127.0.0.1 - - [30/May/2024 10:53:35] "[36mGET /static/css/homepage.css HTTP/1.1[0m" 304 -
+2024-05-30 10:53:35,461 INFO 127.0.0.1 - - [30/May/2024 10:53:35] "[36mGET /static/img/phone-flip-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 10:53:35,461 INFO 127.0.0.1 - - [30/May/2024 10:53:35] "[36mGET /static/img/main-img.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:53:35,461 INFO 127.0.0.1 - - [30/May/2024 10:53:35] "[36mGET /static/img/LeaseDrive.png HTTP/1.1[0m" 304 -
+2024-05-30 10:53:35,462 INFO 127.0.0.1 - - [30/May/2024 10:53:35] "[36mGET /static/img/car-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2024-05-30 10:53:35,462 INFO 127.0.0.1 - - [30/May/2024 10:53:35] "[36mGET /static/img/audia4.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:53:35,465 INFO 127.0.0.1 - - [30/May/2024 10:53:35] "[36mGET /static/img/bmwM3.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:53:35,465 INFO 127.0.0.1 - - [30/May/2024 10:53:35] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-30 10:53:35,466 INFO 127.0.0.1 - - [30/May/2024 10:53:35] "[36mGET /static/img/octavia.jpg HTTP/1.1[0m" 304 -
+2024-05-30 10:53:35,552 INFO User verification page accessed for user ID: 2
+2024-05-30 10:53:35,564 INFO 127.0.0.1 - - [30/May/2024 10:53:35] "GET /verified HTTP/1.1" 200 -
+2024-05-30 10:53:48,751 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/__init__.py', reloading
+2024-05-30 10:53:48,820 INFO  * Restarting with stat
+2024-05-30 10:53:49,292 WARNING  * Debugger is active!
+2024-05-30 10:53:49,299 INFO  * Debugger PIN: 116-082-326
+2024-05-30 10:53:51,317 INFO  * Detected change in '/Users/timglazer/Desktop/SAD_ICA2-main/carlease/__init__.py', reloading
+2024-05-30 10:53:51,388 INFO  * Restarting with stat
+2024-05-30 10:53:51,698 WARNING  * Debugger is active!
+2024-05-30 10:53:51,703 INFO  * Debugger PIN: 116-082-326

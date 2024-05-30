@@ -5,6 +5,7 @@ from wtforms import StringField, PasswordField, SubmitField, BooleanField, DateF
 from wtforms.validators import DataRequired, Length, Email, EqualTo, ValidationError
 from carlease.models import User, User_Verified
 from datetime import date
+# from wtforms_recaptcha import RecaptchaField
 
 # <!----------------------------------------------!---------------------------------------------->
 
@@ -18,6 +19,7 @@ class RegistrationForm(FlaskForm):
                              validators=[DataRequired(), Length(min=8, max=16)])
     confirm_password = PasswordField('Confirm Password',
                              validators=[DataRequired(), Length(min=8, max=16), EqualTo('password')])
+    t_c = BooleanField('I agree to the Terms & Conditions', validators=[DataRequired()])
     submit = SubmitField('Sign up')
 
     def validate_email(self, email):

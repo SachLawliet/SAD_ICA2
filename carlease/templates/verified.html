@@ -15,7 +15,7 @@
         </div>
     {% else %}
         <form method="POST" action="{{ url_for('verification') }}" class="verification-form">
-            {{ form.hidden_tag() }}
+            {{ form.csrf_token }}
             <fieldset class="form-group">
                 <div class="verify-heading">
                     <legend class="border-bottom mb-4">Verify your account</legend>

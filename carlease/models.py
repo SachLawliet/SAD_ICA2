@@ -18,15 +18,18 @@ class User(db.Model, UserMixin):
     id = db.Column(db.Integer, primary_key = True)
     full_name = db.Column(db.String(120), nullable = False)
     email = db.Column(db.String(120), unique=True, nullable=False)
-    is_confirmed = db.Column(db.Boolean, default=False)
     password = db.Column(db.String(60), nullable=False)
     role = db.Column(db.String(20), nullable=False, default='user')
     date_creation = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     verified_info = db.relationship('User_Verified', backref='private', lazy=True)
-    login_attempts = db.relationship('LoginAttempt', backref='user', lazy=True)
+    email_verified = db.Column(db.Boolean, default=False)
 
 #RESET PW BEGIN
     def get_reset_token(self, expires_sec=1800):
+        s = Serializer(app.config['SECRET_KEY'], expires_sec)
+        return s.dumps({'user_id': self.id}).decode('utf-8')
+    
+    def get_verification_token(self, expires_sec=1800):
         s = Serializer(app.config['SECRET_KEY'], expires_sec)
         return s.dumps({'user_id': self.id}).decode('utf-8')
     
@@ -38,6 +41,16 @@ class User(db.Model, UserMixin):
         except:
             return None
         return User.query.get(user_id)
+    
+    @staticmethod
+    def verify_verification_token(token):
+        s = Serializer(app.config['SECRET_KEY'])
+        try:
+            user_id = s.loads(token)['user_id']
+        except:
+            return None
+        return User.query.get(user_id)
+# Email verification end
 #RESET PW END
 
 # <!----------------------------------------------!---------------------------------------------->
@@ -52,21 +65,13 @@ class LoginAttempt(db.Model):
 # <!----------------------------------------------!---------------------------------------------->
 
 # Email verification
-    def get_verification_token(self, expires_sec=1800):
-        serializer = Serializer(app.config['SECRET_KEY'], expires_sec)
-        return serializer.dumps({'user_id': self.id}).decode('utf-8')
-    
-    @staticmethod
-    def verify_email_token(token):
-        s = Serializer(app.config['SECRET_KEY'])
-        try:
-            user_id = s.loads(token)['user_id']
-        except:
-            return None
-        return User.query.get(user_id)
-
+class EmailVerificationToken(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
+    token = db.Column(db.String(120), nullable=False, unique=True)
+    timestamp = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
 # <!----------------------------------------------!---------------------------------------------->
-    def __repr__(self):
+def __repr__(self):
         return f"User('{self.email}', '{self.id}', '{self.phone}')"
     
 # <!----------------------------------------------!---------------------------------------------->
