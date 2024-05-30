@@ -24,7 +24,6 @@ class User(db.Model, UserMixin):
     verified_info = db.relationship('User_Verified', backref='private', lazy=True)
     email_verified = db.Column(db.Boolean, default=False)
 
-#RESET PW BEGIN
     def get_reset_token(self, expires_sec=1800):
         s = Serializer(app.config['SECRET_KEY'], expires_sec)
         return s.dumps({'user_id': self.id}).decode('utf-8')
@@ -50,8 +49,6 @@ class User(db.Model, UserMixin):
         except:
             return None
         return User.query.get(user_id)
-# Email verification end
-#RESET PW END
 
 # <!----------------------------------------------!---------------------------------------------->
 
