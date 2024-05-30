@@ -250,17 +250,16 @@ def login():
     form = LoginForm()
     if form.validate_on_submit():
         user = UserDAO.get_user_by_email(form.email.data)
-        
-        # Check if the user is locked out due to multiple failed login attempts
+
         if user and user.login_attempts >= 5 and user.last_failed_attempt > datetime.utcnow() - timedelta(minutes=30):
             flash('Your account is currently locked out due to multiple failed login attempts. Please try again later.', 'danger')
             return redirect(url_for('login'))
 
         if user and bcrypt.check_password_hash(user.password, form.password.data):
-            if user.email_verified:  # Check if the user's email is verified
+            if user.email_verified: 
                 login_user(user, remember=form.remember.data)
                 logger.info('User logged in: %s', form.email.data)
-                user.login_attempts = 0  # Reset login attempts on successful login
+                user.login_attempts = 0 
                 next_page = request.args.get('next')
                 return redirect(next_page) if next_page else redirect(url_for('home'))
             else:
@@ -269,16 +268,13 @@ def login():
                 return redirect(url_for('login'))
         else:
             if user:
-                # Update login attempt counters
                 user.login_attempts += 1
                 user.last_failed_attempt = datetime.utcnow()
 
-                # Check if the user should be locked out
                 if user.login_attempts >= 5 and user.last_failed_attempt > datetime.utcnow() - timedelta(minutes=30):
                     flash('Your account is currently locked out due to multiple failed login attempts. Please try again later.', 'danger')
                     return redirect(url_for('login'))
 
-                # Save changes to the user object
                 db.session.commit()
 
             logger.warning('Login failed for email: %s', form.email.data)
@@ -319,7 +315,7 @@ def book_appointment():
         
         if appointment_date <= today + timedelta(days=1):
             flash('Appointment date must be at least tomorrow.', 'danger')
-            return render_template('book_appointment.html', form=form)  # Render the template with the error message
+            return render_template('book_appointment.html', form=form) 
         
         existing_appointment = Appointment.query.filter_by(email=form.email.data, date=appointment_date).first()
         if existing_appointment:
@@ -349,5 +345,4 @@ def send_confirmation_email(appointment):
 # T&C
 @app.route("/terms_conditions")
 def terms_conditions():
-    # Assuming tc.pdf is in the static directory
     return redirect(url_for('static', filename='tc.pdf'))
