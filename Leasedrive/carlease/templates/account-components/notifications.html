@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='css/account.css')}}">
+
+<div class="notifications">
+    <form id="notificationsForm" method="POST" action="">
+        {{ form.csrf_token }}
+        <fieldset class="form-group">
+            <legend class="border-bottom mb-4">Notification Preferences</legend>
+            <p class="notifications-heading">I want to receive:</p>
+            <div class="form-check">
+                {{ form.promotional_emails.label(class="form-check-label") }}
+                {{ form.promotional_emails(class="form-check-input") }}
+            </div>
+            <div class="form-check">
+                {{ form.no_notifications.label(class="form-check-label") }}
+                {{ form.no_notifications(class="form-check-input") }}
+            </div>
+        </fieldset>
+        <div class="form-group">
+            {{ form.submit(class="btn btn-outline-info") }}
+        </div>
+    </form>
+</div>
