@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/navbar.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/appointment.css') }}">
+</head>
+<body>
+<!-- Add header content -->
+{% include 'partials/_navbar.html' %}
+
+<section class="appointment">
+    <div class="container">
+        <h1>Book an Appointment for a Test Drive</h1>
+        <form method="POST" action="{{ url_for('book_appointment') }}">
+            {{ form.csrf_token }}
+            <div class="form-group">
+                {{ form.name(class="form-control", placeholder = "Full Name") }}
+            </div>
+            <div class="form-group">
+                {{ form.email(class="form-control", placeholder = "Email") }}
+            </div>
+            <div class="form-group">
+                {{ form.date(class="form-control") }}
+            </div>
+            <button type="submit" class="btn btn-primary">Book Appointment</button>
+        </form>
+    </div>
+</section>
+
+<!-- Add footer content -->
+{% include 'partials/_footer.html' %}
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Link to your custom JavaScript file -->
+<script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>
