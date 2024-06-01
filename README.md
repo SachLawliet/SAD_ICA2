@@ -10,7 +10,7 @@ flask_bootstrap
 2. Database and mail info are stored in env variables, I can share them if requested.
 
 3. The following script should be executed to insert cars into db:
-INSERT INTO app.car_base (id, model, license_plate, color,kilometers, car_picture, city) VALUES
+INSERT INTO cars (model, license_plate, color,kilometers, car_picture, city) VALUES
 	 ('Škoda Octavia', 'VIN12345', 'Blue',100,'octavia.jpg','Praha'),
 	 ('Škoda Superb', 'VIN12346', 'Black',50,'superb.jpg','Brno'),
 	 ('Volkswagen Golf', 'VIN12347', 'White',150,'golf.jpg','Ostrava'),
